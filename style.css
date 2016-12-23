@@ -107,7 +107,7 @@ label input[type=checkbox] + span {
     color: rgba(0,0,0,0.5);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 235px) {
     #flair-filter {
         flex-direction: column;
     }
