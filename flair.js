@@ -41,7 +41,7 @@ flair.load__by_id = function() {
 flair.by_id = {}
 flair.names = {
 /* [STANDARD] */
-    "0-0 kantoflair 1": "Bulbasaur",
+    "0-0 kantoflair 1": "Test",
     "0-1 kantoflair 2": "Ivysaur",
     "0-2 kantoflair 3": "Venusaur",
     "0-3 kantoflair 4": "Charmander",
