@@ -41,8 +41,8 @@ flair.load__by_id = function() {
 flair.by_id = {}
 flair.names = {
 /* [STANDARD] */
-    "0-0 primewarframesflair v": "Ash Prime",
-    "0-1 primewarframesflair e": "Ember",
+    "0-0 primewarframesflair 1v": "Ash Prime",
+    "0-1 primewarframesflair 5e": "Ember",
     "0-2 primewarframesflair 3": "Excalibur Prime",
     "0-3 primewarframesflair 4": "Frost Prime",
     "0-4 primewarframesflair 5": "Loki Prime",
