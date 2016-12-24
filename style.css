@@ -14,7 +14,7 @@ html { overflow-y: scroll; }
 h2 { text-align: center; }
 
 body {
-	font-family: 'Open Sans', sans-serif;
+	font-family: arial, sans-serif;
 	font-size: 16px;
 	padding: 0 10px 20px 10px;
 	background: #191919;
@@ -54,7 +54,10 @@ body {
 
 .spacer { margin: 5px 0; }
 
-#flair-selection-name { text-align: center; }
+#flair-selection-name {
+	color: white !important;
+	text-align: center;
+}
 
 select, input[type=text], input[type=number] {
 	border: 1px solid #808080;
