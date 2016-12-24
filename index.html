@@ -22,7 +22,7 @@
     <div id="help-bubble" class="wrapper no-margin hide">
         <h3>Help Info</h3>
         <p><b>Usage:</b> click on a flair below, using either of the two filters to narrow your search. Optionally enter
-        a flair text in the field that says "Insert flair text here", this is the text that goes below your username
+        a flair text in the field that says "Flair text", this is the text that goes below your username
         in the user nameplate.</p>
         
         <p>Once happy with your selection, click "Send Flair Request" which will open up a message form to /u/WarframeFlairBot,
@@ -41,7 +41,7 @@
                 </div>
                 <div class="fl">
                     <div id="flair-selection-name">Name</div>
-                    <input id="flair-selection-text" type="text" placeholder="Insert flair text here" />
+                    <input id="flair-selection-text" type="text" placeholder="Flair text" />
                     <div class="spacer">
                         <button onclick="flair.sendChoice()" id="flair-select-submit">Send Flair Request</button>
                     </div>
@@ -51,7 +51,7 @@
     </div>
     <div class="wrapper">
         <div class="center spacer">
-            <h4>Select Subreddits:</h4>
+            <h4>Select subreddits:</h4>
         </div>
         <div id="subreddit-selection" class="center">
         </div>
@@ -63,11 +63,11 @@
             <label for="flair-filter-sheet">
                 <span>Filter by category:</span>
                 <select id="flair-filter-sheet" onchange="flair.updateRegionFilter(this.value)">
-                    <option value="ALL">All Flairs</option>
-                    <option value="primewarframesflair">Prime Warframes</option>
-                    <option value="regularwarframesflair">Regular Warframes</option>
-                    <option value="warframeskinsflair">Warframe Skins</option>
-                    <option value="warframealthelmetsflair">Warframe Alt Helmets</option>
+                    <option value="ALL">All flairs</option>
+                    <option value="primewarframesflair">Prime warframes</option>
+                    <option value="regularwarframesflair">Regular warframes</option>
+                    <option value="warframeskinsflair">Warframe skins</option>
+                    <option value="warframealthelmetsflair">Warframe alt helmets</option>
                     <option value="companionsflair">Companions</option>
                     <option value="nogglesflair">Noggles</option>
                     <option value="glyphsflair">Glyphs</option>
