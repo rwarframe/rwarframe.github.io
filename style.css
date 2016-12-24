@@ -4,8 +4,17 @@
 	color: #888 !important;
 }
 
+a {
+	color: #0079d3 !important;	
+	text-decoration: none;
+}
+
 html {
 	overflow-y: scroll;
+}
+
+h2 {
+    text-align: center;
 }
 
 body {
@@ -104,6 +113,7 @@ label input[type=checkbox] + span {
 	min-width: 240px;
 	padding: 5px 10px;
 	background: #3C3C3C;
+	color: #A9A9A9 !important;	
 }
 
 #flair-filter-text:focus, #flair-selection-text:focus {
@@ -128,7 +138,7 @@ label input[type=checkbox] + span {
 }
 
 #flair-filter-sheet option {
-	color: #888 !important;
+	color: #DFDFDF !important;
 }
 
 @media (max-width: 235px) {
@@ -173,7 +183,7 @@ button, input[type=submit] {
 	padding: 0 8px 1px;
 	background: #14445B;
 	border: 1px solid #14445B;
-	color: #white !important;
+	color: white !important;
 	font-weight: 700;
 	font-size: small;
 	text-transform: capitalize;
