@@ -51,8 +51,8 @@ body {
 
 select, input[type=text], input[type=number] {
 	border: 1px solid #c8ccd0;
-	background: white;
-	color: black !important;
+	background-color: #303030;
+	color: #DFDFDF;
 	padding: 3px 4px;
 }
 
@@ -94,9 +94,21 @@ label input[type=checkbox] + span {
     padding: 0 30px 0 10px;
 }
 
+::-webkit-input-placeholder {
+   color: #A9A9A9;
+}
+
+#flair-selection-text { background-color: #3C3C3C; }
+
 #flair-filter-text {
-    min-width: 240px;
-    padding: 5px 10px;
+	min-width: 240px;
+	padding: 5px 10px;
+	background-color: #3C3C3C;
+}
+
+#flair-filter-text:focus, #flair-selection-text:focus {
+	background-color: #303030;
+	color: #DFDFDF;
 }
 
 #flair-filter label[for=flair-filter-sheet] {
