@@ -1,8 +1,7 @@
-
 * {
 	padding: 0;
 	margin: 0;
-	color: white;
+	color: white !important;
 }
 
 html {
@@ -34,8 +33,8 @@ body {
 }
 
 .wrapper:not(.no-style) {
-    padding: 10px;
-    background: #262626;
+	padding: 10px;
+	background: #262626;
 }
 .wrapper.no-margin {
     margin-top: 0;
@@ -51,10 +50,10 @@ body {
 #flair-selection-name { text-align: center; }
 
 select, input[type=text], input[type=number] {
-    border: 1px solid #c8ccd0;
-    background: white;
-    color: black !important;
-    padding: 3px 4px;
+	border: 1px solid #c8ccd0;
+	background: white;
+	color: black !important;
+	padding: 3px 4px;
 }
 
 .center {
@@ -81,12 +80,11 @@ label input[type=checkbox] + span {
     flex-wrap: wrap;
 }
 #subreddit-selection .sr-sep {
-    display: inline-block;
-    margin: 0 10px;
-    color: rgba(0,0,0,0.2);
-    font-size: 14px;
-    line-height: 14px;
-    height: 14px;
+	display: inline-block;
+	margin: 0 10px;
+	font-size: 14px;
+	line-height: 14px;
+	height: 14px;
 }
 #subreddit-selection label.sr-choice span:before {
     content: "/r/";
@@ -109,17 +107,16 @@ label input[type=checkbox] + span {
 }
 
 #flair-filter label[for=flair-filter-sheet] span {
-    font-size: 13px;
-    margin-right: 5px;
-    color: rgba(0,0,0,0.5);
+	font-size: 13px;
+	margin-right: 5px;
 }
 
 #flair-filter span {
-    color: white!important;
+	color: white!important;
 }
 
 #flair-filter-sheet option {
-	color: black;
+	color: black !important;
 }
 
 @media (max-width: 235px) {
@@ -159,24 +156,24 @@ label input[type=checkbox] + span {
 /* BUTTON
 --------------------------------------------------------------------------------*/
 button, input[type=submit] {
-    display: inline-block;
-    margin: 0;
-    padding: 0 8px 1px;
-    background-color: #48f;
-    border: 1px solid #2a66d6;
-    color: #fff;
-    font-weight: 700;
-    font-size: small;
-    text-transform: capitalize;
-    line-height: 26px;
-    outline: 0!important;
-    box-shadow: inset 0 1px 0 #669bff;
-    cursor: pointer;
-    width: 100%
+	display: inline-block;
+	margin: 0;
+	padding: 0 8px 1px;
+	background-color: #D33017;
+	border: 1px solid #D33017;
+	color: #fff;
+	font-weight: 700;
+	font-size: small;
+	text-transform: capitalize;
+	line-height: 26px;
+	outline: 0!important;
+	box-shadow: inset 0 1px 0 #D33017;
+	cursor: pointer;
+	width: 100%
 }
 
 button:hover, input[type=submit]:hover {
-    background-color: #5d99ff
+	background-color: #FE351C
 }
 
 button:active, input[type=submit]:active {
@@ -200,7 +197,7 @@ button:active, input[type=submit]:active {
     position: relative;
 }
 .flair:not([class*='flair-']) {
-    background: rgba(0,0,0,0.03);
+	background: rgba(0,0,0,0.03);
     
 }
 .flair:not([class*='flair-']):before {
@@ -208,9 +205,9 @@ button:active, input[type=submit]:active {
 }
 
 .flair:hover, .flair.selected {
-    background-color: #545454;
+	background-color: #545454;
 }
 
 .flair {
-    background-color: transparent
+	background-color: transparent
 }
