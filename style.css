@@ -83,7 +83,9 @@ label input[type=checkbox] + span {
     line-height: 14px;
     height: 14px;
 }
-
+#subreddit-selection label.sr-choice span:before {
+    content: "/r/";
+}
 #flair-filter {
     margin-bottom: 10px;
     padding: 0 30px 0 10px;
