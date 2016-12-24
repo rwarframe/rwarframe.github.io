@@ -1,14 +1,19 @@
 
-* { padding: 0; margin: 0; }
+* {
+	padding: 0;
+	margin: 0;
+	color: white;
+}
 
 html {
     overflow-y: scroll;
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    padding: 0 10px 20px 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	padding: 0 10px 20px 10px;
+	background: #191919;
 }
 
 .fl { float: left; }
@@ -30,9 +35,7 @@ body {
 
 .wrapper:not(.no-style) {
     padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 0 0 1px #999, inset 0 0 0 1px #FFF;
-    background: #ecf0f1;
+    background: #262626;
 }
 .wrapper.no-margin {
     margin-top: 0;
@@ -48,8 +51,8 @@ body {
 select, input[type=text], input[type=number] {
     border: 1px solid #c8ccd0;
     background: white;
+    color: black;
     padding: 3px 4px;
-    border-radius: 3px;
 }
 
 .center {
@@ -151,7 +154,6 @@ button, input[type=submit] {
     padding: 0 8px 1px;
     background-color: #48f;
     border: 1px solid #2a66d6;
-    border-radius: 2px;
     color: #fff;
     font-weight: 700;
     font-size: small;
@@ -188,15 +190,14 @@ button:active, input[type=submit]:active {
 }
 .flair:not([class*='flair-']) {
     background: rgba(0,0,0,0.03);
-    border-radius: 3px;
+    
 }
 .flair:not([class*='flair-']):before {
     content: '?';
 }
 
 .flair:hover, .flair.selected {
-    background-color: #3498db;
-    border-radius: 2px;
+    background-color: #545454;
 }
 
 .flair {
