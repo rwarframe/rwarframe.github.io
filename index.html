@@ -21,17 +21,18 @@
     </div>
     <div id="help-bubble" class="wrapper no-margin hide">
         <h3>Help Info</h3>
-        <p><b>Usage:</b> click on a flair below, using either of the two filters to narrow your search. Optionally enter
-        a flair text in the field that says "Flair text", this is the text that goes below your username
-        in the user nameplate.</p>
+	<p><i>Credit for this flair selector goes to the moderators of /r/Pokemon.</i></p>
+	
+        <p><b>Usage</b>: click on a flair below, using either of the two filters to narrow your search. You can enter
+        custom flair text in the field that says "Enter Flair Text"; this is the text that goes next to your flair image on the subreddit(s).</p>
         
-        <p>Once happy with your selection, click "Send Flair Request" which will open up a message form to /u/WarframeFlairBot,
-        do not change anything, just click send. You should receive a reply from the bot within several moments notifying
-        you that it has received your message and changed your flair.</p>
+        <p>Once happy with your selection, click "Send Flair Request" which will open up a message form to /u/WarframeFlairBot.
+        Do <b>not</b> change anything; just click send. You should receive a reply from the bot within several minutes notifying
+        you that it has received your message and has changed your flair.</p>
         
         <p><b>Found a bug?</b><br/>
-        Please <a href="https://www.reddit.com/message/compose?to=%2Fr%2Fwarframe">message the moderators of /r/Warframe</a>
-        if you need additional help or found a problem/bug.</p>
+        Please <a href="https://www.reddit.com/message/compose?to=/r/Warframe&subject=Flair20Selector&message=Hello%20moderators%20of%20/r/Warframe,%0A%0A">message the moderators</a>
+        if you need additional help or found a problem or bug.</p>
     </div>
     <div class="wrapper">
         <div id="flair-selection" class="center">
@@ -41,7 +42,7 @@
                 </div>
                 <div class="fl">
                     <div id="flair-selection-name">Name</div>
-                    <input id="flair-selection-text" type="text" placeholder="Flair text" />
+                    <input id="flair-selection-text" type="text" placeholder="Enter Flair text" />
                     <div class="spacer">
                         <button onclick="flair.sendChoice()" id="flair-select-submit">Send Flair Request</button>
                     </div>
@@ -51,7 +52,7 @@
     </div>
     <div class="wrapper">
         <div class="center spacer">
-            <h4>Select subreddits:</h4>
+            <h4>Select Subreddits:</h4>
         </div>
         <div id="subreddit-selection" class="center">
         </div>
@@ -61,17 +62,15 @@
             <input id="flair-filter-text" type="text" placeholder="Search"
                 onkeyup="flair.updateFilter(this.value)" onchange="flair.updateFilter(this.value)" />
             <label for="flair-filter-sheet">
-                <span>Filter by category:</span>
+                <span>Filter by Category:</span>
                 <select id="flair-filter-sheet" onchange="flair.updateRegionFilter(this.value)">
-                    <option value="ALL">All flairs</option>
-                    <option value="primewarframesflair">Prime warframes</option>
-                    <option value="regularwarframesflair">Regular warframes</option>
-                    <option value="warframeskinsflair">Warframe skins</option>
-                    <option value="warframealthelmetsflair">Warframe alt helmets</option>
-                    <option value="companionsflair">Companions</option>
-                    <option value="nogglesflair">Noggles</option>
+                    <option value="ALL">All Flairs</option>
+                    <option value="primewarframesflair">Prime Warframes</option>
+                    <option value="regularwarframesflair">Regular Warframes</option>
+                    <option value="warframeskinsflair">Warframe Skins</option>
+                    <option value="warframealthelmetsflair">Warframe Alt Helmets</option>
                     <option value="glyphsflair">Glyphs</option>
-                    <option value="sigilsflair">Sigils</option>
+                    <option value="nogglesflair">Noggles</option>                    
                     <option value="miscellaneousflair">Miscellaneous</option>
                 </select>
             </label>
