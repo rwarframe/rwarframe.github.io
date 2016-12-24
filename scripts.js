@@ -123,7 +123,7 @@ flair.selectChoice = function(poke_id, key) {
     flair.current_choice = key;
     
     document.getElementById('flair-selection-flair').setAttribute('class', 'flair '+ flair.by_id[poke_id].flair_class);
-    document.getElementById('flair-selection-name').innerHTML = '#'+poke_id + ' ' + flair.by_id[poke_id].poke_name;
+    document.getElementById('flair-selection-name').innerHTML = flair.by_id[poke_id].poke_name;
 }
 
 flair.loadChoices = function() {
