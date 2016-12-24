@@ -171,7 +171,7 @@ flair.loadChoices = function() {
             var flair_choice = document.createElement('span');
             flair_choice.setAttribute('class', 'flair flair-choice ' + data.flair_class);
             flair_choice.setAttribute('data-name', data.poke_name);
-            flair_choice.setAttribute('title', '#'+data.poke_id + ' ' + data.poke_name);
+            flair_choice.setAttribute('title', data.poke_name);
             flair_choice.setAttribute('data-id', data.poke_id);
             flair_choice.setAttribute('onclick', 'flair.selectChoice("'+data.poke_id+'","'+data.key+'")');
             
