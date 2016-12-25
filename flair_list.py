@@ -1,4 +1,5 @@
 flairs = {
+    'nova-asuri': '[PS4/PC] Not [DE]ad yet',
     'misc-1966-england': 'World Cup - England \'66',
     'eng-everton': 'Everton',
     'eurnat-united-kingdom': 'United Kingdom',

@@ -34,22 +34,13 @@ OAUth2Util.py by /u/SmBe19 (https://github.com/SmBe19/praw-OAuth2Util)
 class FlairBot:
 
     # User blacklist
+    BLACKLIST = ['']
 
     # Set a descriptive user agent to avoid getting banned.
     # Do not use the word `bot' in your user agent.
-
+    r = praw.Reddit(user_agent="Flair changer for /r/Warframe")
     o = OAuth2Util.OAuth2Util(r)
-
-    """ The SUBJECT will be the default subject of your PMs
-    when you create the URLs, eg.
-
-
-    PMs require a subject, but it's also a simple way of identifying
-    PMs that are directed towards the flairs and not just a general PM"""
-    SUBJECT = 'flair'
-
-    # TARGET_SUB is the name of the subreddit without the leading /r/
-
+    
     # Turn on output to log file in current directory - log.txt
     LOGGING = True
 
@@ -57,48 +48,64 @@ class FlairBot:
     pms = None
 
     def init(self):
+        
         if self.LOGGING:
             os.chdir(os.path.dirname(os.path.abspath(__file__)))
+            
         self.login()
 
 
     def login(self):
+        
         try:
             self.o.refresh()  # Refresh the OAuth token, only valid for 1hr
             self.fetch_pms()
+            
         except:
             raise
 
 
     def fetch_pms(self):
-        """ Get a listing of all unread PMs for the user account """
+        
+        # Get a listing of all unread PMs for the user account
         self.pms = self.r.get_unread(limit=None)
+        
         if self.pms is not None:
             self.process_pms()
 
     def process_pms(self):
+        
         for pm in self.pms:
-            if str(pm.subject) == self.SUBJECT:
-                author = str(pm.author)  # Author of the PM
-                if author.lower() in (user.lower() for user in self.BLACKLIST):
-                    continue
-                content = str(pm.body)  # Content of the PM
-                subreddit = self.r.get_subreddit(self.TARGET_SUB)
-                if content in flairs:
-                    # Get the flair text that corresponds with the class name
-                    flair_text = str(flairs[content])
-                    subreddit.set_flair(author, flair_text, content)
+            
+            # target_subs are the names of the subreddits without the leading /r/            
+            body = pm.body.split('\n', 1)
+            target_subs = body[1].split(' ', 10)    
+            author = str(pm.author)  # Author of the PM
+            
+            if author.lower() in (user.lower() for user in self.BLACKLIST):
+                continue
+            flair_ID = pm.subject
+            
+            for sub in target_subs:
+                subreddit = self.r.get_subreddit(sub)
+                
+                if flair_ID in flairs:
+                    flair_text = body[0]
+                    subreddit.set_flair(author, flair_text, flair_ID)
+                    
                     if self.LOGGING:
-                        self.log(author, content, flair_text)
-                pm.mark_as_read()  # Mark processed PM as read
+                        self.log(author, flair_ID, flair_text)
+                        
+            pm.mark_as_read()  # Mark processed PM as read
         sys.exit()
 
-    def log(self, author, content, flair_text):
+    def log(self, author, flair_ID, flair_text):
+        
         with open('log.txt', 'a', encoding='utf-8') as logfile:
             time_now = strftime("%Y-%m-%d %H:%M:%S", gmtime())
             log_text = 'Added: ' + author + ' : ' \
                 + flair_text + ' : ' \
-                + content + ' @ ' + time_now + '\n'
+                + flair_ID + ' @ ' + time_now + '\n'
             logfile.write(log_text)
 
 FlairBot().init()
