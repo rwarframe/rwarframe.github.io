@@ -3,7 +3,7 @@ flair.sheet_filter = null;
 flair.sheet_filter_change = false;
 flair.typing_timeout = null;
 
-flair.subreddits = ['Warframe', 'WarTrade', 'WarframeClanRecruit', 'MemeFrame'];
+flair.subreddits = ['Warframe', 'WarTrade (Currently Unsupported)', 'WarframeClanRecruit (Currently Unsupported)', 'MemeFrame (Currently Unsupported)'];
 
 flair.updateCategoryFilter = function(sheet_name) {
     if (sheet_name == 'ALL') {
