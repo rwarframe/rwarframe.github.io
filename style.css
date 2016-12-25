@@ -54,6 +54,10 @@ body {
 	background-color: #262626;
 }
 
+.wrapper.no-margin {
+    margin-top: 0;
+}
+
 .wrapper.no-pad, .wrapper.no-pad:not(.no-style) { padding: 0; }
 
 .spacer { margin: 5px 0; }
