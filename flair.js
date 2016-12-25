@@ -55,7 +55,7 @@ flair.names = {
 	"10 primewarframesflair saryn-prime": "Saryn Prime",
 	"11 primewarframesflair trinity-prime": "Trinity Prime",
 	"12 primewarframesflair vauban-prime": "Vauban Prime",
-	"13 primewarframesflair volt-prime": "Volt Prime",
+	"13 primewarframesflair volt-prime": "Volt Prime"
 	
 	"0 regularwarframesflair ash": "Ash",
 	"1 regularwarframesflair atlas": "Atlas",
@@ -87,7 +87,7 @@ flair.names = {
 	"27 regularwarframesflair vauban": "Vauban",
 	"28 regularwarframesflair volt": "Volt",
 	"29 regularwarframesflair wukong": "Wukong",
-	"30 regularwarframesflair zephyr": "Zephyr",
+	"30 regularwarframesflair zephyr": "Zephyr"
 	
 	"0 warframeskinsflair banshee-soprana": "Banshee (Soprana)",
 	"1 warframeskinsflair excalibur-jade": "Excalibur (Jade)",
@@ -120,7 +120,7 @@ flair.names = {
 	"28 warframeskinsflair vauban-phased": "Vauban (Phased)",
 	"29 warframeskinsflair volt-amp": "Volt (Amp by Faven_PS)",
 	"30 warframeskinsflair zephyr-hagoromo": "Zephyr (Hagoromo by Hitsu San)",
-	"31 warframeskinsflair zephyr-skeiron": "Zephyr (Skeiron by novadragon01)",    
+	"31 warframeskinsflair zephyr-skeiron": "Zephyr (Skeiron by novadragon01)"  
 	
 	"0 warframealthelmetsflair ash-locust": "Ash (Locust)",
 	"1 warframealthelmetsflair ash-scorpion": "Ash (Scorpion)",
@@ -201,7 +201,7 @@ flair.names = {
 	"76 warframealthelmetsflair wukong-dasheng": "Wukong (Dasheng)",
 	"77 warframealthelmetsflair zephyr-cierzo": "Zephyr (Cierzo)",
 	"78 warframealthelmetsflair zephyr-tengu": "Zephyr (Tengu)",
-	"79 warframealthelmetsflair zephyr-monsoon": "Zephyr (Monsoon by artarrwen)",
+	"79 warframealthelmetsflair zephyr-monsoon": "Zephyr (Monsoon by artarrwen)"
 	
 	
 	/*"0 unovaflair 494": "Victini",
@@ -236,7 +236,7 @@ flair.names = {
 	"29 unovaflair 523": "Zebstrika",
 	"30 unovaflair 524": "Roggenrola",
 	"31 unovaflair 525": "Boldore",
-	"32 unovaflair 526": "Gigalith",
+	"32 unovaflair 526": "Gigalith"
 	
 	"0 nogglesflair noggle-alad-v": "Alad V Nogg	le",
 	"1 nogglesflair noggle-baro-ki-teer": "Baro Ki'Teer Noggle",
@@ -244,7 +244,7 @@ flair.names = {
 	"3 nogglesflair noggle-clem": "Clem Noggle",
 	"4 nogglesflair noggle-general-sargas-ruk": "General Sargas Ruk Noggle",
 	"5 nogglesflair noggle-the-lotus": "Lotus Noggle",
-	"6 nogglesflair noggle-the-stalker": "??????? Noggle",*/
+	"6 nogglesflair noggle-the-stalker": "??????? Noggle"*/
     
 	"0 miscellaneousflair disciple": "Disciple Founder",
 	"1 miscellaneousflair hunter": "Hunter Founder",
@@ -272,5 +272,5 @@ flair.names = {
 	"23 miscellaneousflair new-loka": "New Loka",
 	"24 miscellaneousflair red-veil": "Red Veil",
 	"25 miscellaneousflair steel-meridian": "Steel Meridian",
-	"26 miscellaneousflair the-perrin-sequence": "The Perrin Sequence",
+	"26 miscellaneousflair the-perrin-sequence": "The Perrin Sequence"
 };
