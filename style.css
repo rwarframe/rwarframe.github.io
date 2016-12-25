@@ -106,7 +106,13 @@ label input[type=checkbox] + span { margin-left: 5px; }
 
 ::-webkit-input-placeholder { color: #A9A9A9; }
 
-#flair-selection-text { background-color: #3C3C3C; }
+#flair-selection-text {
+	background-color: #3C3C3C;	
+	padding: 3px 0px 3px 0px;
+	text-indent: 4px;
+	width: 99.7%;
+}
+
 
 #flair-filter-text, #flair-filter-sheet {
 	min-width: 240px;
