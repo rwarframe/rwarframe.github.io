@@ -180,7 +180,7 @@ flair.loadChoices = function() {
     }
     
     var sr_enter = document.getElementById('subreddit-selection');
-        var sr = flair.subreddits[i];
+        var sr = flair.subreddits[0];
         
         var sr_choice = document.createElement('label');
         sr_choice.setAttribute('class', 'sr-choice');
