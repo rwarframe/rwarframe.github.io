@@ -5,7 +5,7 @@ flair.typing_timeout = null;
 
 flair.subreddits = ['Warframe', 'WarTrade', 'WarframeClanRecruit', 'MemeFrame'];
 
-flair.updateRegionFilter = function(sheet_name) {
+flair.updateCategoryFilter = function(sheet_name) {
     if (sheet_name == 'ALL') {
         flair.sheet_filter = null;
     } else {
@@ -26,20 +26,20 @@ flair.updateFilter = function(text) {
     
     text = text.toLowerCase();
     
-    for (var poke_id in flair.by_id) {
-        if (flair.by_id.hasOwnProperty(poke_id)) {
-            var poke_name = flair.by_id[poke_id].poke_name.toLowerCase();
-            var sheet = flair.by_id[poke_id].sheet;
+    for (var flair_id in flair.by_id) {
+        if (flair.by_id.hasOwnProperty(flair_id)) {
+            var flair_name = flair.by_id[flair_id].flair_name.toLowerCase();
+            var sheet = flair.by_id[flair_id].sheet;
             
-            var el = document.querySelector('.flair-choice[data-id="'+poke_id+'"]');
+            var el = document.querySelector('.flair-choice[data-id="'+flair_id+'"]');
             if (el == null)
                 continue;
             
             if (
-                    // check poke_name
-                    (text.length == 0 || text == poke_name || (poke_name.indexOf(text) !== -1 && isNaN(text)) ||
-                    // check poke_id
-                    text === poke_id || text === flair.by_id[poke_id].orig_id) &&
+                    // check flair_name
+                    (text.length == 0 || text == flair_name || (flair_name.indexOf(text) !== -1 && isNaN(text)) ||
+                    // check flair_id
+                    text === flair_id || text === flair.by_id[flair_id].orig_id) &&
                     // check sheet
                     (flair.sheet_filter === null || flair.sheet_filter === sheet)
                 ) {
@@ -110,8 +110,8 @@ flair.sendChoice = function() {
         subreddits)
 }
 
-flair.selectChoice = function(poke_id, key) {
-    var el = document.querySelector('.flair-choice[data-id="'+poke_id+'"]');
+flair.selectChoice = function(flair_id, key) {
+    var el = document.querySelector('.flair-choice[data-id="'+flair_id+'"]');
     
     if (!el) {
         return;
@@ -122,8 +122,8 @@ flair.selectChoice = function(poke_id, key) {
     
     flair.current_choice = key;
     
-    document.getElementById('flair-selection-flair').setAttribute('class', 'flair '+ flair.by_id[poke_id].flair_class);
-    document.getElementById('flair-selection-name').innerHTML = flair.by_id[poke_id].poke_name;
+    document.getElementById('flair-selection-flair').setAttribute('class', 'flair '+ flair.by_id[flair_id].flair_class);
+    document.getElementById('flair-selection-name').innerHTML = flair.by_id[flair_id].flair_name;
 }
 
 flair.loadChoices = function() {
@@ -164,16 +164,16 @@ flair.loadChoices = function() {
     }
     
     var enter = document.getElementById('flair-choices');
-    for (var poke_id in flair.by_id) {
-        if (flair.by_id.hasOwnProperty(poke_id)) {
-            var data = flair.by_id[poke_id];
+    for (var flair_id in flair.by_id) {
+        if (flair.by_id.hasOwnProperty(flair_id)) {
+            var data = flair.by_id[flair_id];
             
             var flair_choice = document.createElement('span');
             flair_choice.setAttribute('class', 'flair flair-choice ' + data.flair_class);
-            flair_choice.setAttribute('data-name', data.poke_name);
-            flair_choice.setAttribute('title', data.poke_name);
-            flair_choice.setAttribute('data-id', data.poke_id);
-            flair_choice.setAttribute('onclick', 'flair.selectChoice("'+data.poke_id+'","'+data.key+'")');
+            flair_choice.setAttribute('data-name', data.flair_name);
+            flair_choice.setAttribute('title', data.flair_name);
+            flair_choice.setAttribute('data-id', data.flair_id);
+            flair_choice.setAttribute('onclick', 'flair.selectChoice("'+data.flair_id+'","'+data.key+'")');
             
             enter.appendChild(flair_choice);
         }
@@ -191,7 +191,7 @@ flair.loadChoices = function() {
         var sr_choice_input = document.createElement('input');
         sr_choice_input.setAttribute('id', 'sr-choice-'+sr);
         sr_choice_input.setAttribute('type', 'checkbox');
-        sr_choice_input.setAttribute('checked', '');
+        sr_choice_input.setAttribute('unchecked', '');
         
         var sr_choice_span = document.createElement('span');
         sr_choice_span.textContent = sr;

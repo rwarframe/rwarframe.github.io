@@ -42,7 +42,7 @@
                     <div id="flair-selection-flair" class="flair"></div>
                 </div>
                 <div class="fl">
-                    <div id="flair-selection-name">Name</div>
+                    <div id="flair-selection-name">Flair</div>
                     <input id="flair-selection-text" type="text" placeholder="Enter Flair Text" />
                     <div class="spacer">
                         <button onclick="flair.sendChoice()" id="flair-select-submit">Send Flair Request</button>
@@ -64,7 +64,7 @@
                 onkeyup="flair.updateFilter(this.value)" onchange="flair.updateFilter(this.value)" />
             <label for="flair-filter-sheet">
                 <span>Filter by Category:</span>
-                <select id="flair-filter-sheet" onchange="flair.updateRegionFilter(this.value)">
+                <select id="flair-filter-sheet" onchange="flair.updateCategoryFilter(this.value)">
                     <option value="ALL">All Flairs</option>
                     <option value="primewarframesflair">Prime Warframes</option>
                     <option value="regularwarframesflair">Regular Warframes</option>
