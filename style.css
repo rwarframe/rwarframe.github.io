@@ -11,7 +11,11 @@ a {
 
 html { overflow-y: scroll; }
 
-h2 { text-align: center; }
+h2 {
+	text-align: center;
+	margin-top: 20px
+	font-size: larger;
+}
 
 body {
 	font-family: arial, sans-serif;
@@ -41,7 +45,6 @@ body {
 	display: block;
 	position: relative;
 	margin: 0 auto;
-	margin-top: 20px;
 	box-sizing: border-box;
 }
 
@@ -161,10 +164,7 @@ label input[type=checkbox] + span { margin-left: 5px; }
 
 #help-bubble.hide + .wrapper { margin-top: 0; }
 
-#help-bubble {
-	font-size: 13px;
-	margin-top: 0px
-}
+#help-bubble { font-size: 13px;	}
 
 #help-bubble p { margin: 0.5em 0; }
 
