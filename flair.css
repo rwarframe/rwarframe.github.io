@@ -1,112 +1,115 @@
-/*= NEW FLAIR SYSTEM =*/
+/*==*/
 
-.flair-0	{ background: -0000px -0000px }
-.flair-1	{ background: -0047px -0000px }
-.flair-2	{ background: -0094px -0000px }
-.flair-3	{ background: -0141px -0000px }
-.flair-4	{ background: -0188px -0000px }
-.flair-5	{ background: -0000px -0030px }
-.flair-6	{ background: -0047px -0030px }
-.flair-7	{ background: -0094px -0030px }
-.flair-8	{ background: -0141px -0030px }
-.flair-9	{ background: -0188px -0030px }
-.flair-10	{ background: -0000px -0060px }
-.flair-11	{ background: -0047px -0060px }
-.flair-12	{ background: -0094px -0060px }
-.flair-13	{ background: -0141px -0060px }
-.flair-14	{ background: -0188px -0060px }
-.flair-15	{ background: -0000px -0090px }
-.flair-16	{ background: -0047px -0090px }
-.flair-17	{ background: -0094px -0090px }
-.flair-18	{ background: -0141px -0090px }
-.flair-19	{ background: -0188px -0090px }
-.flair-20	{ background: -0000px -0120px }
-.flair-21	{ background: -0047px -0120px }
-.flair-22	{ background: -0094px -0120px }
-.flair-23	{ background: -0141px -0120px }
-.flair-24	{ background: -0188px -0120px }
-.flair-25	{ background: -0000px -0150px }
-.flair-26	{ background: -0047px -0150px }
-.flair-27	{ background: -0094px -0150px }
-.flair-28	{ background: -0141px -0150px }
-.flair-29	{ background: -0188px -0150px }
-.flair-30	{ background: -0000px -0180px }
-.flair-31	{ background: -0047px -0180px }
-.flair-32	{ background: -0094px -0180px }
-.flair-33	{ background: -0141px -0180px }
-.flair-34	{ background: -0188px -0180px }
-.flair-35	{ background: -0000px -0210px }
-.flair-36	{ background: -0047px -0210px }
-.flair-37	{ background: -0094px -0210px }
-.flair-38	{ background: -0141px -0210px }
-.flair-39	{ background: -0188px -0210px }
-.flair-40	{ background: -0000px -0240px }
-.flair-41	{ background: -0047px -0240px }
-.flair-42	{ background: -0094px -0240px }
-.flair-43	{ background: -0141px -0240px }
-.flair-44	{ background: -0188px -0240px }
-.flair-45	{ background: -0000px -0270px }
-.flair-46	{ background: -0047px -0270px }
-.flair-47	{ background: -0094px -0270px }
-.flair-48	{ background: -0141px -0270px }
-.flair-49	{ background: -0188px -0270px }
-.flair-50	{ background: -0000px -0300px }
-.flair-51	{ background: -0047px -0300px }
-.flair-52	{ background: -0094px -0300px }
-.flair-53	{ background: -0141px -0300px }
-.flair-54	{ background: -0188px -0300px }
-.flair-55	{ background: -0000px -0330px }
-.flair-56	{ background: -0047px -0330px }
-.flair-57	{ background: -0094px -0330px }
-.flair-58	{ background: -0141px -0330px }
-.flair-59	{ background: -0188px -0330px }
-.flair-60	{ background: -0000px -0360px }
-.flair-61	{ background: -0047px -0360px }
-.flair-62	{ background: -0094px -0360px }
-.flair-63	{ background: -0141px -0360px }
-.flair-64	{ background: -0188px -0360px }
-.flair-65	{ background: -0000px -0390px }
-.flair-66	{ background: -0047px -0390px }
-.flair-67	{ background: -0094px -0390px }
-.flair-68	{ background: -0141px -0390px }
-.flair-69	{ background: -0188px -0390px }
-.flair-70	{ background: -0000px -0420px }
-.flair-71	{ background: -0047px -0420px }
-.flair-72	{ background: -0094px -0420px }
-.flair-73	{ background: -0141px -0420px }
-.flair-74	{ background: -0188px -0420px }
-.flair-75	{ background: -0000px -0450px }
-.flair-76	{ background: -0047px -0450px }
-.flair-77	{ background: -0094px -0450px }
-.flair-78	{ background: -0141px -0450px }
-.flair-79	{ background: -0188px -0450px }
-.flair-80	{ background: -0000px -0480px }
-.flair-81	{ background: -0047px -0480px }
-.flair-82	{ background: -0094px -0480px }
-.flair-83	{ background: -0141px -0480px }
-.flair-84	{ background: -0188px -0480px }
-.flair-85	{ background: -0000px -0510px }
-.flair-86	{ background: -0047px -0510px }
-.flair-87	{ background: -0094px -0510px }
-.flair-88	{ background: -0141px -0510px }
-.flair-89	{ background: -0188px -0510px }
-.flair-90	{ background: -0000px -0540px }
-.flair-91	{ background: -0047px -0540px }
-.flair-92	{ background: -0094px -0540px }
-.flair-93	{ background: -0141px -0540px }
-.flair-94	{ background: -0188px -0540px }
-.flair-95	{ background: -0000px -0570px }
-.flair-96	{ background: -0047px -0570px }
-.flair-97	{ background: -0094px -0570px }
-.flair-98	{ background: -0141px -0570px }
-.flair-99	{ background: -0188px -0570px }
 
-/*= SPRITESHEETS =*/
+.flair-0-0{background-position: 0px 0px}
+.flair-1{background: -47px 0px}
+.flair-2{background: -94px 0px}
+.flair-0-3{background: -141px 0px}
+.flair-0-4{background: -188px 0px}
+.flair-0-5{background: 0px -30px}
+.flair-0-6{background: -47px -30px}
+.flair-0-7{background: -94px -30px}
+.flair-0-8{background: -141px -30px}
+.flair-0-9{background: -188px -30px}
+.flair-0-10{background: 0px -60px}
+.flair-0-11{background: -47px -60px}
+.flair-0-12{background: -94px -60px}
+.flair-0-13{background: -141px -60px}
+.flair-0-14{background: -188px -60px}
+.flair-0-15{background: 0px -90px}
+.flair-0-16{background: -47px -90px}
+.flair-0-17{background: -94px -90px}
+.flair-0-18{background: -141px -90px}
+.flair-0-19{background: -188px -90px}
+.flair-0-20{background: 0px -120px}
+.flair-0-21{background: -47px -120px}
+.flair-0-22{background: -94px -120px}
+.flair-0-23{background: -141px -120px}
+.flair-0-24{background: -188px -120px}
+.flair-0-25{background: 0px -150px}
+.flair-0-26{background: -47px -150px}
+.flair-0-27{background: -94px -150px}
+.flair-0-28{background: -141px -150px}
+.flair-0-29{background: -188px -150px}
+.flair-0-30{background: 0px -180px}
+.flair-0-31{background: -47px -180px}
+.flair-0-32{background: -94px -180px}
+.flair-0-33{background: -141px -180px}
+.flair-0-34{background: -188px -180px}
+.flair-0-35{background: 0px -210px}
+.flair-0-36{background: -47px -210px}
+.flair-0-37{background: -94px -210px}
+.flair-0-38{background: -141px -210px}
+.flair-0-39{background: -188px -210px}
+.flair-0-40{background: 0px -240px}
+.flair-0-41{background: -47px -240px}
+.flair-0-42{background: -94px -240px}
+.flair-0-43{background: -141px -240px}
+.flair-0-44{background: -188px -240px}
+.flair-0-45{background: 0px -270px}
+.flair-0-46{background: -47px -270px}
+.flair-0-47{background: -94px -270px}
+.flair-0-48{background: -141px -270px}
+.flair-0-49{background: -188px -270px}
+.flair-0-50{background: 0px -300px}
+.flair-0-51{background: -47px -300px}
+.flair-0-52{background: -94px -300px}
+.flair-0-53{background: -141px -300px}
+.flair-0-54{background: -188px -300px}
+.flair-0-55{background: 0px -330px}
+.flair-0-56{background: -47px -330px}
+.flair-0-57{background: -94px -330px}
+.flair-0-58{background: -141px -330px}
+.flair-0-59{background: -188px -330px}
+.flair-0-60{background: 0px -360px}
+.flair-0-61{background: -47px -360px}
+.flair-0-62{background: -94px -360px}
+.flair-0-63{background: -141px -360px}
+.flair-0-64{background: -188px -360px}
+.flair-0-65{background: 0px -390px}
+.flair-0-66{background: -47px -390px}
+.flair-0-67{background: -94px -390px}
+.flair-0-68{background: -141px -390px}
+.flair-0-69{background: -188px -390px}
+.flair-0-70{background: 0px -420px}
+.flair-0-71{background: -47px -420px}
+.flair-0-72{background: -94px -420px}
+.flair-0-73{background: -141px -420px}
+.flair-0-74{background: -188px -420px}
+.flair-0-75{background: 0px -450px}
+.flair-0-76{background: -47px -450px}
+.flair-0-77{background: -94px -450px}
+.flair-0-78{background: -141px -450px}
+.flair-0-79{background: -188px -450px}
+.flair-0-80{background: 0px -480px}
+.flair-0-81{background: -47px -480px}
+.flair-0-82{background: -94px -480px}
+.flair-0-83{background: -141px -480px}
+.flair-0-84{background: -188px -480px}
+.flair-0-85{background: 0px -510px}
+.flair-0-86{background: -47px -510px}
+.flair-0-87{background: -94px -510px}
+.flair-0-88{background: -141px -510px}
+.flair-0-89{background: -188px -510px}
+.flair-0-90{background: 0px -540px}
+.flair-0-91{background: -47px -540px}
+.flair-0-92{background: -94px -540px}
+.flair-0-93{background: -141px -540px}
+.flair-0-94{background: -188px -540px}
+.flair-0-95{background: 0px -570px}
+.flair-0-96{background: -47px -570px}
+.flair-0-97{background: -94px -570px}
+.flair-0-98{background: -141px -570px}
+.flair-0-99{background: -188px -570px}
 
-.flair-primewarframesflair	{ background-image: url(https://a.thumbs.redditmedia.com/rRc9Da3SXUpSOENn4_1YVHh5NHU-FaH_saaitxFszA4.png)	!important }
-.flair-regularwarframesflair	{ background-image: url(https://b.thumbs.redditmedia.com/q0TDrqMDoSQ07M2ygBjuCcsZ07AgSD2zMv4kB5pULCk.png)	!important }
-.flair-warframeskinsflair	{ background-image: url(https://b.thumbs.redditmedia.com/nScMPhHyH9JsO9SkEll476ostGV1cMaHPFu5bsaw3mE.png)	!important }
-.flair-warframealthelmetsflair	{ background-image: url(https://b.thumbs.redditmedia.com/ciaEvHqW4gS0Mn0OdkVK-l1KSHG_o9kbDJQfV1MauTk.png)	!important }
-.flair-glyphsflair		{ background-image: url(/*HTTPS://*/)	!important }
-.flair-nogglesflair		{ background-image: url(https://b.thumbs.redditmedia.com/prwvpHmKqIBIG2yuP26JwzTGsJVSpEVKDpboKWZUlNM.png)	!important }
-.flair-miscellaneousflair	{ background-image: url(https://b.thumbs.redditmedia.com/DpXvTQafMhIdYPBrZqtfaAIxEPF-Ofj_NOIi9n9QV3I.png)	!important }
+
+/*==*/
+
+
+.flair-primewarframesflair{background-image: url(https://a.thumbs.redditmedia.com/rRc9Da3SXUpSOENn4_1YVHh5NHU-FaH_saaitxFszA4.png) !important}
+.flair-regularwarframesflair{background-image: url(https://b.thumbs.redditmedia.com/q0TDrqMDoSQ07M2ygBjuCcsZ07AgSD2zMv4kB5pULCk.png) !important}
+.flair-warframeskinsflair{background-image: url(https://b.thumbs.redditmedia.com/nScMPhHyH9JsO9SkEll476ostGV1cMaHPFu5bsaw3mE.png) !important}
+.flair-warframealthelmetsflair{background-image: url(https://b.thumbs.redditmedia.com/ciaEvHqW4gS0Mn0OdkVK-l1KSHG_o9kbDJQfV1MauTk.png) !important}
+.flair-glyphsflair{background-image: url(/*HTTPS://*/) !important}
+.flair-nogglesflair{background-image: url(https://b.thumbs.redditmedia.com/prwvpHmKqIBIG2yuP26JwzTGsJVSpEVKDpboKWZUlNM.png) !important}
+.flair-miscellaneousflair{background-image: url(https://b.thumbs.redditmedia.com/DpXvTQafMhIdYPBrZqtfaAIxEPF-Ofj_NOIi9n9QV3I.png) !important}
