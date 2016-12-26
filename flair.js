@@ -41,7 +41,7 @@ flair.load__by_id = function() {
 flair.by_id = {}
 flair.names = {
 /* [STANDARD] */
-
+	
 	"0 primewarframesflair ash-prime": "Ash Prime",
 	"1 primewarframesflair ember-prime": "Ember",
 	"2 primewarframesflair excalibur-prime": "Excalibur Prime",
@@ -56,6 +56,7 @@ flair.names = {
 	"11 primewarframesflair trinity-prime": "Trinity Prime",
 	"12 primewarframesflair vauban-prime": "Vauban Prime",
 	"13 primewarframesflair volt-prime": "Volt Prime",
+	
 	
 	"0 regularwarframesflair ash": "Ash",
 	"1 regularwarframesflair atlas": "Atlas",
@@ -75,7 +76,7 @@ flair.names = {
 	"15 regularwarframesflair mirage": "Mirage",
 	"16 regularwarframesflair nekros": "Nekros",
 	"17 regularwarframesflair nezha": "Nezha",
-	"18 regularwarframesflair nidus": "Nidus",
+	/*"18 regularwarframesflair nidus": "Nidus",*/
 	"19 regularwarframesflair nova": "Nova",
 	"20 regularwarframesflair nyx": "Nyx",
 	"21 regularwarframesflair oberon": "Oberon",
@@ -88,6 +89,7 @@ flair.names = {
 	"28 regularwarframesflair volt": "Volt",
 	"29 regularwarframesflair wukong": "Wukong",
 	"30 regularwarframesflair zephyr": "Zephyr",
+	
 	
 	"0 warframeskinsflair banshee-soprana": "Banshee (Soprana)",
 	"1 warframeskinsflair excalibur-jade": "Excalibur (Jade)",
@@ -121,6 +123,7 @@ flair.names = {
 	"29 warframeskinsflair volt-amp": "Volt (Amp by Faven_PS)",
 	"30 warframeskinsflair zephyr-hagoromo": "Zephyr (Hagoromo by Hitsu San)",
 	"31 warframeskinsflair zephyr-skeiron": "Zephyr (Skeiron by novadragon01)",    
+	
 	
 	"0 warframealthelmetsflair ash-locust": "Ash (Locust)",
 	"1 warframealthelmetsflair ash-scorpion": "Ash (Scorpion)",
@@ -204,39 +207,40 @@ flair.names = {
 	"79 warframealthelmetsflair zephyr-monsoon": "Zephyr (Monsoon by artarrwen)",
 	
 	
-	/*"0 unovaflair 494": "Victini",
-	"1 unovaflair 495": "Snivy",
-	"2 unovaflair 496": "Servine",
-	"3 unovaflair 497": "Serperior",
-	"4 unovaflair 498": "Tepig",
-	"5 unovaflair 499": "Pignite",
-	"6 unovaflair 500": "Emboar",
-	"7 unovaflair 501": "Oshawott",
-	"8 unovaflair 502": "Dewott",
-	"9 unovaflair 503": "Samurott",
-	"10 unovaflair 504": "Patrat",
-	"11 unovaflair 505": "Watchog",
-	"12 unovaflair 506": "Lillipup",
-	"13 unovaflair 507": "Herdier",
-	"14 unovaflair 508": "Stoutland",
-	"15 unovaflair 509": "Purrloin",
-	"16 unovaflair 510": "Liepard",
-	"17 unovaflair 511": "Pansage",
-	"18 unovaflair 512": "Simisage",
-	"19 unovaflair 513": "Pansear",
-	"20 unovaflair 514": "Simisear",
-	"21 unovaflair 515": "Panpour",
-	"22 unovaflair 516": "Simipour",
-	"23 unovaflair 517": "Munna",
-	"24 unovaflair 518": "Musharna",
-	"25 unovaflair 519": "Pidove",
-	"26 unovaflair 520": "Tranquill",
-	"27 unovaflair 521": "Unfezant",
-	"28 unovaflair 522": "Blitzle",
-	"29 unovaflair 523": "Zebstrika",
-	"30 unovaflair 524": "Roggenrola",
-	"31 unovaflair 525": "Boldore",
-	"32 unovaflair 526": "Gigalith",
+	/*"0 glyphsflair 494": "Victini",
+	"1 glyphsflair 495": "Snivy",
+	"2 glyphsflair 496": "Servine",
+	"3 glyphsflair 497": "Serperior",
+	"4 glyphsflair 498": "Tepig",
+	"5 glyphsflair 499": "Pignite",
+	"6 glyphsflair 500": "Emboar",
+	"7 glyphsflair 501": "Oshawott",
+	"8 glyphsflair 502": "Dewott",
+	"9 glyphsflair 503": "Samurott",
+	"10 glyphsflair 504": "Patrat",
+	"11 glyphsflair 505": "Watchog",
+	"12 glyphsflair 506": "Lillipup",
+	"13 glyphsflair 507": "Herdier",
+	"14 glyphsflair 508": "Stoutland",
+	"15 glyphsflair 509": "Purrloin",
+	"16 glyphsflair 510": "Liepard",
+	"17 glyphsflair 511": "Pansage",
+	"18 glyphsflair 512": "Simisage",
+	"19 glyphsflair 513": "Pansear",
+	"20 glyphsflair 514": "Simisear",
+	"21 glyphsflair 515": "Panpour",
+	"22 glyphsflair 516": "Simipour",
+	"23 glyphsflair 517": "Munna",
+	"24 glyphsflair 518": "Musharna",
+	"25 glyphsflair 519": "Pidove",
+	"26 glyphsflair 520": "Tranquill",
+	"27 glyphsflair 521": "Unfezant",
+	"28 glyphsflair 522": "Blitzle",
+	"29 glyphsflair 523": "Zebstrika",
+	"30 glyphsflair 524": "Roggenrola",
+	"31 glyphsflair 525": "Boldore",
+	"32 glyphsflair 526": "Gigalith",*/
+	
 	
 	"0 nogglesflair noggle-alad-v": "Alad V Nogg	le",
 	"1 nogglesflair noggle-baro-ki-teer": "Baro Ki'Teer Noggle",
@@ -244,14 +248,17 @@ flair.names = {
 	"3 nogglesflair noggle-clem": "Clem Noggle",
 	"4 nogglesflair noggle-general-sargas-ruk": "General Sargas Ruk Noggle",
 	"5 nogglesflair noggle-the-lotus": "Lotus Noggle",
-	"6 nogglesflair noggle-the-stalker": "??????? Noggle",*/
-    
+	"6 nogglesflair noggle-the-stalker": "??????? Noggle",
+	
+	
 	"0 miscellaneousflair disciple": "Disciple Founder",
 	"1 miscellaneousflair hunter": "Hunter Founder",
 	"2 miscellaneousflair master": "Master Founder",
-	"3 miscellaneousflair grandmaster": "Grand Master Founder",
-/*	"4 miscellaneousflair revive": "Moderator",
-	"5 miscellaneousflair lotus": "DE Employee",*/
+	"3 miscellaneousflair grandmaster": "Grand Master Founder",	
+	/*
+	"4 miscellaneousflair revive": "Moderator",
+	"5 miscellaneousflair lotus": "DE Employee",
+	*/
 	"6 miscellaneousflair kubrow": "Kubrow",
 	"7 miscellaneousflair kubrow-chesa": "Kubrow (Chesa)",
 	"8 miscellaneousflair kubrow-huras": "Kubrow (Huras)",
@@ -272,5 +279,5 @@ flair.names = {
 	"23 miscellaneousflair new-loka": "New Loka",
 	"24 miscellaneousflair red-veil": "Red Veil",
 	"25 miscellaneousflair steel-meridian": "Steel Meridian",
-	"26 miscellaneousflair the-perrin-sequence": "The Perrin Sequence",
+	"26 miscellaneousflair the-perrin-sequence": "The Perrin Sequence"
 };

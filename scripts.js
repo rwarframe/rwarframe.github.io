@@ -3,7 +3,7 @@ flair.sheet_filter = null;
 flair.sheet_filter_change = false;
 flair.typing_timeout = null;
 
-flair.subreddits = ['Warframe', 'WarTrade (Currently Unsupported)', 'WarframeClanRecruit (Currently Unsupported)', 'MemeFrame (Currently Unsupported)'];
+flair.subreddits = ['Warframe'/*, 'WarTrade'*//*, 'WarframeClanRecruit'*//*, 'MemeFrame'*/];
 
 flair.updateCategoryFilter = function(sheet_name) {
     if (sheet_name == 'ALL') {
@@ -179,35 +179,8 @@ flair.loadChoices = function() {
         }
     }
     
-    var sr_enter = document.getElementById('subreddit-selection');
-        var sr = flair.subreddits[0];
-        
-        var sr_choice = document.createElement('label');
-        sr_choice.setAttribute('class', 'sr-choice');
-        sr_choice.setAttribute('data-name', sr);
-        sr_choice.setAttribute('for', 'sr-choice-'+sr);
-        
-        var sr_choice_input = document.createElement('input');
-        sr_choice_input.setAttribute('id', 'sr-choice-'+sr);
-        sr_choice_input.setAttribute('type', 'checkbox');
-        sr_choice_input.setAttribute('checked', '');
-        
-        var sr_choice_span = document.createElement('span');
-        sr_choice_span.textContent = sr;
-        
-        sr_choice.appendChild(sr_choice_input);
-        sr_choice.appendChild(sr_choice_span);
-        
-        sr_enter.appendChild(sr_choice);
-        
-        if (i != flair.subreddits.length-1) {
-            var sr_sep = document.createElement('span');
-            sr_sep.setAttribute('class', 'sr-sep');
-            sr_sep.textContent = '|';
-            sr_enter.appendChild(sr_sep);
-        }
-    
-        for (var i = 1; i < flair.subreddits.length; i++) {
+    var sr_enter = document.getElementById('subreddit-selection');  
+    for (var i = 0; i < flair.subreddits.length; i++) {
         var sr = flair.subreddits[i];
         
         var sr_choice = document.createElement('label');
@@ -218,7 +191,7 @@ flair.loadChoices = function() {
         var sr_choice_input = document.createElement('input');
         sr_choice_input.setAttribute('id', 'sr-choice-'+sr);
         sr_choice_input.setAttribute('type', 'checkbox');
-        sr_choice_input.setAttribute('unchecked', '');
+        sr_choice_input.setAttribute('checked', '');
         
         var sr_choice_span = document.createElement('span');
         sr_choice_span.textContent = sr;
