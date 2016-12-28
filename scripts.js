@@ -104,7 +104,7 @@ flair.sendChoice = function() {
         }
     }
     
-    window.open('http://www.reddit.com/message/compose/?to=WarframeFlairBot&subject='+
+    window.open('http://www.reddit.com/message/compose/?to=CephalonKhuon&subject='+
         flair.current_choice+
         '&message='+flair_text+'%0A'+
         subreddits)
