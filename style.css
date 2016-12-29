@@ -62,8 +62,6 @@ body {
 
 .spacer { margin: 5px 0; }
 
-#subreddit-wrapper { display: none; }
-
 #flair-selection-name {
     color: white !important;
     text-align: center;
