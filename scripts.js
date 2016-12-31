@@ -4,14 +4,15 @@ flair.sheet_filter_change = false;
 flair.typing_timeout = null;
 
 flair.subreddits = [
-    'Warframe'/*,
-    'KubrowKennel'*/,
-    'MemeFrame'/*,
-    'NSFWarframe'*//*,  
-    'WarframeClanRecruit'*//*,
-    'WarframePvP'*//*,
-    'WarframeRunway'*//*,
-    'WarTrade'*/
+    'Warframe',
+    'KubrowKennel',
+    'MemeFrame',
+    'NSFWarframe',  
+    'WarframeClanRecruit',
+    'WarframePvP',
+    'WarframeRunway',
+    /*'WarTrade',*/
+    'WarLFG'
 ];
 
 flair.updateCategoryFilter = function(sheet_name) {
