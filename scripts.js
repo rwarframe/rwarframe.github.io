@@ -11,7 +11,7 @@ flair.subreddits = [
     'WarframeClanRecruit',
     'WarframePvP',
     'WarframeRunway',
-    /*'WarTrade',*/
+    'WarTrade',
     'WarLFG'
 ];
 
