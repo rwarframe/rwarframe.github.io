@@ -42,6 +42,7 @@ flair.by_id = {}
 flair.names = {
 /* [STANDARD] */
 	
+	/* Prime Warframe Flairs (0-13) */
 	"0 primewarframesflair ash-prime": "Ash Prime",
 	"1 primewarframesflair ember-prime": "Ember",
 	"2 primewarframesflair excalibur-prime": "Excalibur Prime",
@@ -58,6 +59,7 @@ flair.names = {
 	"13 primewarframesflair volt-prime": "Volt Prime",
 	
 	
+	/* Regular Warframe Flairs (0-30) */
 	"0 regularwarframesflair ash": "Ash",
 	"1 regularwarframesflair atlas": "Atlas",
 	"2 regularwarframesflair banshee": "Banshee",
@@ -76,7 +78,7 @@ flair.names = {
 	"15 regularwarframesflair mirage": "Mirage",
 	"16 regularwarframesflair nekros": "Nekros",
 	"17 regularwarframesflair nezha": "Nezha",
-	/*"18 regularwarframesflair nidus": "Nidus",*/
+	"18 regularwarframesflair nidus": "Nidus",
 	"19 regularwarframesflair nova": "Nova",
 	"20 regularwarframesflair nyx": "Nyx",
 	"21 regularwarframesflair oberon": "Oberon",
@@ -91,6 +93,8 @@ flair.names = {
 	"30 regularwarframesflair zephyr": "Zephyr",
 	
 	
+	/* Warframe Skins (0-32) */
+	"32 warframeskinsflair ash-koga-b": "Ash (Koga)",
 	"0 warframeskinsflair banshee-soprana": "Banshee (Soprana)",
 	"1 warframeskinsflair excalibur-jade": "Excalibur (Jade)",
 	"2 warframeskinsflair excalibur-obsidian-b": "Excalibur (Obsidian)",
@@ -125,6 +129,8 @@ flair.names = {
 	"31 warframeskinsflair zephyr-skeiron": "Zephyr (Skeiron by novadragon01)",    
 	
 	
+	/* Warframe Alt Helmet Flairs (0-82) */
+	"82 warframealthelmetsflair ash-koga-h": "Ash (Koga)",
 	"0 warframealthelmetsflair ash-locust": "Ash (Locust)",
 	"1 warframealthelmetsflair ash-scorpion": "Ash (Scorpion)",
 	"2 warframealthelmetsflair atlas-shikoro": "Atlas (Shikoro)",
@@ -176,6 +182,7 @@ flair.names = {
 	"48 warframealthelmetsflair nekros-shroud": "Nekros (Shroud)",
 	"49 warframealthelmetsflair nekros-lazarus": "Nekros (Lazarus by [k a z])",
 	"50 warframealthelmetsflair nezha-circa": "Nezha (Circa)",
+	"81 warframealthelmetsflair nidus-prion": "Nidus (Prion)",
 	"51 warframealthelmetsflair nova-flux": "Nova (Flux)",
 	"52 warframealthelmetsflair nova-quantum": "Nova (Quantum)",
 	"53 warframealthelmetsflair nova-slipstream": "Nova (Slipstream)",
@@ -189,6 +196,7 @@ flair.names = {
 	"61 warframealthelmetsflair rhino-vanguard": "Rhino (Vanguard)",
 	"62 warframealthelmetsflair saryn-chlora": "Saryn (Chlora)",
 	"63 warframealthelmetsflair saryn-hemlock": "Saryn (Hemlock)",
+	"80 warframealthelmetsflair titania-aurai": "Titania (Aurai)",
 	"64 warframealthelmetsflair trinity-aura": "Trinity (Aura)",
 	"65 warframealthelmetsflair trinity-meridian": "Trinity (Meridian)",
 	"66 warframealthelmetsflair valkyr-bastet": "Valkyr (Bastet)",
@@ -207,6 +215,7 @@ flair.names = {
 	"79 warframealthelmetsflair zephyr-monsoon": "Zephyr (Monsoon by artarrwen)",
 	
 	
+	/* Glyph Flairs (0-51) */
     "0 glyphsflair ash-in-action-glyph": "Ash in Action Glyph",
     "1 glyphsflair blood-lotus-glyph": "Blood Lotus Glyph",
     "2 glyphsflair butterfly-varna-glyph": "Butterfly Varna Glyph",
@@ -261,6 +270,7 @@ flair.names = {
     "51 glyphsflair winter-glyph-vii": "Winter Glyph VII",
 	
 	
+	/* Noggle Flairs (0-6) */
 	"0 nogglesflair noggle-alad-v": "Alad V Nogg	le",
 	"1 nogglesflair noggle-baro-ki-teer": "Baro Ki'Teer Noggle",
 	"2 nogglesflair noggle-captain-vor": "Captain Vor Noggle",
@@ -270,6 +280,7 @@ flair.names = {
 	"6 nogglesflair noggle-the-stalker": "??????? Noggle",
 	
 	
+	/* Miscellaneous Flairs (0-26) */
 	"0 miscellaneousflair disciple": "Disciple Founder",
 	"1 miscellaneousflair hunter": "Hunter Founder",
 	"2 miscellaneousflair master": "Master Founder",
