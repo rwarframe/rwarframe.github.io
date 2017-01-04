@@ -285,10 +285,8 @@ flair.names = {
 	"1 miscellaneousflair hunter": "Hunter Founder",
 	"2 miscellaneousflair master": "Master Founder",
 	"3 miscellaneousflair grandmaster": "Grand Master Founder",	
-	/*
-	"4 miscellaneousflair revive": "Moderator",
-	"5 miscellaneousflair lotus": "DE Employee",
-	*/
+	/*"4 miscellaneousflair revive": "Moderator",*/
+	/*"5 miscellaneousflair lotus": "DE Employee",*/
 	"6 miscellaneousflair kubrow": "Kubrow",
 	"7 miscellaneousflair kubrow-chesa": "Kubrow (Chesa)",
 	"8 miscellaneousflair kubrow-huras": "Kubrow (Huras)",
