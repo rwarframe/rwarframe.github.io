@@ -118,11 +118,11 @@ label input[type=checkbox] + span { margin-left: 5px; }
 
 #flair-selection-text {
     background-color: #3C3C3C;
+    margin: 5px 0px;
     padding: 3px 0px 3px 0px;
     text-indent: 4px;
     width: 185px;
 }
-
 
 #flair-filter-text, #flair-filter-sheet {
     min-width: 240px;
