@@ -42,7 +42,7 @@ flair.by_id = {}
 flair.names = {
 /* [STANDARD] */
 	
-	/* Prime Warframe Flairs (0-13) */
+	/* Prime Warframe Flairs (0-14) */
 	"0 primewarframesflair ash-prime": "Ash Prime",
 	"1 primewarframesflair ember-prime": "Ember",
 	"2 primewarframesflair excalibur-prime": "Excalibur Prime",
@@ -56,7 +56,8 @@ flair.names = {
 	"10 primewarframesflair saryn-prime": "Saryn Prime",
 	"11 primewarframesflair trinity-prime": "Trinity Prime",
 	"12 primewarframesflair vauban-prime": "Vauban Prime",
-	"13 primewarframesflair volt-prime": "Volt Prime",
+	"13 primewarframesflair volt-prime": "Volt Prime",	
+	"14 primewarframesflair valkyr-prime": "Valkyr Prime",
 	
 	
 	/* Regular Warframe Flairs (0-30) */
@@ -271,12 +272,6 @@ flair.names = {
 	
 	
 	/* Noggle Flairs (0-75) */	
-	"0 nogglesflair alad-v-noggle": "Alad V Noggle",
-    "1 nogglesflair baro-ki-teer-noggle": "Baro Ki’Teer Noggle",
-    "2 nogglesflair captain-vor-noggle": "Captain Vor Noggle",
-    "3 nogglesflair clem-noggle": "Clem Noggle",
-    "4 nogglesflair general-sargas-ruk-noggle": "General Sargas Ruk Noggle",
-    "5 nogglesflair the-lotus-noggle": "Lotus Noggle",
     "7 nogglesflair 002-er-noggle": "002-ER Noggle",
     "8 nogglesflair acolyte-angst-noggle": "Acolyte Angst Noggle",
     "9 nogglesflair acolyte-malice-noggle": "Acolyte Malice Noggle",
@@ -284,10 +279,14 @@ flair.names = {
     "11 nogglesflair acolyte-misery-noggle": "Acolyte Misery Noggle",
     "12 nogglesflair acolyte-torment-noggle": "Acolyte Torment Noggle",
     "13 nogglesflair acolyte-violence-noggle": "Acolyte Violence Noggle",
+    "0 nogglesflair alad-v-noggle": "Alad V Noggle",
     "14 nogglesflair arid-seeker-noggle": "Arid Seeker Noggle",
     "15 nogglesflair ash-noggle": "Ash Noggle",
     "16 nogglesflair banshee-noggle": "Banshee Noggle",
+    "1 nogglesflair baro-ki-teer-noggle": "Baro Ki'Teer Noggle",
     "17 nogglesflair battalyst-noggle": "Battalyst Noggle",
+    "2 nogglesflair captain-vor-noggle": "Captain Vor Noggle",
+    "3 nogglesflair clem-noggle": "Clem Noggle",
     "18 nogglesflair conculyst-noggle": "Conculyst Noggle",
     "19 nogglesflair elite-arid-lancer-noggle": "Elite Arid Lancer Noggle",
     "20 nogglesflair ember-noggle": "Ember Noggle",
@@ -297,6 +296,7 @@ flair.names = {
     "24 nogglesflair excalibur-obsidian-noggle": "Excalibur (Obsidian) Noggle",
     "25 nogglesflair excalibur-obsidian-azure-noggle": "Excalibur (Obsidian Azure) Noggle",
     "26 nogglesflair frost-noggle": "Frost Noggle",
+    "4 nogglesflair general-sargas-ruk-noggle": "General Sargas Ruk Noggle",
     "27 nogglesflair hydroid-noggle": "Hydroid Noggle",
     "28 nogglesflair hyekka-noggle": "Hyekka Noggle",
     "29 nogglesflair index-armis-ulta-noggle": "Index Armis Ulta Noggle",
@@ -317,6 +317,7 @@ flair.names = {
     "44 nogglesflair kela-de-thaym-noggle": "Kela De Thaym Noggle",
     "45 nogglesflair lancer-noggle": "Lancer Noggle",
     "46 nogglesflair loki-noggle": "Loki Noggle",
+    "5 nogglesflair the-lotus-noggle": "Lotus Noggle",
     "47 nogglesflair mag-noggle": "Mag Noggle",
     "48 nogglesflair mirage-noggle": "Mirage Noggle",
     "49 nogglesflair misery-acolyte-noggle": "Misery Acolyte Noggle",
