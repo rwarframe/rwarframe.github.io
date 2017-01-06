@@ -42,6 +42,9 @@ flair.by_id = {}
 flair.names = {
 /* [STANDARD] */
 	
+	/* Remove Flair */
+	"0 removeflair": "Remove Flair",
+	
 	/* Prime Warframe Flairs (0-14) */
 	"0 primewarframesflair ash-prime": "Ash Prime",
 	"1 primewarframesflair ember-prime": "Ember",
