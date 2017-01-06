@@ -43,7 +43,7 @@ flair.names = {
 /* [STANDARD] */
 	
 	/* Remove Flair */
-	"removeflair": "Remove Flair",
+	"0 removeflair": "Remove Flair",
 	
 	/* Prime Warframe Flairs (0-14) */
 	"0 primewarframesflair ash-prime": "Ash Prime",
