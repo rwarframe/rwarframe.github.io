@@ -42,9 +42,6 @@ flair.by_id = {}
 flair.names = {
 /* [STANDARD] */
 	
-	/* Remove Flair */
-	"0 removeflair": "Remove Flair",
-	
 	/* Prime Warframe Flairs (0-14) */
 	"0 primewarframesflair ash-prime": "Ash Prime",
 	"1 primewarframesflair ember-prime": "Ember",
@@ -375,5 +372,8 @@ flair.names = {
 	"23 miscellaneousflair new-loka": "New Loka",
 	"24 miscellaneousflair red-veil": "Red Veil",
 	"25 miscellaneousflair steel-meridian": "Steel Meridian",
-	"26 miscellaneousflair the-perrin-sequence": "The Perrin Sequence"
+	"26 miscellaneousflair the-perrin-sequence": "The Perrin Sequence",
+	
+	/* Remove Flair */
+	"0 removeflair none": "Remove Flair"
 };
