@@ -103,11 +103,11 @@
 
 /*= SPRITESHEETS =*/
 
-.flair-removeflair                { background-image: url(https://a.thumbs.redditmedia.com/FJSVAwF93OHcseEP8EW02QS6ecrEf67W2a3di_gztY0.png)    !important }
-.flair-primewarframesflair        { background-image: url(https://b.thumbs.redditmedia.com/cG30o1y-imC-o2m1s3k1Wus0KogLbJSQFtFeQeevdPw.png)    !important }
-.flair-regularwarframesflair      { background-image: url(https://a.thumbs.redditmedia.com/Ynvj3ztsN81TPsmw2T_9ri2b99Jo_dSKqGli3E6RFE8.png)    !important }
-.flair-warframeskinsflair         { background-image: url(https://a.thumbs.redditmedia.com/OILHJlMP27lahjM1xlkyrlF771g1BauNZFkwwQFgfK0.png)    !important }
-.flair-warframealthelmetsflair    { background-image: url(https://b.thumbs.redditmedia.com/DhbXgSgx6pb_poQhnJO6ocnxQqi1aRHzy_n88vg6HFY.png)    !important }
-.flair-glyphsflair                { background-image: url(https://b.thumbs.redditmedia.com/krI1eT13PLOFV5E0tOEqXP7CdMg2vrYj6sUgpCDBqbs.png)    !important }
-.flair-nogglesflair               { background-image: url(https://b.thumbs.redditmedia.com/1iX1_39Q7aLYPUFlV882WvZTsZyU3kO4X7ZjNLmUIJY.png)    !important }
-.flair-miscellaneousflair         { background-image: url(https://b.thumbs.redditmedia.com/DpXvTQafMhIdYPBrZqtfaAIxEPF-Ofj_NOIi9n9QV3I.png)    !important }
+.flair-primewarframesflair        { background-image: url(https://b.thumbs.redditmedia.com/cG30o1y-imC-o2m1s3k1Wus0KogLbJSQFtFeQeevdPw.png)    !important; }
+.flair-regularwarframesflair      { background-image: url(https://a.thumbs.redditmedia.com/Ynvj3ztsN81TPsmw2T_9ri2b99Jo_dSKqGli3E6RFE8.png)    !important; }
+.flair-warframeskinsflair         { background-image: url(https://a.thumbs.redditmedia.com/OILHJlMP27lahjM1xlkyrlF771g1BauNZFkwwQFgfK0.png)    !important; }
+.flair-warframealthelmetsflair    { background-image: url(https://b.thumbs.redditmedia.com/DhbXgSgx6pb_poQhnJO6ocnxQqi1aRHzy_n88vg6HFY.png)    !important; }
+.flair-glyphsflair                { background-image: url(https://b.thumbs.redditmedia.com/krI1eT13PLOFV5E0tOEqXP7CdMg2vrYj6sUgpCDBqbs.png)    !important; }
+.flair-nogglesflair               { background-image: url(https://b.thumbs.redditmedia.com/1iX1_39Q7aLYPUFlV882WvZTsZyU3kO4X7ZjNLmUIJY.png)    !important; }
+.flair-miscellaneousflair         { background-image: url(https://b.thumbs.redditmedia.com/DpXvTQafMhIdYPBrZqtfaAIxEPF-Ofj_NOIi9n9QV3I.png)    !important; }
+.flair-removeflair                { background-image: url(https://a.thumbs.redditmedia.com/FJSVAwF93OHcseEP8EW02QS6ecrEf67W2a3di_gztY0.png)    !important; }
