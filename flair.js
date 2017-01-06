@@ -271,8 +271,7 @@ flair.names = {
     "51 glyphsflair winter-glyph-vii": "Winter Glyph VII",
 	
 	
-	/* Noggle Flairs (0-75) */	
-    "7 nogglesflair 002-er-noggle": "002-ER Noggle",
+	/* Noggle Flairs (0-71) */	
     "8 nogglesflair acolyte-angst-noggle": "Acolyte Angst Noggle",
     "9 nogglesflair acolyte-malice-noggle": "Acolyte Malice Noggle",
     "10 nogglesflair acolyte-mania-noggle": "Acolyte Mania Noggle",
@@ -290,15 +289,16 @@ flair.names = {
     "18 nogglesflair conculyst-noggle": "Conculyst Noggle",
     "19 nogglesflair elite-arid-lancer-noggle": "Elite Arid Lancer Noggle",
     "20 nogglesflair ember-noggle": "Ember Noggle",
-    "21 nogglesflair excalibur-prime-noggle": "Excalibur Prime Noggle",
+    "25 nogglesflair excalibur-prime-noggle": "Excalibur Prime Noggle",
     "22 nogglesflair excalibur-noggle": "Excalibur Noggle",
-    "23 nogglesflair excalibur-jade-noggle": "Excalibur (Jade) Noggle",
-    "24 nogglesflair excalibur-obsidian-noggle": "Excalibur (Obsidian) Noggle",
-    "25 nogglesflair excalibur-obsidian-azure-noggle": "Excalibur (Obsidian Azure) Noggle",
+    "21 nogglesflair excalibur-jade-noggle": "Excalibur (Jade) Noggle",
+    "25 nogglesflair excalibur-obsidian-noggle": "Excalibur (Obsidian) Noggle",
+    "24 nogglesflair excalibur-obsidian-azura-noggle": "Excalibur (Obsidian Azura) Noggle",
     "26 nogglesflair frost-noggle": "Frost Noggle",
     "4 nogglesflair general-sargas-ruk-noggle": "General Sargas Ruk Noggle",
     "27 nogglesflair hydroid-noggle": "Hydroid Noggle",
-    "28 nogglesflair hyekka-noggle": "Hyekka Noggle",
+    "28 nogglesflair hyekka-noggle": "Hyekka Noggle",    
+    "7 nogglesflair index-002-er-noggle": "002-ER Noggle",
     "29 nogglesflair index-armis-ulta-noggle": "Index Armis Ulta Noggle",
     "30 nogglesflair index-auditor-noggle": "Index Auditor Noggle",
     "31 nogglesflair index-azoth-noggle": "Index Azoth Noggle",
@@ -320,7 +320,6 @@ flair.names = {
     "5 nogglesflair the-lotus-noggle": "Lotus Noggle",
     "47 nogglesflair mag-noggle": "Mag Noggle",
     "48 nogglesflair mirage-noggle": "Mirage Noggle",
-    "49 nogglesflair misery-acolyte-noggle": "Misery Acolyte Noggle",
     "50 nogglesflair nekros-noggle": "Nekros Noggle",
     "51 nogglesflair nezha-noggle": "Nezha Noggle",
     "52 nogglesflair nova-noggle": "Nova Noggle",
@@ -343,10 +342,6 @@ flair.names = {
     "69 nogglesflair volt-noggle": "Volt Noggle",
     "70 nogglesflair wukong-noggle": "Wukong Noggle",
     "71 nogglesflair zephyr-noggle": "Zephyr Noggle",
-    /*"72 nogglesflair arid-lancer-noggle": "Arid Lancer Noggle",*/
-    /*"73 nogglesflair arid-lancer-alt-noggle": "Arid Lancer Alt Noggle",*/
-    /*"74 nogglesflair boril-noggle": "Boril Noggle",*/
-    /*"75 nogglesflair elite-lancer-noggle": "Elite Lancer Noggle",*/    
     "6 nogglesflair stalker-noggle": "??????? Noggle",
 	
 	
