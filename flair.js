@@ -40,12 +40,10 @@ flair.load__by_id = function() {
 }
 flair.by_id = {}
 flair.names = {
-/* [STANDARD] */
-	
-	/* Remove Flair */
-	"0 removeflair none": "Remove Flair",
+/* [STANDARD] */	
 	
 	/* Prime Warframe Flairs (0-14) */
+	"0 removeflair none": "Remove Flair",
 	"0 primewarframesflair ash-prime": "Ash Prime",
 	"1 primewarframesflair ember-prime": "Ember",
 	"2 primewarframesflair excalibur-prime": "Excalibur Prime",
@@ -64,6 +62,7 @@ flair.names = {
 	
 	
 	/* Regular Warframe Flairs (0-30) */
+	"0 removeflair none": "Remove Flair",
 	"0 regularwarframesflair ash": "Ash",
 	"1 regularwarframesflair atlas": "Atlas",
 	"2 regularwarframesflair banshee": "Banshee",
@@ -98,6 +97,7 @@ flair.names = {
 	
 	
 	/* Warframe Skins (0-32) */
+	"0 removeflair none": "Remove Flair",
 	"32 warframeskinsflair ash-koga-b": "Ash (Koga)",
 	"0 warframeskinsflair banshee-soprana": "Banshee (Soprana)",
 	"1 warframeskinsflair excalibur-jade": "Excalibur (Jade)",
@@ -134,6 +134,7 @@ flair.names = {
 	
 	
 	/* Warframe Alt Helmet Flairs (0-82) */
+	"0 removeflair none": "Remove Flair",
 	"82 warframealthelmetsflair ash-koga-h": "Ash (Koga)",
 	"0 warframealthelmetsflair ash-locust": "Ash (Locust)",
 	"1 warframealthelmetsflair ash-scorpion": "Ash (Scorpion)",
@@ -220,6 +221,7 @@ flair.names = {
 	
 	
 	/* Glyph Flairs (0-51) */
+	"0 removeflair none": "Remove Flair",
     "0 glyphsflair ash-in-action-glyph": "Ash in Action Glyph",
     "1 glyphsflair blood-lotus-glyph": "Blood Lotus Glyph",
     "2 glyphsflair butterfly-varna-glyph": "Butterfly Varna Glyph",
@@ -275,6 +277,7 @@ flair.names = {
 	
 	
 	/* Noggle Flairs (0-71) */	
+	"0 removeflair none": "Remove Flair",
     "7 nogglesflair index-002-er-noggle": "002-ER Noggle",
     "0 nogglesflair alad-v-noggle": "Alad V Noggle",
     "8 nogglesflair acolyte-angst-noggle": "Angst Noggle",
@@ -349,6 +352,7 @@ flair.names = {
 	
 	
 	/* Miscellaneous Flairs (0-26) */
+	"0 removeflair none": "Remove Flair",
 	"0 miscellaneousflair disciple": "Disciple Founder",
 	"1 miscellaneousflair hunter": "Hunter Founder",
 	"2 miscellaneousflair master": "Master Founder",
