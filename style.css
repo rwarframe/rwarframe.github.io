@@ -62,11 +62,18 @@ body {
 
 .spacer { margin: 5px 0; }
 
+#flair-selection-flair {
+    position: relative;
+    left: 180%;
+}
+
 #flair-selection-name {
     color: white !important;
     text-align: center;
     width: 185px;
     word-wrap: normal;
+    left: 25%;
+    position: relative;
 }
 
 select, input[type=text], input[type=number] {
@@ -122,6 +129,8 @@ label input[type=checkbox] + span { margin-left: 5px; }
     padding: 3px 0px 3px 0px;
     text-indent: 4px;
     width: 185px;
+    position: relative;
+    left: 25%;
 }
 
 #flair-filter-text, #flair-filter-sheet {
@@ -182,17 +191,26 @@ button, input[type=submit] {
     display: inline-block;
     margin: 0;
     padding: 0 8px 1px;
-    background-color: #14445B;
-    border: 1px solid #14445B;
     color: white !important;
     font-weight: 700;
     font-size: small;
     text-transform: capitalize;
     line-height: 26px;
     outline: 0 !important;
-    box-shadow: inset 0 1px 0 #14445B;
     cursor: pointer;
     width: 185px;
+}
+
+#flair-select-submit {
+    background-color: #14445B;
+    border: 1px solid #14445B;
+    box-shadow: inset 0 1px 0 #14445B;
+}
+
+#flair-remove-submit {
+    background-color: #D43117;
+    border: 1px solid #D43117;
+    box-shadow: inset 0 1px 0 #D43117;
 }
 
 button:hover, input[type=submit]:hover { background-color: #3F8FB5; }

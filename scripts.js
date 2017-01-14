@@ -120,6 +120,27 @@ flair.sendChoice = function() {
         subreddits)
 }
 
+
+flair.removeFlair = function() {
+    var flair_text = encodeURIComponent(document.getElementById('flair-selection-text').value);
+    var subreddits = '';
+    
+    if (flair_text.length == 0) {
+        flair_text = '%0A';
+    }
+    
+    var o = document.querySelectorAll('.sr-choice ');
+    for (var i = 0, len = o.length; i < len; i++) {
+        var sr_name = o[i].getAttribute('data-name');
+        if (o[i].querySelector('input[type=checkbox]').checked) {
+            subreddits += sr_name + ' ';
+        }
+    }
+    
+    window.open('https://www.reddit.com/message/compose/?to=CephalonKhuon&subject=0%20removeflair%20none&message=' +
+        flair_text + '%0A'+ subreddits)
+}
+
 flair.selectChoice = function(flair_id, key) {
     var el = document.querySelector('.flair-choice[data-id="'+flair_id+'"]');
     

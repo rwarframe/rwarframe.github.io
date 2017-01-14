@@ -42,10 +42,10 @@
                 <div class="fl">
                     <div id="flair-selection-name">Flair</div>
                     <input id="flair-selection-text" type="text" placeholder="Enter Flair Text" maxlength="64" />
-                    <p>Do <u><b>NOT</b></u> edit the private</p>
-                    <p>message before sending</p>
+                    <p>Do <u><b>NOT</b></u> edit the private message before sending</p>
                     <div class="spacer">
                         <button onclick="flair.sendChoice()" id="flair-select-submit">Send Flair Request</button>
+			<button onclick="flair.removeFlair()" id="flair-remove-submit">Remove Flair</button>
                     </div>
                 </div>
             </div>
@@ -68,10 +68,15 @@
                     <option value="ALL">All Flairs</option>
                     <option value="primewarframesflair">Prime Warframes</option>
                     <option value="regularwarframesflair">Regular Warframes</option>
-                    <option value="warframeskinsflair">Warframe Skins</option>
-                    <option value="warframealthelmetsflair">Warframe Alt Helmets</option>
+                    <option value="deluxewarframeskinsflair">Deluxe Warframe Skins/Helmets</option>
+                    <option value="tennogenwarframeskinsflair">TennoGen Warframe Skins</option>
+                    <option value="immortalwarframeskinsflair">Immortal Warframe Skins</option>
+                    <option value="otherwarframeskinsflair">Other Warframe Skins</option>
+                    <option value="tennogenwarframehelmetsflair">TennoGen Warframe Helmets</option>
+                    <option value="otherwarframehelmetsflair">Other Warframe Helmets</option>
                     <option value="glyphsflair">Glyphs</option>
-                    <option value="nogglesflair">Noggles</option>                    
+                    <option value="nogglesflair">Noggles</option>
+                    <option value="sigilsflair">Sigils</option>
                     <option value="miscellaneousflair">Miscellaneous</option>
                 </select>
             </label>
