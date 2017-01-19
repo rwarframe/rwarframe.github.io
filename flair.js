@@ -591,7 +591,7 @@ flair.names = {
     "131 sigilsflair year-monquis-world-sigil": "Monquis (International) sigil",
     
     
-    /* Miscellaneous Flairs (0-26) */
+    /* Miscellaneous Flairs (0-27) */
     "0 miscellaneousflair disciple": "Disciple Founder (PC Founders exclusive)",
     "1 miscellaneousflair hunter": "Hunter Founder (PC Founders exclusive)",
     "2 miscellaneousflair master": "Master Founder (PC Founders exclusive)",
@@ -610,5 +610,6 @@ flair.names = {
     "15 miscellaneousflair kavat-d": "Kavat",
     "16 miscellaneousflair pc": "PC",
     "17 miscellaneousflair ps4": "PS4",
-    "18 miscellaneousflair xb1": "XB1"
+    "18 miscellaneousflair xb1": "XB1",
+    "27 miscellaneousflair forma": "Forma"
 };
