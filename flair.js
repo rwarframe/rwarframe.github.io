@@ -202,7 +202,7 @@ flair.names = {
     "10 tennogenwarframehelmetsflair excalibur-arturius-helmet": "Excalibur Arturius helmet (Steam exclusive by [k a z])",
     "11 tennogenwarframehelmetsflair excalibur-caduto-helmet": "Excalibur Caduto helmet (Steam exclusive by Hitsu San)",
     "12 tennogenwarframehelmetsflair excalibur-graxx-helmet": "Excalibur Graxx helmet (Steam exclusive by Faven_PS)",
-    "13 tennogenwarframehelmetsflair excalibur-graxx-alt-helmet": "Excalibur Graxx Alt helmet (Steam exclusive by Faven_PS)",
+    "13 tennogenwarframehelmetsflair excalibur-graxx-alt-helmet": "Excalibur Graxx-v2 helmet (Steam exclusive by Faven_PS)",
     "14 tennogenwarframehelmetsflair excalibur-isurus-helmet": "Excalibur Isurus helmet (Steam exclusive by Coridium)",
     "15 tennogenwarframehelmetsflair excalibur-ogrant-helmet": "Excalibur Ogrant helmet (Steam exclusive by lokimonkeye)",
     "16 tennogenwarframehelmetsflair excalibur-sentient-slayer-helmet": "Excalibur Sentient Slayer helmet (Steam exclusive by CommanderApocalypse)",
@@ -592,24 +592,24 @@ flair.names = {
     
     
     /* Miscellaneous Flairs (0-27) */
+    "27 miscellaneousflair forma": "Forma",
     "0 miscellaneousflair disciple": "Disciple Founder (PC Founders exclusive)",
     "1 miscellaneousflair hunter": "Hunter Founder (PC Founders exclusive)",
     "2 miscellaneousflair master": "Master Founder (PC Founders exclusive)",
     "3 miscellaneousflair grandmaster": "Grand Master Founder (PC Founders exclusive)",
     /*"4 miscellaneousflair revive": "Moderator",*/
     /*"5 miscellaneousflair lotus": "DE Employee",*/
+    "12 miscellaneousflair kavat-a": "Kavat",
+    "13 miscellaneousflair kavat": "Kavat",
+    "14 miscellaneousflair kavat-c": "Kavat",
+    "15 miscellaneousflair kavat-d": "Kavat",
     "6 miscellaneousflair kubrow": "Kubrow",
     "7 miscellaneousflair kubrow-chesa": "Kubrow (Chesa)",
     "8 miscellaneousflair kubrow-huras": "Kubrow (Huras)",
     "9 miscellaneousflair kubrow-raksa": "Kubrow (Raksa)",
     "10 miscellaneousflair kubrow-sahasa": "Kubrow (Sahasa)",
     "11 miscellaneousflair kubrow-sunika": "Kubrow (Sunika)",
-    "12 miscellaneousflair kavat-a": "Kavat",
-    "13 miscellaneousflair kavat": "Kavat",
-    "14 miscellaneousflair kavat-c": "Kavat",
-    "15 miscellaneousflair kavat-d": "Kavat",
     "16 miscellaneousflair pc": "PC",
     "17 miscellaneousflair ps4": "PS4",
-    "18 miscellaneousflair xb1": "XB1",
-    "27 miscellaneousflair forma": "Forma"
+    "18 miscellaneousflair xb1": "XB1"
 };
