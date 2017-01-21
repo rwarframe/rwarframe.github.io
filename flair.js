@@ -403,7 +403,7 @@ flair.names = {
     "25 nogglesflair excalibur-prime-noggle": "Excalibur Prime noggle (PC Founders exclusive)",
     "22 nogglesflair excalibur-noggle": "Excalibur noggle",
     "21 nogglesflair excalibur-jade-noggle": "Jade Excalibur noggle (XB1 exclusive)",
-    "25 nogglesflair excalibur-obsidian-noggle": "Obsidian Excalibur noggle (PS4 exclusive)",
+    "23 nogglesflair excalibur-obsidian-noggle": "Obsidian Excalibur noggle (PS4 exclusive)",
     "24 nogglesflair excalibur-obsidian-azura-noggle": "Obsidian Azura Excalibur noggle (PS4 exclusive)",
     "32 nogglesflair index-derim-zahn-noggle": "Index Claims Investigation Broker Derim Zahn noggle",
     "35 nogglesflair index-jen-dro-noggle": "Index Claims Investigation Broker Jen Dro noggle",
