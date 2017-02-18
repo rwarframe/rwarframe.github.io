@@ -293,8 +293,8 @@ flair.names = {
     "11 otherwarframehelmetsflair excalibur-avalon-helmet": "Excalibur Avalon helmet",
     /*"12 otherwarframehelmetsflair excalibur-jade-helmet": "Excalibur Jade helmet (XB1 exclusive)",*/
     "13 otherwarframehelmetsflair excalibur-mordred-helmet": "Excalibur Mordred helmet",
-    "14 otherwarframehelmetsflair excalibur-obsidian-helmet": "Excalibur Obsidian helmet",
-    "15 otherwarframehelmetsflair excalibur-obsidian-azura-helmet": "Excalibur Obsidian Azura helmet",
+    "14 otherwarframehelmetsflair excalibur-obsidian-helmet": "Excalibur Obsidian helmet (PS4 exclusive)",
+    "15 otherwarframehelmetsflair excalibur-obsidian-azura-helmet": "Excalibur Obsidian Azura helmet (PS4 exclusive)",
     "16 otherwarframehelmetsflair excalibur-pendragon-helmet": "Excalibur Pendragon helmet",
     "17 otherwarframehelmetsflair excalibur-prisma-helmet": "Excalibur Prisma helmet",
     "18 otherwarframehelmetsflair excalibur-prisma-avalon-helmet": "Excalibur Prisma Avalon helmet",
@@ -365,13 +365,13 @@ flair.names = {
     /*"12 companionsflair carrier-para-bundle": "Carrier Para Bundle",*/
     /*"13 companionsflair dethcube-carabus-skin": "Dethcube Carabus skin",*/
     /*"14 companionsflair dethcube-forest-camo-skin": "Dethcube Forest-Camo skin",*/
-    "15 companionsflair dethcube-jade-skin": "Dethcube Jade skin (XB1 Exclusive)",
+    "15 companionsflair dethcube-jade-skin": "Dethcube Jade skin (XB1 exclusive)",
     /*"16 companionsflair diriga-nightwatch-skin": "Diriga Nightwatch skin",*/
     "17 companionsflair djinn-gazal-skin": "Djinn Gazal skin",
-    "18 companionsflair helios-obsidian-skin": "Helios Obsidian skin (PS4 Exclusive)",
+    "18 companionsflair helios-obsidian-skin": "Helios Obsidian skin (PS4 exclusive)",
     /*"19 companionsflair helios-simaris-skin": "Helios Simaris skin",*/
     /*"20 companionsflair shade-sprite-skin": "Shade Sprite skin",*/
-    /*"21 companionsflair wyrm-obsidian-skin": "Wyrm Obsidian skin (PS4 Exclusive)",*/
+    /*"21 companionsflair wyrm-obsidian-skin": "Wyrm Obsidian skin (PS4 exclusive)",*/
     "22 companionsflair kavat-a": "Kavat",
     "23 companionsflair kavat-b": "Kavat",
     "24 companionsflair kavat-c": "Kavat",
