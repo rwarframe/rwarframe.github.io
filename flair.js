@@ -365,13 +365,13 @@ flair.names = {
     /*"12 companionsflair carrier-para-bundle": "Carrier Para Bundle",*/
     /*"13 companionsflair dethcube-carabus-skin": "Dethcube Carabus skin",*/
     /*"14 companionsflair dethcube-forest-camo-skin": "Dethcube Forest-Camo skin",*/
-    "15 companionsflair dethcube-jade-skin": "Dethcube Jade skin",
+    "15 companionsflair dethcube-jade-skin": "Dethcube Jade skin (XB1 Exclusive)",
     /*"16 companionsflair diriga-nightwatch-skin": "Diriga Nightwatch skin",*/
     "17 companionsflair djinn-gazal-skin": "Djinn Gazal skin",
-    "18 companionsflair helios-obsidian-skin": "Helios Obsidian skin",
+    "18 companionsflair helios-obsidian-skin": "Helios Obsidian skin (PS4 Exclusive)",
     /*"19 companionsflair helios-simaris-skin": "Helios Simaris skin",*/
     /*"20 companionsflair shade-sprite-skin": "Shade Sprite skin",*/
-    /*"21 companionsflair wyrm-obsidian-skin": "Wyrm Obsidian skin",*/
+    /*"21 companionsflair wyrm-obsidian-skin": "Wyrm Obsidian skin (PS4 Exclusive)",*/
     "22 companionsflair kavat-a": "Kavat",
     "23 companionsflair kavat-b": "Kavat",
     "24 companionsflair kavat-c": "Kavat",
