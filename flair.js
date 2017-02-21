@@ -278,7 +278,7 @@ flair.names = {
     "66 tennogenwarframehelmetsflair zephyr-skeiron-helmet": "Zephyr Skeiron helmet (by novadragon01)",
 
         
-    /* Other Warframe Helmets (0-67) */
+    /* Other Warframe Helmets (0-69) */
     "0 otherwarframehelmetsflair ash-locust-helmet": "Ash Locust helmet",
     "1 otherwarframehelmetsflair ash-scorpion-helmet": "Ash Scorpion helmet",
     "2 otherwarframehelmetsflair atlas-shikoro-helmet": "Atlas Shikoro helmet",
@@ -289,6 +289,8 @@ flair.names = {
     "7 otherwarframehelmetsflair chroma-drac-helmet": "Chroma Drac helmet",
     "8 otherwarframehelmetsflair ember-backdraft-helmet": "Ember Backdraft helmet",
     "9 otherwarframehelmetsflair ember-phoenix-helmet": "Ember Phoenix helmet",
+    "68 otherwarframehelmetsflair equinox-day-helmet": "Equinox Day helmet",
+    "69 otherwarframehelmetsflair equinox-night-helmet": "Equinox Night helmet",
     "10 otherwarframehelmetsflair equinox-solstice-helmet": "Equinox Solstice helmet",
     "11 otherwarframehelmetsflair excalibur-avalon-helmet": "Excalibur Avalon helmet",
     /*"12 otherwarframehelmetsflair excalibur-jade-helmet": "Excalibur Jade helmet (XB1 exclusive)",*/
