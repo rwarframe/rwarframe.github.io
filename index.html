@@ -1,90 +1,121 @@
 <!doctype html>
 <html>
 	<head>
-	    <meta charset="utf-8">
-	    <title>Warframe Flair Selector</title>
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-	    <meta name="viewport" content="width=device-width, initial-scale=1">
-	    
-	    <!-- Stylesheets -->
-	    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans:300italic,400italic,600italic,700italic,400,300,600,700" type="text/css" media="all">
-	    <link rel="stylesheet" href="style.css" type="text/css" media="all">
-	    <link rel="stylesheet" href="flair.css" type="text/css" media="all">
-	    
-	    <!-- JavaScript -->
-	    <script>var flair = {};</script>
-	    <script type="text/javascript" src="flair.js"></script>
-	    <script type="text/javascript" src="scripts.js"></script>
+		<meta charset="utf-8">
+		<title>Warframe Flair Selector</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!-- Stylesheets -->
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans:300italic,400italic,600italic,700italic,400,300,600,700" type="text/css" media="all">
+		<link rel="stylesheet" href="style.css" type="text/css" media="all">
+		<link rel="stylesheet" href="flair.css" type="text/css" media="all">
+		
+		<!-- JavaScript -->
+		<script>var flair = {};</script>
+		<script type="text/javascript" src="flair.js"></script>
+		<script type="text/javascript" src="scripts.js"></script>
 	</head>
 	<body>
-	    <noscript>JavaScript is required to run this page.</noscript>
-	    <h2><i>Credit for this flair selector goes to the moderators of <a href="https://www.reddit.com/r/Pokemon">/r/Pokémon</a></i></h2>
-	    <div class="wrapper no-style no-margin">
-	        <a id="help-link" href="#" onclick="n.toggleClass('#help-bubble', 'hide');return false">Need help or found a bug?</a>
-	    </div>
-	    <div id="help-bubble" class="wrapper no-margin hide">
-	        <h3>Help Info</h3>
+		<noscript>JavaScript is required to run this page.</noscript>
+		<h2><i>Credit for this flair selector goes to the moderators of <a href="https://www.reddit.com/r/Pokemon">/r/Pokémon</a></i></h2>
+		<div class="wrapper no-style no-margin">
+			<a id="help-link" href="#" onclick="n.toggleClass('#help-bubble', 'hide');return false">Need help or found a bug?</a>
+		</div>
+		<div id="help-bubble" class="wrapper no-margin hide">
+			<h3>Help Info</h3>
 	
-	        <p><b>Usage</b>: click on a flair below, using either of the two filters to narrow your search. You can enter
-	        custom flair text in the field that says "Enter Flair Text"; this is the text that goes next to your flair image on the subreddit(s).</p>
-	        
-	        <p>Once happy with your selection, click "Send Flair Request" which will open up a message form to /u/CephalonKhuon.
-	        Do <b>not</b> change anything; just click send. You should receive a reply from the bot within several minutes notifying
-	        you that it has received your message and has changed your flair.</p>
-	        
-	        <p><b>Found a bug?</b><br/>
-	        Please <a href="https://www.reddit.com/message/compose?to=Khuon&subject=Flair%20Selector">message /u/Khuon</a> if you need additional help or found a problem/bug.</p>
-	    </div>
-	    <div class="wrapper">
-	        <div id="flair-selection" class="center">
-	            <div class="cf">
-	                <div class="fl" style="margin-right:8px">
-	                    <div id="flair-selection-flair" class="flair"></div>
-	                </div>
-	                <div class="fl">
-	                    <div id="flair-selection-name">Flair</div>
-	                    <input id="flair-selection-text" type="text" placeholder="Enter Flair Text" maxlength="64" />
-	                    <p>After sending your flair request, do <u><b>NOT</b></u> edit the private message on the next screen</p>
-	                    <div class="spacer">
-	                        <button onclick="flair.sendChoice()" id="flair-select-submit">Send Flair Request</button>
+			<p><b>Usage</b>: click on a flair below, using either of the two filters to narrow your search. You can enter
+			custom flair text in the field that says "Enter Flair Text"; this is the text that goes next to your flair image on the subreddit(s).</p>
+			
+			<p>Once happy with your selection, click "Send Flair Request" which will open up a message form to /u/CephalonKhuon.
+			Do <b>not</b> change anything; just click send. You should receive a reply from the bot within several minutes notifying
+			you that it has received your message and has changed your flair.</p>
+			
+			<p><b>Found a bug?</b><br/>
+			Please <a href="https://www.reddit.com/message/compose?to=Khuon&subject=Flair%20Selector">message /u/Khuon</a> if you need additional help or found a problem/bug.</p>
+		</div>
+		<div class="wrapper">
+			<div id="flair-selection" class="center">
+				<div class="cf">
+					<div class="fl" style="margin-right:8px">
+						<div id="flair-selection-flair" class="flair"></div>
+					</div>
+					<div class="fl">
+						<div id="flair-selection-name">Flair</div>
+						<input id="flair-selection-text" type="text" placeholder="Enter Flair Text" maxlength="64" />
+						<p>After sending your flair request, do <u><b>NOT</b></u> edit the private message on the next screen</p>
+						<div class="spacer">
+							<button onclick="flair.sendChoice()" id="flair-select-submit">Send Flair Request</button>
 				<button onclick="flair.removeFlair()" id="flair-remove-submit">Remove Flair</button>
-	                    </div>
-	                </div>
-	            </div>
-	        </div>
-	    </div>
-	    <div id="subreddit-wrapper" class="wrapper">
-	        <div class="center spacer">
-	            <h4>Select Subreddits:</h4>
-	        </div>
-	        <div id="subreddit-selection" class="center">
-	        </div>
-	    </div>
-	    <div class="wrapper">
-	        <div id="flair-filter" class="center" style="-webkit-justify-content:space-between;justify-content:space-between;">
-	            <input id="flair-filter-text" type="text" placeholder="Search"
-	                onkeyup="flair.updateFilter(this.value)" onchange="flair.updateFilter(this.value)" />
-	            <label for="flair-filter-sheet">
-	                <span>Filter by Category:</span>
-	                <select id="flair-filter-sheet" onchange="flair.updateCategoryFilter(this.value)">
-	                    <option value="ALL">All Flairs</option>
-	                    <option value="primewarframesflair">Prime Warframes</option>
-	                    <option value="regularwarframesflair">Regular Warframes</option>
-	                    <option value="deluxewarframeskinsflair">Deluxe Warframe Skins/Helmets</option>
-	                    <option value="tennogenwarframeskinsflair">TennoGen Warframe Skins</option>
-	                    <option value="immortalwarframeskinsflair">Immortal Warframe Skins</option>
-	                    <option value="otherwarframeskinsflair">Other Warframe Skins</option>
-	                    <option value="tennogenwarframehelmetsflair">TennoGen Warframe Helmets</option>
-	                    <option value="otherwarframehelmetsflair">Other Warframe Helmets</option>
-	                    <option value="companionsflair">Companions</option>
-	                    <option value="glyphsflair">Glyphs</option>
-	                    <option value="sigilsflair">Sigils</option>
-	                    <option value="nogglesflair">Noggles</option>
-	                    <option value="miscellaneousflair">Miscellaneous</option>
-	                </select>
-	            </label>
-	        </div>
-	        <div id="flair-choices"></div>
-	    </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="subreddit-wrapper" class="wrapper">
+			<div class="center spacer">
+				<h4>Select Subreddits:</h4>
+			</div>
+			<div id="subreddit-selection" class="center">
+			</div>
+		</div>
+		<div class="wrapper">
+			<div id="flair-filter" class="center" style="-webkit-justify-content:space-between;justify-content:space-between;">
+				<input id="flair-filter-text" type="text" placeholder="Search"
+					onkeyup="flair.updateFilter(this.value)" onchange="flair.updateFilter(this.value)" />
+				<label for="flair-filter-sheet">
+					<span>Filter by Category:</span>
+					<select id="flair-filter-sheet" onchange="flair.updateCategoryFilter(this.value)">
+						<optgroup label="All Flairs">
+							<option value="ALL">All Flairs</option>
+						</optgroup>
+
+						<optgroup label="Warframes">
+							<option value="primewarframesflair">Prime Warframes</option>
+							<!--<option value="umbrawarframesflair">Umbra Warframes</option>-->
+							<option value="regularwarframesflair">Regular Warframes</option>
+						</optgroup>
+
+						<optgroup label="Warframe Skins">
+							<option value="deluxewarframeskinsflair">Deluxe Warframe Skins</option>
+							<option value="tennogenwarframeskinsflair">TennoGen Warframe Skins</option>
+							<option value="immortalwarframeskinsflair">Immortal Warframe Skins</option>
+							<option value="otherwarframeskinsflair">Other Warframe Skins</option>
+						</optgroup>
+
+						<optgroup label="Warframe Helmets">
+							<option value="deluxewarframehelmetsflair">Deluxe Warframe Helmets</option>
+							<option value="tennogenwarframehelmetsflair">TennoGen Warframe Helmets</option>
+							<option value="otherwarframehelmetsflair">Other Warframe Helmets</option>
+						</optgroup>
+
+						<optgroup label="Archwings and Operators">
+							<option value="archwingsflair">Archwings</option>
+							<option value="operatorsflair">Operators</option>
+						</optgroup>
+
+						<optgroup label="Companions">
+							<option value="sentinelsflair">Sentinels</option>
+							<option value="kavatsflair">Kavats</option>
+							<option value="kubrowsflair">Kubrows</option>
+						</optgroup>
+
+						<optgroup label="Glyphs, Sigils, and Noggles">
+							<option value="glyphsflair">Glyphs</option>
+							<option value="sigilsflair">Sigils</option>
+							<!--<option value="emblemsflair">Emblems/Badges</option>-->
+							<option value="nogglesflair">Noggles</option>
+						</optgroup>
+
+						<optgroup label="Miscellaneous">
+							<option value="landingcraftsflair">Landing Crafts</option>
+							<option value="miscellaneousflair">Miscellaneous</option>
+						</optgroup>
+					</select>
+				</label>
+			</div>
+			<div id="flair-choices"></div>
+		</div>
 	</body>
 </html>
