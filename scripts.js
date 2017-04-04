@@ -6,6 +6,7 @@ flair.typing_timeout = null;
 flair.subreddits = [
     'Warframe',
     'KubrowKennel',
+    'MandachordMelodies',
     'MemeFrame',
     'NSFWarframe',
     'RivenFrame',
