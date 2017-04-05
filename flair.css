@@ -4,33 +4,33 @@
 
 /*= SPRITESHEETS =*/
 
-.flair-primewarframesflair          { background-image: url(https://b.thumbs.redditmedia.com/42T2CFKqBXQDQ1MsqN6-_s2Mid99nWyCraeuNZCVQIo.png) !important; }
-.flair-umbrawarframesflair          { background-image: url(https://b.thumbs.redditmedia.com/42T2CFKqBXQDQ1MsqN6-_s2Mid99nWyCraeuNZCVQIo.png) !important; }
-.flair-regularwarframesflair        { background-image: url(https://b.thumbs.redditmedia.com/14aS8dp775C9Y_Y353zygep6vpl33QwMXdosMNx-a-Q.png) !important; }
+.flair-primewarframesflair          { background-image: url(spritesheets/primeandumbrawarframesflair.png) !important; }
+.flair-umbrawarframesflair          { background-image: url(spritesheets/primeandumbrawarframesflair.png) !important; }
+.flair-regularwarframesflair        { background-image: url(spritesheets/warframesarchwingsandoperatorsflair.png) !important; }
 
-.flair-deluxewarframeskinsflair     { background-image: url(https://b.thumbs.redditmedia.com/_y9gNwQteltLcysqSCHgS_b64DL0X1Od37ZrUds3YoQ.png) !important; }
-.flair-tennogenwarframeskinsflair   { background-image: url(https://b.thumbs.redditmedia.com/NJl0FTBsvc67GwTL3OFFoX3Nj6hmcCI3mA9Lp8kq4oU.png) !important; }
-.flair-immortalwarframeskinsflair   { background-image: url(https://b.thumbs.redditmedia.com/W-quq6RJNUHMUK3vIKW85mAYjEUTRPBjg-umdVXwzKc.png) !important; }
-.flair-otherwarframeskinsflair      { background-image: url(https://b.thumbs.redditmedia.com/MnT23ywLZSFO1oy2yT64Wm4aJULjl_RJYbskF501-0w.png) !important; }
+.flair-deluxewarframeskinsflair     { background-image: url(spritesheets/deluxewarframeskinsflair.png) !important; }
+.flair-tennogenwarframeskinsflair   { background-image: url(spritesheets/tennogenwarframeskinsflair.png) !important; }
+.flair-immortalwarframeskinsflair   { background-image: url(spritesheets/immortalwarframeskinsflair.png) !important; }
+.flair-otherwarframeskinsflair      { background-image: url(spritesheets/otherwarframeskinsflair.png) !important; }
 
-.flair-deluxewarframehelmetsflair   { background-image: url(https://b.thumbs.redditmedia.com/_y9gNwQteltLcysqSCHgS_b64DL0X1Od37ZrUds3YoQ.png) !important; }
-.flair-tennogenwarframehelmetsflair { background-image: url(https://b.thumbs.redditmedia.com/cQ341-lprvvXAjIPDCpA1uRkEHEG8AyqIxiruoKp6VU.png) !important; }
-.flair-otherwarframehelmetsflair    { background-image: url(https://b.thumbs.redditmedia.com/EuWKzFCEKLET_bPdhWq4ugInZW7KseYtfUDdDrwpEAY.png) !important; }
+.flair-deluxewarframehelmetsflair   { background-image: url(spritesheets/deluxewarframeskinsflair.png) !important; }
+.flair-tennogenwarframehelmetsflair { background-image: url(spritesheets/tennogenwarframehelmetsflair.png) !important; }
+.flair-otherwarframehelmetsflair    { background-image: url(spritesheets/otherwarframehelmetsflair.png) !important; }
 
-.flair-archwingsflair               { background-image: url(https://b.thumbs.redditmedia.com/14aS8dp775C9Y_Y353zygep6vpl33QwMXdosMNx-a-Q.png) !important; }
-.flair-operatorsflair               { background-image: url(https://b.thumbs.redditmedia.com/14aS8dp775C9Y_Y353zygep6vpl33QwMXdosMNx-a-Q.png) !important; }
+.flair-archwingsflair               { background-image: url(spritesheets/warframesarchwingsandoperatorsflair.png) !important; }
+.flair-operatorsflair               { background-image: url(spritesheets/warframesarchwingsandoperatorsflair.png) !important; }
 
-.flair-companionsflair              { background-image: url(https://b.thumbs.redditmedia.com/-2OXkdXMv665rZRHt6wwCm8VFiWR-UZCWd8UMIcuXAc.png) !important; }
-.flair-sentinelsflair               { background-image: url(https://b.thumbs.redditmedia.com/-2OXkdXMv665rZRHt6wwCm8VFiWR-UZCWd8UMIcuXAc.png) !important; }
-.flair-kavatsflair                  { background-image: url(https://b.thumbs.redditmedia.com/-2OXkdXMv665rZRHt6wwCm8VFiWR-UZCWd8UMIcuXAc.png) !important; }
-.flair-kubrowsflair                 { background-image: url(https://b.thumbs.redditmedia.com/-2OXkdXMv665rZRHt6wwCm8VFiWR-UZCWd8UMIcuXAc.png) !important; }
+.flair-companionsflair              { background-image: url(spritesheets/companionsflair.png) !important; }
+.flair-sentinelsflair               { background-image: url(spritesheets/companionsflair.png) !important; }
+.flair-kavatsflair                  { background-image: url(spritesheets/companionsflair.png) !important; }
+.flair-kubrowsflair                 { background-image: url(spritesheets/companionsflair.png) !important; }
 
-.flair-glyphsflair                  { background-image: url(https://b.thumbs.redditmedia.com/mw8KbhAvKW7yh9Rj1Jh3Ol3GUHdf_hQ7W0TzEhMywAA.png) !important; }
-.flair-emblemsflair                 { background-image: url(https://b.thumbs.redditmedia.com/mw8KbhAvKW7yh9Rj1Jh3Ol3GUHdf_hQ7W0TzEhMywAA.png) !important; }
-.flair-contentcreatorglyphsflair    { background-image: url(https://b.thumbs.redditmedia.com/mw8KbhAvKW7yh9Rj1Jh3Ol3GUHdf_hQ7W0TzEhMywAA.png) !important; }
+.flair-glyphsflair                  { background-image: url(spritesheets/glyphsandemblemsflair.png) !important; }
+.flair-emblemsflair                 { background-image: url(spritesheets/glyphsandemblemsflair.png) !important; }
+.flair-contentcreatorglyphsflair    { background-image: url(spritesheets/glyphsandemblemsflair.png) !important; }
 
-.flair-sigilsflair                  { background-image: url(https://a.thumbs.redditmedia.com/UcQSa6hLJXrtfvRFbHsOyKsWDdA80RFJpvOyOq9lWK4.png) !important; }
-.flair-nogglesflair                 { background-image: url(https://b.thumbs.redditmedia.com/PP1_0n2Z_o81mDlvIOplfDbNZx-tzjoWarIS6R9GSRk.png) !important; }
+.flair-sigilsflair                  { background-image: url(spritesheets/sigilsflair.png) !important; }
+.flair-nogglesflair                 { background-image: url(spritesheets/nogglesflair.png) !important; }
 
-.flair-landingcraftsflair           { background-image: url(https://a.thumbs.redditmedia.com/4ZD0NsCHj2j_TDRViZZKpRFchMmsv5_a-rnwg4tH7a8.png) !important; }
-.flair-miscellaneousflair           { background-image: url(https://a.thumbs.redditmedia.com/4ZD0NsCHj2j_TDRViZZKpRFchMmsv5_a-rnwg4tH7a8.png) !important; }
+.flair-landingcraftsflair           { background-image: url(spritesheets/miscellaneousflair.png) !important; }
+.flair-miscellaneousflair           { background-image: url(spritesheets/miscellaneousflair.png) !important; }
