@@ -442,8 +442,9 @@ flair.names = {
 	"156 operatorsflair varida-operator-suit-bundle": "Varida operator suit (Operator Suit Collection)",
 
 	
-	/* Companions (0-78) */
+	/* Companions (0-79) */
 	"0 sentinelsflair carrier-prime": "Carrier Prime",
+	"79 sentinelsflair helios-prime": "Helios Prime",
 	"1 sentinelsflair wyrm-prime": "Wyrm Prime",
 	"2 sentinelsflair shade-prisma": "Shade Prisma skin",
 	"3 sentinelsflair carrier": "Carrier",
