@@ -254,7 +254,7 @@ flair.names = {
 	/*"53 deluxewarframehelmetsflair loki-knave-helmet": "Loki Knave helmet",*/
 	/*"54 deluxewarframehelmetsflair nova-asuri-helmet": "Nova Asuri helmet",*/
 	"55 deluxewarframehelmetsflair nyx-nemesis-helmet": "Nyx Nemesis helmet",
-	/*"56 deluxewarframehelmetsflair oberon-feyarch-helmet": "Oberon Feyarch helmet",*/
+	"56 deluxewarframehelmetsflair oberon-feyarch-helmet": "Oberon Feyarch helmet",
 	/*"57 deluxewarframehelmetsflair rhino-palatine-helmet": "Rhino Palatine helmet",*/
 	/*"58 deluxewarframehelmetsflair saryn-orphid-helmet": "Saryn Orphid helmet",*/
 	/*"59 deluxewarframehelmetsflair trinity-strega-helmet": "Trinity Strega helmet",*/
