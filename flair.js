@@ -633,7 +633,7 @@ flair.names = {
 	"51 glyphsflair winter-vii-glyph": "Winter VII glyph (winter exclusive)",
 	
 	
-	/* sigils (0-206)*/	
+	/* sigils (0-207)*/	
 	"198 sigilsflair assassin-grustrag-3-sigil": "Grustrag 3 sigil",
 	"199 sigilsflair assassin-stalker-sigil-red": "Stalker sigil (red)",
 	"200 sigilsflair assassin-stalker-sigil": "Stalker sigil",
@@ -826,6 +826,7 @@ flair.names = {
 	"117 sigilsflair login-eternal-stasis-sigil": "Eternal Stasis sigil (login reward)",
 	"118 sigilsflair login-solar-flare-sigil": "Solar Flare sigil (login reward)",
 	"206 sigilsflair login-void-gate-sigil": "Void Gate sigil (login reward)",
+	"207 sigilsflair login-lotus-deliverance-sigil": "Lotus Deliverance sigil (login reward)",
 	"119 sigilsflair prisma-sigil": "Prisma sigil",
 	"120 sigilsflair rhino-palatine-sigil": "Rhino Palatine sigil",
 	"121 sigilsflair rift-sigil": "Rift sigil",
