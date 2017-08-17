@@ -321,7 +321,7 @@ flair.names = {
 	"22 tennogenwarframehelmetsflair frost-summit-helmet": "Frost Summit helmet (by artarrwen)",
 	"23 tennogenwarframehelmetsflair frost-vojnik-helmet": "Frost Vojnik Battle-Damaged helmet (by Volkovyi)",
 	"24 tennogenwarframehelmetsflair frost-zastruga-helmet": "Frost Zastruga helmet (by Rekkou)",
-	/*"91 tennogenwarframehelmetsflair hydroid-graxx-helmet": "Hydroid Graxx Helmet (by Faven_PS)",*/
+	"91 tennogenwarframehelmetsflair hydroid-graxx-helmet": "Hydroid Graxx Helmet (by Faven_PS)",
 	"68 tennogenwarframehelmetsflair hydroid-rorqual-helmet": "Hydroid Rorqual helmet (by Rekkou)",
 	"79 tennogenwarframehelmetsflair ivara-arcuata-helmet": "Ivara Arcuata helmet (by Stenchfury)",
 	"80 tennogenwarframehelmetsflair ivara-youkai-helmet": "Ivara Youkai helmet (by HitsuSan)",
