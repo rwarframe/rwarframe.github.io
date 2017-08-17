@@ -159,13 +159,16 @@ flair.names = {
 	"10 deluxewarframeskinsflair valkyr-gersemi-skin": "Valkyr Gersemi skin",
 
 		
-	/* TennoGen Warframe Skins (0-46)*/
+	/* TennoGen Warframe Skins (0-55)*/
 	"33 tennogenwarframeskinsflair ash-bai-hu-skin": "Ash Bai Hu skin (by Hitsu San)",
+	"47 tennogenwarframeskinsflair ash-tsukuyomi-skin": "Ash Tsukuyomi Skin (by Yatus)",
+	"48 tennogenwarframeskinsflair atlas-monolith-skin": "Atlas Monolith Skin (by stenchfury)",
 	"0 tennogenwarframeskinsflair chroma-drevni-skin": "Chroma Drevni skin (by Volkovyi)",
 	"1 tennogenwarframeskinsflair chroma-vojnik-skin": "Chroma Vojnik Battle-Damaged skin (by Volkovyi)",
 	"2 tennogenwarframeskinsflair ember-graxx-skin": "Ember Graxx skin (by Faven_PS)",
 	"40 tennogenwarframeskinsflair ember-ignition-skin": "Ember Ignition skin (by Kaiceps)",
 	"41 tennogenwarframeskinsflair ember-magesty-skin": "Ember Magesty skin (by Prosetisen and Cheshire)",
+	"49 tennogenwarframeskinsflair equinox-insomnia-skin": "Equinox Insomnia Skin (by prosetisen)",
 	"3 tennogenwarframeskinsflair excalibur-apex-skin": "Excalibur Apex skin (by antoineflemming)",
 	"4 tennogenwarframeskinsflair excalibur-caduto-skin": "Excalibur Caduto skin (by Hitsu San)",
 	"5 tennogenwarframeskinsflair excalibur-graxx-skin": "Excalibur Graxx skin (by Faven_PS)",
@@ -175,28 +178,34 @@ flair.names = {
 	"9 tennogenwarframeskinsflair frost-grost-skin": "Frost Grost skin (by Faven_PS)",
 	"10 tennogenwarframeskinsflair frost-hailstorm-skin": "Frost Hailstorm skin (by Arsenal)",
 	"11 tennogenwarframeskinsflair frost-vojnik-skin": "Frost Vojnik Battle-Damaged skin (by Volkovyi)",
+	"50 tennogenwarframeskinsflair hydroid-graxx-skin": "Hydroid Graxx Skin (by Faven_PS)",
 	"42 tennogenwarframeskinsflair ivara-arcuata-skin": "Ivara Arcuata skin (by Stenchfury)",
 	"43 tennogenwarframeskinsflair ivara-youkai-skin": "Ivara Youkai skin (by HitsuSan)",
 	"44 tennogenwarframeskinsflair limbo-vasiona-skin": "Limbo Vasiona skin (by Volkovyi)",
 	"34 tennogenwarframeskinsflair loki-incubus-skin": "Loki Incubus skin (by Volkovyi)",
 	"12 tennogenwarframeskinsflair mag-alata-skin": "Mag Alata skin (by Hitsu San)",
+	"51 tennogenwarframeskinsflair mag-graxx-skin": "Mag Graxx Skin (by Faven_PS)",
 	"13 tennogenwarframeskinsflair mag-knaita-skin": "Mag Knaita skin (by prosetisen)",
 	"14 tennogenwarframeskinsflair mag-orbit-skin": "Mag Orbit skin (by Del)",
 	"35 tennogenwarframeskinsflair mesa-graxx-skin": "Mesa Graxx skin (by Faven_PS)",
 	"15 tennogenwarframeskinsflair mirage-graxx-skin": "Mirage Graxx skin (by Faven_PS)",
 	"36 tennogenwarframeskinsflair mirage-morgaine-skin": "Mirage Morgaine skin (by artarrwen)",
 	"16 tennogenwarframeskinsflair mirage-sigyn-skin": "Mirage Sigyn skin (by Novabjorn)",
+	"52 tennogenwarframeskinsflair nezha-devine-skin": "Nezha Devine Skin (by polygonmonster)",
 	"17 tennogenwarframeskinsflair nova-cygni-skin": "Nova Cygni skin (by Arsenal)",
 	"18 tennogenwarframeskinsflair nova-device-skin": "Nova Device skin (by posetisen)",
 	"19 tennogenwarframeskinsflair nova-gnova-skin": "Nova Gnova skin (by Faven_PS)",
+	"53 tennogenwarframeskinsflair nova-graxx": "Nova Graxx skin (by Faven_PS)",
 	"20 tennogenwarframeskinsflair nova-lamia-skin": "Nova Lamia skin (by Mz-3)",
 	"21 tennogenwarframeskinsflair nova-stinger-skin": "Nova Stinger skin (by Cheshire)",
 	"22 tennogenwarframeskinsflair nova-visage-skin": "Nova Visage skin (by Hitsu San)",
 	"23 tennogenwarframeskinsflair nyx-athena-skin": "Nyx Athena skin (by prosetisen)",
+	"54 tennogenwarframeskinsflair nyx-carnifex-skin": "Nyx Carnifex Skin (by Vulbjorn the Walrus Rider.)",
 	"24 tennogenwarframeskinsflair nyx-graxx-skin": "Nyx Graxx skin (by Faven_PS)",
 	"37 tennogenwarframeskinsflair nyx-saikou-skin": "Nyx Saikou skin skin (by malayu)",
 	"25 tennogenwarframeskinsflair rhino-graxx-skin": "Rhino Graxx skin (by Faven_PS)",
 	"26 tennogenwarframeskinsflair rhino-vojnik-skin": "Rhino Vojnik Battle-Damaged skin (by Volkovyi)",
+	"55 tennogenwarframeskinsflair saryn-amalgama-skin": "Saryn Amalgama Skin (by prosetisen)",
 	"27 tennogenwarframeskinsflair saryn-graxx-skin": "Saryn Graxx skin (by Faven_PS)",
 	"38 tennogenwarframeskinsflair saryn-integra-skin": "Saryn Integra skin (by Cheshire)",
 	"28 tennogenwarframeskinsflair valkyr-graxx-skin": "Valkyr Graxx skin (by Faven_PS)",
@@ -208,7 +217,7 @@ flair.names = {
 	"31 tennogenwarframeskinsflair zephyr-hagoromo-skin": "Zephyr Hagoromo skin (by Hitsu San)",
 	"32 tennogenwarframeskinsflair zephyr-skeiron-skin": "Zephyr Skeiron skin (by novadragon01)",
 
-		
+
 	/* Immortal Warframe Skins (0-26) */
 	"0 immortalwarframeskinsflair ash-immortal-skin": "Ash Immortal skin",
 	"17 immortalwarframeskinsflair ash-immortal-skin-alt": "Ash Immortal Skin (alternate picture)",
@@ -280,10 +289,12 @@ flair.names = {
 	/*"60 deluxewarframehelmetsflair valkyr-gersemi-helmet": "Valkyr Gersemi helmet",*/
 	
 	
-	/* TennoGen Warframe Helmets (0-87)*/
+	/* TennoGen Warframe Helmets (0-96)*/
 	"67 tennogenwarframehelmetsflair ash-bai-hu-helmet": "Ash Bai Hu helmet (by Hitsu San)",
 	"0 tennogenwarframehelmetsflair ash-carabid-helmet": "Ash Carabid helmet (by artarrwen)",
+	"88 tennogenwarframehelmetsflair ash-tsukuyomi-helmet": "Ash Tsukuyomi Helmet (by Yatus)",
 	"1 tennogenwarframehelmetsflair atlas-arhat-helmet": "Atlas Arhat helmet (by Rekkou)",
+	"89 tennogenwarframehelmetsflair atlas-monolith-helmet": "Atlas Monolith Helmet (by stenchfury)",
 	"2 tennogenwarframehelmetsflair atlas-telamon-helmet": "Atlas Telamon helmet (by artarrwen)",
 	"3 tennogenwarframehelmetsflair banshee-echo-helmet": "Banshee Echo helmet (by Rekkou)",
 	/*"4 tennogenwarframehelmetsflair chroma-drevni-helmet": "Chroma Drevni helmet (by Volkovyi)",*/
@@ -293,6 +304,7 @@ flair.names = {
 	"8 tennogenwarframehelmetsflair ember-graxx-helmet": "Ember Graxx helmet (by Faven_PS)",
 	"77 tennogenwarframehelmetsflair ember-ignition-helmet": "Ember Ignition helmet (by Kaiceps)",
 	"78 tennogenwarframehelmetsflair ember-magesty-helmet": "Ember Magesty helmet (by Prosetisen and Cheshire)",
+	"90 tennogenwarframehelmetsflair equinox-insomnia-helmet": "Equinox Insomnia Helmet (by prosetisen)",
 	"9 tennogenwarframehelmetsflair excalibur-apex-helmet": "Excalibur Apex helmet (by antoineflemming)",
 	"10 tennogenwarframehelmetsflair excalibur-arturius-helmet": "Excalibur Arturius helmet (by [k a z])",
 	"11 tennogenwarframehelmetsflair excalibur-caduto-helmet": "Excalibur Caduto helmet (by Hitsu San)",
@@ -309,6 +321,7 @@ flair.names = {
 	"22 tennogenwarframehelmetsflair frost-summit-helmet": "Frost Summit helmet (by artarrwen)",
 	"23 tennogenwarframehelmetsflair frost-vojnik-helmet": "Frost Vojnik Battle-Damaged helmet (by Volkovyi)",
 	"24 tennogenwarframehelmetsflair frost-zastruga-helmet": "Frost Zastruga helmet (by Rekkou)",
+	/*"91 tennogenwarframehelmetsflair hydroid-graxx-helmet": "Hydroid Graxx Helmet (by Faven_PS)",*/
 	"68 tennogenwarframehelmetsflair hydroid-rorqual-helmet": "Hydroid Rorqual helmet (by Rekkou)",
 	"79 tennogenwarframehelmetsflair ivara-arcuata-helmet": "Ivara Arcuata helmet (by Stenchfury)",
 	"80 tennogenwarframehelmetsflair ivara-youkai-helmet": "Ivara Youkai helmet (by HitsuSan)",
@@ -319,6 +332,7 @@ flair.names = {
 	"26 tennogenwarframehelmetsflair loki-rogue-helmet": "Loki Rogue helmet (by artarrwen)",
 	"27 tennogenwarframehelmetsflair mag-alata-helmet": "Mag Alata helmet (by Hitsu San)",
 	"28 tennogenwarframehelmetsflair mag-anthro-helmet": "Mag Anthro helmet (by Pior)",
+	"92 tennogenwarframehelmetsflair mag-graxx-helmet": "Mag Graxx Helmet (by Faven_PS)",
 	"29 tennogenwarframehelmetsflair mag-induction-helmet": "Mag Induction helmet (by Pior)",
 	"30 tennogenwarframehelmetsflair mag-knaita-helmet": "Mag Knaita helmet (by prosetisen)",
 	"31 tennogenwarframehelmetsflair mag-orbit-helmet": "Mag Orbit helmet (by Del)",
@@ -331,16 +345,19 @@ flair.names = {
 	"72 tennogenwarframehelmetsflair mirage-morgaine-helmet": "Mirage Morgaine helmet (by artarrwen)",
 	"37 tennogenwarframehelmetsflair mirage-sigyn-helmet": "Mirage Sigyn helmet (by Novabjorn)",
 	"38 tennogenwarframehelmetsflair nekros-lazarus-helmet": "Nekros Lazarus helmet (by [k a z])",
+	"93 tennogenwarframehelmetsflair nezha-devine-helmet": "Nezha Devine Helmet (by polygonmonster)",
 	"39 tennogenwarframehelmetsflair nova-cygni-helmet": "Nova Cygni helmet (by Arsenal)",
 	"40 tennogenwarframehelmetsflair nova-device-helmet": "Nova Device helmet (by prosetisen)",
 	"41 tennogenwarframehelmetsflair nova-fusion-helmet": "Nova Fusion helmet (by Coridium)",
 	"42 tennogenwarframehelmetsflair nova-gnova-helmet": "Nova Gnova helmet (by Faven_PS)",
+	"94 tennogenwarframehelmetsflair nova-graxx": "Nova Graxx (by Faven_PS)",
 	"43 tennogenwarframehelmetsflair nova-lamia-helmet": "Nova Lamia helmet (by Mz-3)",
 	"44 tennogenwarframehelmetsflair nova-stinger-helmet": "Nova Stinger helmet (by Cheshire)",
 	"45 tennogenwarframehelmetsflair nova-tachyon-helmet": "Nova Tachyon helmet (by Rekkou)",
 	"46 tennogenwarframehelmetsflair nova-visage-helmet": "Nova Visage helmet (by Hitsu San)",
 	"82 tennogenwarframehelmetsflair nyx-ampulex-helmet": "Nyx Ampulex helmet (by Vulbjorn, the walrus rider.)",
 	"47 tennogenwarframehelmetsflair nyx-athena-helmet": "Nyx Athena helmet (by prosetisen)",
+	"95 tennogenwarframehelmetsflair nyx-carnifex-helmet": "Nyx Carnifex Helmet (by Vulbjorn the Walrus Rider.)",
 	"48 tennogenwarframehelmetsflair nyx-graxx-helmet": "Nyx Graxx helmet (by Faven_PS)",
 	"73 tennogenwarframehelmetsflair nyx-saikou-helmet": "Nyx Saikou helmet helmet (by malayu)",
 	"49 tennogenwarframehelmetsflair oberon-destrier-helmet": "Oberon Destrier helmet (by Rekkou)",
@@ -348,6 +365,7 @@ flair.names = {
 	"74 tennogenwarframehelmetsflair rhino-teutonic-helmet": "Rhino Teutonic helmet (by Faven_PS)",
 	/*"51 tennogenwarframehelmetsflair rhino-vojnik-helmet": "Rhino Vojnik Battle-Damaged helmet (by Volkovyi)",*/
 	"83 tennogenwarframehelmetsflair rhino-warlust-helmet": "Rhino Warlust helmet (by Stenchfury)",
+	"96 tennogenwarframehelmetsflair saryn-amalgama-helmet": "Saryn Amalgama Helmet (by prosetisen)",
 	"84 tennogenwarframehelmetsflair saryn-belladonna-helmet": "Saryn Belladonna helmet (by Malayu)",
 	"52 tennogenwarframehelmetsflair saryn-graxx-helmet": "Saryn Graxx helmet (by Faven_PS)",
 	"75 tennogenwarframehelmetsflair saryn-integra-helmet": "Saryn Integra helmet (by Cheshire)",
@@ -370,7 +388,7 @@ flair.names = {
 	"65 tennogenwarframehelmetsflair zephyr-monsoon-helmet": "Zephyr Monsoon helmet (by artarrwen)",
 	"66 tennogenwarframehelmetsflair zephyr-skeiron-helmet": "Zephyr Skeiron helmet (by novadragon01)",
 
-		
+
 	/* Other Warframe Helmets (0-71) */
 	"0 otherwarframehelmetsflair ash-locust-helmet": "Ash Locust helmet",
 	"1 otherwarframehelmetsflair ash-scorpion-helmet": "Ash Scorpion helmet",
