@@ -43,7 +43,7 @@
 					</div>
 					<div class="fl">
 						<div id="flair-selection-name">Flair</div>
-						<input id="flair-selection-text" type="text" placeholder="Enter Flair Text" maxlength="64" />
+						<input id="flair-selection-text" type="text" placeholder="Enter Flair Text" maxlength="64" tabindex="1" />
 						<p>
 							After sending your flair request, do <u><b>NOT</b></u> edit the private message on the next screen
 						</p>
@@ -64,7 +64,7 @@
 		<div class="wrapper">
 			<div id="flair-filter" class="center" style="-webkit-justify-content:space-between;justify-content:space-between;">
 				<input id="flair-filter-text" type="text" placeholder="Search"
-					onkeyup="flair.updateFilter(this.value)" onchange="flair.updateFilter(this.value)" />
+					onkeyup="flair.updateFilter(this.value)" onchange="flair.updateFilter(this.value)" tabindex="2" />
 				<label for="flair-filter-sheet">
 					<span>Filter by Category:</span>
 					<select id="flair-filter-sheet" onchange="flair.updateCategoryFilter(this.value)">
