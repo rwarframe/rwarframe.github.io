@@ -136,7 +136,7 @@ flair.names = {
 	"63 regularwarframesflair zephyr-bundle": "Zephyr (Update 12 Mega Bundle)",
 
 		
-	/* Deluxe Warframe Skins (0-26)*/
+	/* Deluxe Warframe Skins (0-28)*/
 	"0 deluxewarframeskinsflair ash-koga-skin": "Ash Koga skin",
 	"12 deluxewarframeskinsflair ash-koga-deluxe-skin-bundle": "Ash Koga deluxe skin (bundle)",
 	"1 deluxewarframeskinsflair banshee-soprana-skin": "Banshee Soprana skin",
@@ -150,6 +150,8 @@ flair.names = {
 	"14 deluxewarframeskinsflair frost-harka-deluxe-skin-bundle": "Frost Harka deluxe skin (bundle)",
 	"15 deluxewarframeskinsflair frost-harka-deluxe-skin-bundle-alt": "Frost Harka deluxe skin (bundle alternate picture)",
 	"3 deluxewarframeskinsflair loki-knave-skin": "Loki Knave skin",
+	"27 deluxewarframeskinsflair mag-pneuma-deluxe-skin": "Mag Pneuma deluxe skin",
+	"28 deluxewarframeskinsflair mag-pneuma-deluxe-skin-bundle": "Mag Pneuma deluxe skin (collection)",
 	"25 deluxewarframeskinsflair nekros-irkalla-deluxe-skin": "Nekros Irkalla deluxe skin",
 	"26 deluxewarframeskinsflair nekros-irkalla-deluxe-skin-bundle": "Nekros Irkalla deluxe skin (collection)",
 	"4 deluxewarframeskinsflair nova-asuri-skin": "Nova Asuri skin",
@@ -289,17 +291,17 @@ flair.names = {
 	"81 otherwarframehelmetsflair gara-helmet": "Gara helmet",
 
 	
-	/* Deluxe Warframe Helmets (50-56, 61, 71)*/
+	/* Deluxe Warframe Helmets (50-57, 61, 71)*/
 	"50 deluxewarframehelmetsflair ash-koga-helmet": "Ash Koga helmet",
 	"51 deluxewarframehelmetsflair banshee-soprana-helmet": "Banshee Soprana helmet",
 	"71 deluxewarframehelmetsflair chroma-dynasty-helmet": "Chroma Dynasty helmet",
 	"53 deluxewarframehelmetsflair ember-vermillion-helmet": "Ember Vermillion helmet",
 	"52 deluxewarframehelmetsflair excalibur-proto-helmet": "Excalibur Proto helmet",
 	"61 deluxewarframehelmetsflair frost-harka-helmet": "Frost Harka helmet",
+	"57 deluxewarframehelmetsflair mag-pneuma-helmet": "Mag Pneuma helmet",
 	"54 deluxewarframehelmetsflair nekros-irkalla-helmet": "Nekros Irkalla helmet",
 	"55 deluxewarframehelmetsflair nyx-nemesis-helmet": "Nyx Nemesis helmet",
 	"56 deluxewarframehelmetsflair oberon-feyarch-helmet": "Oberon Feyarch helmet",
-	/*"57 deluxewarframehelmetsflair rhino-palatine-helmet": "Rhino Palatine helmet",*/
 	/*"58 deluxewarframehelmetsflair saryn-orphid-helmet": "Saryn Orphid helmet",*/
 	/*"59 deluxewarframehelmetsflair trinity-strega-helmet": "Trinity Strega helmet",*/
 	/*"60 deluxewarframehelmetsflair valkyr-gersemi-helmet": "Valkyr Gersemi helmet",*/
