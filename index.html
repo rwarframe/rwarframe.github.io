@@ -70,8 +70,10 @@
 				<label for="flair-filter-sheet">
 					<span>Filter by Category:</span>
 					<select id="flair-filter-sheet" onchange="flair.updateCategoryFilter(this.value)">
-						<optgroup label="All Flairs">
-							<option value="ALL">All Flairs</option>
+						
+						<optgroup label="Flairs">
+							<option value="all">All</option>
+							<option value="new">New</option>
 						</optgroup>
 
 						<optgroup label="Warframes">
@@ -80,14 +82,14 @@
 							<option value="regularwarframesflair">Regular Warframes</option>
 						</optgroup>
 
-						<optgroup label="Warframe Skins">
+						<optgroup label="Skins">
 							<option value="deluxewarframeskinsflair">Deluxe Warframe Skins</option>
 							<option value="tennogenwarframeskinsflair">TennoGen Warframe Skins</option>
 							<option value="immortalwarframeskinsflair">Immortal Warframe Skins</option>
 							<option value="otherwarframeskinsflair">Other Warframe Skins</option>
 						</optgroup>
 
-						<optgroup label="Warframe Helmets">
+						<optgroup label="Helmets">
 							<option value="deluxewarframehelmetsflair">Deluxe Warframe Helmets</option>
 							<option value="tennogenwarframehelmetsflair">TennoGen Warframe Helmets</option>
 							<option value="otherwarframehelmetsflair">Other Warframe Helmets</option>

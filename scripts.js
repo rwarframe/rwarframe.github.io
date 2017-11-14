@@ -18,8 +18,10 @@ flair.subreddits = [
 ];
 
 flair.updateCategoryFilter = function(sheet_name) {
-    if (sheet_name == 'ALL') {
+    if (sheet_name == 'all') {
         flair.sheet_filter = null;
+    } else if (sheet_name == 'new') {
+    	flair.sheet_filter = sheet_name;
     } else {
         flair.sheet_filter = sheet_name;
     }
@@ -53,7 +55,7 @@ flair.updateFilter = function(text) {
                     // check flair_id
                     text === flair_id || text === flair.by_id[flair_id].orig_id) &&
                     // check sheet
-                    (flair.sheet_filter === null || flair.sheet_filter === sheet)
+                    (flair.sheet_filter === null || sheet.indexOf(flair.sheet_filter) !== -1)
                 ) {
                 n.show(el);
             } else {

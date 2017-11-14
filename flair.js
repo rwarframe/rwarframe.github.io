@@ -29,7 +29,7 @@ flair.load__by_id = function() {
 			flair.by_id[data[2]] = {
 				key: key,
 				spritepos: data[0],
-				sheet: data[1],
+				sheet: data[1] + ' ' + data[3],
 				flair_id: data[2],
 				orig_id: orig_id,
 				flair_name: flair.names[key],
@@ -554,10 +554,6 @@ flair.names = {
 	"20 sentinelsflair shade-sprite-skin": "Shade Sprite skin",
 	"21 sentinelsflair wyrm-obsidian-skin": "Wyrm Obsidian skin (PS4 Renown Pack exclusive)",
 	
-	"35 companionsflair helminth-charger": "Helminth Charger",
-	"36 companionsflair helminth-charger-alt": "Helminth Charger (alternate picture)",
-	"37 companionsflair helminth-charger-degenerate-pattern": "Helminth Charger Degenerate pattern",
-	
 	"38 kavatsflair adarza-kavat": "Adarza Kavat",
 	"39 kavatsflair smeeta-kavat": "Smeeta Kavat",
 	"40 kavatsflair feral-kavat": "Feral Kavat",
@@ -616,6 +612,10 @@ flair.names = {
 	"77 kubrowsflair kubrow-telmatian-fur-pattern": "Kubrow Telmatian fur pattern",
 	"78 kubrowsflair kubrow-tigrol-fur-pattern": "Kubrow Tigrol fur pattern",
 	"86 kubrowsflair kubrow-underbrush-pattern new": "Kubrow Underbrush fur pattern",
+	
+	"35 kubrowsflair helminth-charger": "Helminth Charger",
+	"36 kubrowsflair helminth-charger-alt": "Helminth Charger (alternate picture)",
+	"37 kubrowsflair helminth-charger-degenerate-pattern": "Helminth Charger Degenerate pattern",
 
 	
 	/* glyphs (0-78) */
