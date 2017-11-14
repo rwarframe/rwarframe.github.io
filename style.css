@@ -244,6 +244,6 @@ button:active, input[type=submit]:active { box-shadow: inset 0 2px 4px rgba(0, 0
 .flair:hover, .flair.selected { background-color: #545454; }
 
 div#flair-choices > span.flair.new {
-    border: 1px rgba(255, 215, 000, 0.25) solid;
+    border: 1px solid #806C00;
     margin: 1px;
 }
