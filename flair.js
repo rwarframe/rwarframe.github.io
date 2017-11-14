@@ -33,7 +33,7 @@ flair.load__by_id = function() {
 				flair_id: data[2],
 				orig_id: orig_id,
 				flair_name: flair.names[key],
-				flair_class: ' flair-'+data[0] + ' flair-'+data[1] + ' flair-'+data[2]
+				flair_class: ' flair-' + data[0] + ' flair-' + data[1] + ' flair-' + data[2] + ' ' + data[3]
 			}
 		}
 	}

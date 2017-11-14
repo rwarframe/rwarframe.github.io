@@ -117,7 +117,7 @@ flair.sendChoice = function() {
     }
     
     window.open('http://www.reddit.com/message/compose/?to=CephalonKhuon&subject='+
-        flair.current_choice+
+        flair.current_choice.split(" new")[0]+
         '&message='+flair_text+'%0A'+
         subreddits)
 }
