@@ -783,7 +783,7 @@ flair.names = {
 
 	
 	
-	/* sigils (0-213)*/	
+	/* sigils (0-214)*/	
 	"198 sigilsflair assassin-grustrag-3-sigil": "Grustrag 3 sigil",
 	"199 sigilsflair assassin-stalker-sigil-red": "Stalker sigil (red)",
 	"200 sigilsflair assassin-stalker-sigil": "Stalker sigil",
@@ -956,6 +956,7 @@ flair.names = {
 	"99 sigilsflair syndicate-the-perrin-sequence-level-10-sigil": "The Perrin Sequence Chairman sigil",
 	"100 sigilsflair prime-cycuta-sigil": "Cycuta Prime sigil",
 	"101 sigilsflair prime-verlorum-sigil": "Verlorum Prime sigil",
+	"214 sigilsflair acolyte-sigil new": "Acolyte sigil",
 	"102 sigilsflair banshee-soprana-sigil": "Banshee Soprana sigil",
 	"103 sigilsflair blade-and-gun-sigil": "Blade and Gun sigil",
 	"202 sigilsflair community-of-tenno-sigil-pink": "Community of Tenno sigil (pink)",
