@@ -639,7 +639,7 @@ flair.names = {
 	"40 kavatsflair feral-kavat": "Feral Kavat",
 	"41 kavatsflair hyekka": "Hyekka",
 	"42 kavatsflair kavat-hyekka-skin": "Kavat Hyekka skin",
-	/*"90 kavatsflair kavat-prime-armor new": "Kavat Prime armor",*/
+	"90 kavatsflair kavat-tibor-prime-armor new": "Kavat Tibor Prime armor",
 	"43 kavatsflair kavat-day-of-the-dead-wysar-armor": "Kavat Day of the Dead Wysar armor (Halloween exclusive)",
 	"44 kavatsflair kavat-ki-teer-armor": "Kavat Ki'Teer armor",
 	"45 kavatsflair kavat-kuva-armor": "Kavat Kuva armor",
