@@ -42,6 +42,9 @@ flair.by_id = {}
 flair.names = {
 /* [STANDARD] */
 	
+	/* Blank Flair */
+	"0 none none": "Blank Flair",
+	
 	/* Prime Warframes (0-21) */
 	"0 primewarframesflair ash-prime": "Ash Prime",
 	"15 primewarframesflair banshee-prime": "Banshee Prime",
@@ -63,7 +66,7 @@ flair.names = {
 	"12 primewarframesflair vauban-prime": "Vauban Prime",
 	"13 primewarframesflair volt-prime": "Volt Prime",
 	"14 primewarframesflair valkyr-prime": "Valkyr Prime",
-	/*"24 primewarframesflair zephyr-prime new": "Zephyr Prime",*/
+	"24 primewarframesflair zephyr-prime new": "Zephyr Prime",
 	
 	
 	/* Umbra Warframes (100) */
@@ -295,7 +298,8 @@ flair.names = {
 	"26 immortalwarframeskinsflair zephyr-immortal-skin": "Zephyr Immortal skin",
 
 		
-	/* Other Warframe Skins (0-6, 8-17) */
+	/* Other Warframe Skins (0-6, 8-18) */
+	"18 otherwarframeskinsflair excalibur-dex-skin new": "Excalibur Dex skin (anniversary exclusive)",
 	"0 otherwarframeskinsflair excalibur-jade-skin": "Excalibur Jade skin (XB1 Prestige Pack exclusive)",
 	"1 otherwarframeskinsflair excalibur-obsidian-skin": "Excalibur Obsidian skin (PS4 Renown Pack exclusive)",
 	"8 otherwarframeskinsflair excalibur-obsidian-skin-alt": "Excalibur Obsidian skin (PS4 Renown Pack exclusive, alternate picture)",
@@ -312,6 +316,7 @@ flair.names = {
 	"12 otherwarframeskinsflair titania-solstice-skin-alt": "Titania Solstice skin (winter exclusive, alternate picture)",
 	"16 otherwarframeskinsflair titania-solstice-skin-bundle new": "Titania Solstice skin (winter exclusive, Winter Solstice Skin Bundle)",
 	"6 otherwarframeskinsflair vauban-phased-skin": "Vauban Phased skin (Steam exclusive)",
+	"7 otherwarframeskinsflair vauban-phased-skin-alt": "Vauban Phased skin (Steam exclusive, alternate picture)",
 	"15 otherwarframeskinsflair volt-twitch-skin new": "Volt Twitch skin",
 
 		
@@ -320,7 +325,7 @@ flair.names = {
 	"21 primewarframesflair hydroid-prime-helmet": "Hydroid Prime helmet",
 	"23 primewarframesflair mirage-prime-helmet new": "Mirage Prime helmet",
 	"19 primewarframesflair oberon-prime-helmet": "Oberon Prime helmet",
-	/*"25 primewarframesflair zephyr-prime-helmet new": "Zephyr Prime helmet",*/
+	"25 primewarframesflair zephyr-prime-helmet new": "Zephyr Prime helmet",
 	"81 otherwarframehelmetsflair gara-helmet": "Gara helmet",
 	"79 otherwarframehelmetsflair harrow-helmet": "Harrow helmet",
 	/*"86 otherwarframehelmetsflair khora-helmet new": "Khora helmet",*/
@@ -478,7 +483,7 @@ flair.names = {
 	"66 tennogenwarframehelmetsflair zephyr-skeiron-helmet": "Zephyr Skeiron helmet (by novadragon01)",
 
 
-	/* Other Warframe Helmets (0-11, 13-69, 71-88) */
+	/* Other Warframe Helmets (0-11, 13-69, 71-89) */
 	"0 otherwarframehelmetsflair ash-locust-helmet": "Ash Locust helmet",
 	"1 otherwarframehelmetsflair ash-scorpion-helmet": "Ash Scorpion helmet",
 	"2 otherwarframehelmetsflair atlas-shikoro-helmet": "Atlas Shikoro helmet",
@@ -489,10 +494,11 @@ flair.names = {
 	"7 otherwarframehelmetsflair chroma-drac-helmet": "Chroma Drac helmet",
 	"8 otherwarframehelmetsflair ember-backdraft-helmet": "Ember Backdraft helmet",
 	"9 otherwarframehelmetsflair ember-phoenix-helmet": "Ember Phoenix helmet",
-	"68 otherwarframehelmetsflair equinox-day-helmet": "Equinox Day helmet",
-	"69 otherwarframehelmetsflair equinox-night-helmet": "Equinox Night helmet",
+	"68 otherwarframehelmetsflair equinox-day-form-helmet": "Equinox day form helmet",
+	"69 otherwarframehelmetsflair equinox-night-form-helmet": "Equinox night form helmet",
 	"10 otherwarframehelmetsflair equinox-solstice-helmet": "Equinox Solstice helmet",
 	"11 otherwarframehelmetsflair excalibur-avalon-helmet": "Excalibur Avalon helmet",
+	"89 otherwarframehelmetsflair excalibur-dex-helmet new": "Excalibur Dex helmet (anniversary exclusive)",
 	/*"12 otherwarframehelmetsflair excalibur-jade-helmet": "Excalibur Jade helmet (XB1 Prestige Pack exclusive)",*/
 	"13 otherwarframehelmetsflair excalibur-mordred-helmet": "Excalibur Mordred helmet",
 	"14 otherwarframehelmetsflair excalibur-obsidian-helmet": "Excalibur Obsidian helmet (PS4 Renown Pack exclusive)",
@@ -553,6 +559,7 @@ flair.names = {
 	"58 otherwarframehelmetsflair vauban-armistice-helmet": "Vauban Armistice helmet",
 	"59 otherwarframehelmetsflair vauban-esprit-helmet": "Vauban Esprit helmet",
 	"60 otherwarframehelmetsflair vauban-gambit-helmet": "Vauban Gambit helmet",
+	"70 otherwarframehelmetsflair vauban-phased-helmet": "Vauban Phased helmet (Steam exclusive)",
 	"61 otherwarframehelmetsflair volt-pulse-helmet": "Volt Pulse helmet",
 	"62 otherwarframehelmetsflair volt-storm-helmet": "Volt Storm helmet",
 	"85 otherwarframehelmetsflair volt-twitch-helmet new": "Volt Twitch helmet",
@@ -576,9 +583,15 @@ flair.names = {
 	"108 archwingsflair odonata-obsidian-skin": "Odonata Obsidian skin (PS4 Renown Pack exclusive)",
 	
 	
-	/* Operators (150-159) */	
+	/* Operators (150-165) */	
 	"150 operatorsflair saita-prime-operator-hood": "Saita Prime operator hood",
+	"161 operatorsflair commodore-prime-operator-hood new": "Commodore Prime operator hood",
 	"151 operatorsflair zariman-operator-hood": "Zariman operator hood",
+	"163 operatorsflair ceno-operator-helmet new": "Ceno operator helmet",
+	"164 operatorsflair vahd-operator-mask new": "Vahd operator mask",
+	"165 operatorsflair zauba-operator-mask new": "Zauba operator mask",
+	"160 operatorsflair saita-prime-operator-suit new": "Saita Prime operator suit",
+	"162 operatorsflair commodore-prime-operator-suit new": "Commodore Prime operator suit",
 	"157 operatorsflair ceno-operator-armor-bundle": "Ceno operator armor (Ceno Armor Bundle)",
 	"158 operatorsflair vahd-operator-armor-bundle new": "Vahd operator armor (Vahd Armor Bundle)",
 	"159 operatorsflair zauba-operator-armor-bundle": "Zauba operator armor (Zauba Armor Bundle)",
@@ -620,7 +633,7 @@ flair.names = {
 	"20 sentinelsflair shade-sprite-skin": "Shade Sprite skin",
 	"21 sentinelsflair wyrm-obsidian-skin": "Wyrm Obsidian skin (PS4 Renown Pack exclusive)",
 	
-	/*"89 kavatsflair khoras-kavat new": "Khora's Kavat",*/
+	/*"89 kavatsflair venari new": "Venari (Khora's Kavat)",*/
 	"38 kavatsflair adarza-kavat": "Adarza Kavat",
 	"39 kavatsflair smeeta-kavat": "Smeeta Kavat",
 	"40 kavatsflair feral-kavat": "Feral Kavat",
@@ -1001,7 +1014,7 @@ flair.names = {
 	"131 sigilsflair year-monquis-world-sigil": "Monquis sigil (International)",
 	
 	
-	/* noggles (0-74) */
+	/* noggles (0-84) */
 	"8 nogglesflair acolyte-angst-noggle": "Acolyte Angst noggle",
 	"9 nogglesflair acolyte-malice-noggle": "Acolyte Malice noggle",
 	"10 nogglesflair acolyte-mania-noggle": "Acolyte Mania noggle",
@@ -1020,6 +1033,9 @@ flair.names = {
 	"18 nogglesflair conculyst-noggle": "Conculyst noggle",
 	"19 nogglesflair elite-arid-lancer-noggle": "Elite Arid Lancer noggle",
 	"20 nogglesflair ember-noggle": "Ember noggle",
+	"75 nogglesflair equinox-noggle new": "Equinox noggle",
+	"76 nogglesflair equinox-day-form-noggle new": "Equinox day form noggle",
+	"77 nogglesflair equinox-night-form-noggle new": "Equinox night form noggle",
 	"25 nogglesflair excalibur-prime-noggle": "Excalibur Prime noggle (PC Founders exclusive)",
 	"22 nogglesflair excalibur-noggle": "Excalibur noggle",
 	"21 nogglesflair excalibur-jade-noggle": "Jade Excalibur noggle (XB1 Prestige Pack exclusive)",
@@ -1077,6 +1093,13 @@ flair.names = {
 	"70 nogglesflair wukong-noggle": "Wukong noggle",
 	"71 nogglesflair zephyr-noggle": "Zephyr noggle",
 	"6 nogglesflair stalker-noggle": "??????? noggle",
+	"78 nogglesflair lunaro-goal-noggle new": "Lunaro goal noggle",
+	"79 nogglesflair syndicate-arbiters-of-hexis-medallion-noggle new": "Arbiters of Hexis medallion noggle",
+	"80 nogglesflair syndicate-syndicate-cephalon-suda-datum-noggle new": "Cephalon Suda datum noggle",
+	"81 nogglesflair syndicate-syndicate-new-loka-seed-noggle new": "New Loka seed noggle",
+	"82 nogglesflair syndicate-syndicate-red-veil-mark-noggle new": "Red Veil mark noggle",
+	"83 nogglesflair syndicate-syndicate-steel-meridian-insignia-noggle new": "Steel Meridian insignia noggle",
+	"84 nogglesflair syndicate-syndicate-the-perrin-sequence-quittance-noggle new": "The Perrin Sequence quittance noggle",
 	
 	
 	/* Landing Crafts (70-103, 127) */
@@ -1117,16 +1140,16 @@ flair.names = {
 	"103 landingcraftsflair xiphos-prisma-skin": "Xiphos Prisma skin",
 
 	
-	/* Miscellaneous Flairs (0-69, 104-118) */
-	"0 miscellaneousflair disciple": "Disciple Founder (PC Founders exclusive)",
-	"1 miscellaneousflair hunter": "Hunter Founder (PC Founders exclusive)",
-	"2 miscellaneousflair master": "Master Founder (PC Founders exclusive)",
-	"3 miscellaneousflair grandmaster": "Grand Master Founder (PC Founders exclusive)",
+	/* Miscellaneous Flairs (0-69, 104-134) */
+	"0 miscellaneousflair founder-disciple": "Disciple Founder (PC Founders exclusive)",
+	"1 miscellaneousflair founder-hunter": "Hunter Founder (PC Founders exclusive)",
+	"2 miscellaneousflair founder-master": "Master Founder (PC Founders exclusive)",
+	"3 miscellaneousflair founder-grandmaster": "Grand Master Founder (PC Founders exclusive)",
 	/*"4 miscellaneousflair revive": "Moderator",*/
 	/*"5 miscellaneousflair lotus": "DE Employee",*/
-	"16 miscellaneousflair pc": "PC",
-	"17 miscellaneousflair ps4": "PS4",
-	"18 miscellaneousflair xb1": "XB1",
+	"16 miscellaneousflair platform-pc": "PC",
+	"17 miscellaneousflair platform-ps4": "PS4",
+	"18 miscellaneousflair platform-xb1": "XB1",
 	"119 miscellaneousflair mask-excalibur": "Excalibur mask",
 	"120 miscellaneousflair mask-mag": "Mag mask",
 	"121 miscellaneousflair mask-trinity": "Trinity mask",
@@ -1141,56 +1164,63 @@ flair.names = {
 	"37 miscellaneousflair ayatan-valana-sculpture": "Ayatan Valana sculpture",
 	"38 miscellaneousflair ayatan-amber-star": "Ayatan amber star",
 	"39 miscellaneousflair ayatan-cyan-star": "Ayatan cyan star",
-	"45 miscellaneousflair kuria": "Kuria",
-	"124 miscellaneousflair prominence-wisp-totem": "Prominence Wisp Totem",
-	"46 miscellaneousflair sacred-vessel": "Sacred vessel",
-	"51 miscellaneousflair exilus-adapter": "Exilus adapter",
-	"27 miscellaneousflair forma": "Forma",
-	"54 miscellaneousflair legendary-core": "Legendary core",
-	"55 miscellaneousflair module": "Module",
-	"29 miscellaneousflair orokin-catalyst": "Orokin catalyst",
-	"30 miscellaneousflair orokin-reactor": "Orokin reactor",
-	"126 miscellaneousflair brilliant-eidolon-shard": "Brilliant Eidolon shard",
-	"125 miscellaneousflair cetus-wisp": "Cetus wisp",
-	"48 miscellaneousflair credits": "Credits",
-	"49 miscellaneousflair ducats": "Ducats",
-	"50 miscellaneousflair endo": "Endo",
-	"56 miscellaneousflair platinum": "Platinum",
-	"58 miscellaneousflair maxim-medallion": "Maxim medallion",
-	"59 miscellaneousflair genius-datum": "Genius datum",
-	"60 miscellaneousflair flawless-seed": "Flawless seed",
-	"61 miscellaneousflair partner-quittance": "Partner quittance",
-	"62 miscellaneousflair exalted-mark": "Exalted mark",
-	"63 miscellaneousflair general-insignia": "General insignia",
-	"64 miscellaneousflair medallion": "Medallion",
-	"65 miscellaneousflair datum": "Datum",
-	"66 miscellaneousflair seed": "Seed",
-	"67 miscellaneousflair quittance": "Quittance",
-	"68 miscellaneousflair mark": "Mark",
-	"69 miscellaneousflair insignia": "Insignia",
-	"47 miscellaneousflair argon-crystal": "Argon crystal",
-	"52 miscellaneousflair kubrow-egg": "Kubrow egg",
-	"53 miscellaneousflair kuva": "Kuva",
-	"28 miscellaneousflair nitain-extract": "Nitain extract",
-	"57 miscellaneousflair void-trace": "Void trace",
-	"40 miscellaneousflair ghost-clan-emblem": "Ghost clan emblem",
-	"41 miscellaneousflair shadow-clan-emblem": "Shadow clan emblem",
-	"42 miscellaneousflair storm-clan-emblem": "Storm clan emblem",
-	"43 miscellaneousflair mountain-clan-emblem": "Mountain clan emblem",
-	"44 miscellaneousflair moon-clan-emblem": "Moon clan emblem",
-	"104 miscellaneousflair moon-icon": "Moon icon",
-	"105 miscellaneousflair sun-icon": "Sun icon",
-	"106 miscellaneousflair impact-damage-icon": "Impact damage icon",
-	"107 miscellaneousflair puncture-damage-icon": "Puncture damage icon",
-	"108 miscellaneousflair slash-damage-icon": "Slash damage icon",
-	"109 miscellaneousflair cold-damage-icon": "Cold damage icon",
-	"110 miscellaneousflair electricity-damage-icon": "Electricity damage icon",
-	"111 miscellaneousflair heat-damage-icon": "Heat damage icon",
-	"112 miscellaneousflair toxin-damage-icon": "Toxin damage icon",
-	"113 miscellaneousflair blast-damage-icon": "Blast damage icon",
-	"114 miscellaneousflair corrosive-damage-icon": "Corrosive damage icon",
-	"115 miscellaneousflair gas-damage-icon": "Gas damage icon",
-	"116 miscellaneousflair magnetic-damage-icon": "Magnetic damage icon",
-	"117 miscellaneousflair radiation-damage-icon": "Radiation damage icon",
-	"118 miscellaneousflair viral-damage-icon": "Viral damage icon"
+	"51 miscellaneousflair component-exilus-adapter": "Exilus adapter",
+	"27 miscellaneousflair component-forma": "Forma",
+	"54 miscellaneousflair component-legendary-core": "Legendary core",
+	"55 miscellaneousflair component-module": "Module",
+	"29 miscellaneousflair component-orokin-catalyst": "Orokin catalyst",
+	"30 miscellaneousflair component-orokin-reactor": "Orokin reactor",
+	"45 miscellaneousflair decoration-kuria": "Kuria",
+	"124 miscellaneousflair decoration-prominence-wisp-totem": "Prominence Wisp Totem",
+	"46 miscellaneousflair decoration-sacred-vessel": "Sacred vessel",
+	"48 miscellaneousflair currency-credits": "Credits",
+	"49 miscellaneousflair currency-ducats": "Ducats",
+	"50 miscellaneousflair currency-endo": "Endo",
+	"56 miscellaneousflair currency-platinum": "Platinum",
+	"40 miscellaneousflair clan-emblem-ghost": "Ghost clan emblem",
+	"41 miscellaneousflair clan-emblem-shadow": "Shadow clan emblem",
+	"42 miscellaneousflair clan-emblem-storm": "Storm clan emblem",
+	"43 miscellaneousflair clan-emblem-mountain": "Mountain clan emblem",
+	"44 miscellaneousflair clan-emblem-moon": "Moon clan emblem",
+	"106 miscellaneousflair damage-icon-impact": "Impact damage icon",
+	"107 miscellaneousflair damage-icon-puncture": "Puncture damage icon",
+	"108 miscellaneousflair damage-icon-slash": "Slash damage icon",
+	"109 miscellaneousflair damage-icon-cold": "Cold damage icon",
+	"110 miscellaneousflair damage-icon-electricity": "Electricity damage icon",
+	"111 miscellaneousflair damage-icon-heat": "Heat damage icon",
+	"112 miscellaneousflair damage-icon-toxin": "Toxin damage icon",
+	"113 miscellaneousflair damage-icon-blast": "Blast damage icon",
+	"114 miscellaneousflair damage-icon-corrosive": "Corrosive damage icon",
+	"115 miscellaneousflair damage-icon-gas": "Gas damage icon",
+	"116 miscellaneousflair damage-icon-magnetic": "Magnetic damage icon",
+	"117 miscellaneousflair damage-icon-radiation": "Radiation damage icon",
+	"118 miscellaneousflair damage-icon-viral": "Viral damage icon",
+	"133 miscellaneousflair faction-corpus-logo new": "Corpus faction logo",
+	"134 miscellaneousflair faction-grineer-logo new": "Grineer faction logo",
+	"128 miscellaneousflair focus-madurai-cloud new": "Madurai cloud",
+	"129 miscellaneousflair focus-naramon-tree new": "Naramon tree",
+	"130 miscellaneousflair focus-unairu-mountain new": "Unairu mountain",
+	"131 miscellaneousflair focus-vazarin-wave new": "Vazarin wave",
+	"132 miscellaneousflair focus-zenurik-crystal new": "Zenurik crystal",
+	"47 miscellaneousflair resource-argon-crystal": "Argon crystal",
+	"126 miscellaneousflair resource-brilliant-eidolon-shard": "Brilliant Eidolon shard",
+	"125 miscellaneousflair resource-cetus-wisp": "Cetus wisp",
+	"52 miscellaneousflair resource-kubrow-egg": "Kubrow egg",
+	"53 miscellaneousflair resource-kuva": "Kuva",
+	"28 miscellaneousflair resource-nitain-extract": "Nitain extract",
+	"57 miscellaneousflair resource-void-trace": "Void trace",
+	"58 miscellaneousflair syndicate-arbiters-of-hexis-maxim-medallion": "Arbiters of Hexis Maxim medallion",
+	"59 miscellaneousflair syndicate-cephalon-suda-genius-datum": "Cephalon Suda Genius datum",
+	"60 miscellaneousflair syndicate-new-loka-flawless-seed": "New Loka Flawless seed",
+	"62 miscellaneousflair syndicate-red-veil-exalted-mark": "Red Veil Exalted mark",
+	"63 miscellaneousflair syndicate-steel-meridian-general-insignia": "Steel Meridian General insignia",
+	"61 miscellaneousflair syndicate-the-perrin-sequence-partner-quittance": "The Perrin Sequence Partner quittance",
+	"64 miscellaneousflair syndicate-arbiters-of-hexis-medallion": "Arbiters of Hexis medallion",
+	"65 miscellaneousflair syndicate-cephalon-suda-datum": "Cephalon Suda datum",
+	"66 miscellaneousflair syndicate-new-loka-seed": "New Loka seed",
+	"68 miscellaneousflair syndicate-red-veil-mark": "Red Veil mark",
+	"69 miscellaneousflair syndicate-steel-meridian-insignia": "Steel Meridian insignia",
+	"67 miscellaneousflair syndicate-the-perrin-sequence-quittance": "The Perrin Sequence quittance",
+	"104 miscellaneousflair team-moon-icon": "Moon icon",
+	"105 miscellaneousflair team-sun-icon": "Sun icon"
 };
