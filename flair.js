@@ -1140,7 +1140,7 @@ flair.names = {
 	"103 landingcraftsflair xiphos-prisma-skin": "Xiphos Prisma skin",
 
 	
-	/* Miscellaneous Flairs (0-69, 104-138) */
+	/* Miscellaneous Flairs (0-69, 104-151) */
 	"0 miscellaneousflair founder-disciple": "Disciple Founder (PC Founders exclusive)",
 	"1 miscellaneousflair founder-hunter": "Hunter Founder (PC Founders exclusive)",
 	"2 miscellaneousflair founder-master": "Master Founder (PC Founders exclusive)",
@@ -1201,6 +1201,19 @@ flair.names = {
 	"136 miscellaneousflair faction-orokin-logo new": "Orokin faction logo",
 	"137 miscellaneousflair faction-sentient-logo new": "Sentient faction logo",
 	"138 miscellaneousflair faction-unaffiliated-wild-logo new": "Unaffiliated/wild faction logo",
+	"139 miscellaneousflair fish-charc-eel new": "Charc Eel",
+	"140 miscellaneousflair fish-cuthol new": "Cuthol",
+	"141 miscellaneousflair fish-glappid new": "Glappid",
+	"142 miscellaneousflair fish-goopolla new": "Goopolla",
+	"143 miscellaneousflair fish-karkina new": "Karkina",
+	"144 miscellaneousflair fish-khut-khut new": "Khut-Khut",
+	"145 miscellaneousflair fish-mawfish new": "Mawfish",
+	"146 miscellaneousflair fish-mortus-lungfish new": "Mortus Lungfish",
+	"147 miscellaneousflair fish-murkray new": "Murkray",
+	"148 miscellaneousflair fish-norg new": "Norg",
+	"149 miscellaneousflair fish-sharrac new": "Sharrac",
+	"150 miscellaneousflair fish-tralok new": "Tralok",
+	"151 miscellaneousflair fish-yogwun new": "Yogwun",
 	"128 miscellaneousflair focus-madurai-cloud new": "Madurai cloud",
 	"129 miscellaneousflair focus-naramon-tree new": "Naramon tree",
 	"130 miscellaneousflair focus-unairu-mountain new": "Unairu mountain",
