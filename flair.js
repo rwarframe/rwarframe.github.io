@@ -1140,7 +1140,7 @@ flair.names = {
 	"103 landingcraftsflair xiphos-prisma-skin": "Xiphos Prisma skin",
 
 	
-	/* Miscellaneous Flairs (0-69, 104-134) */
+	/* Miscellaneous Flairs (0-69, 104-138) */
 	"0 miscellaneousflair founder-disciple": "Disciple Founder (PC Founders exclusive)",
 	"1 miscellaneousflair founder-hunter": "Hunter Founder (PC Founders exclusive)",
 	"2 miscellaneousflair founder-master": "Master Founder (PC Founders exclusive)",
@@ -1197,6 +1197,10 @@ flair.names = {
 	"118 miscellaneousflair damage-icon-viral": "Viral damage icon",
 	"133 miscellaneousflair faction-corpus-logo new": "Corpus faction logo",
 	"134 miscellaneousflair faction-grineer-logo new": "Grineer faction logo",
+	"135 miscellaneousflair faction-infestation-logo new": "Infestation faction logo",
+	"136 miscellaneousflair faction-orokin-logo new": "Orokin faction logo",
+	"137 miscellaneousflair faction-sentient-logo new": "Sentient faction logo",
+	"138 miscellaneousflair faction-unaffiliated-wild-logo new": "Unaffiliated/wild faction logo",
 	"128 miscellaneousflair focus-madurai-cloud new": "Madurai cloud",
 	"129 miscellaneousflair focus-naramon-tree new": "Naramon tree",
 	"130 miscellaneousflair focus-unairu-mountain new": "Unairu mountain",
