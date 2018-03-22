@@ -795,6 +795,11 @@ flair.names = {
 	"91 glyphsflair winter-xiii-glyph new": "Winter XIII glyph (winter exclusive)",
 
 	
+	/* content creator glyphs (0-91) */
+	/*"150 glyphsflair tennoclocknews-glyph": "TennoClockNews glyph",*/
+	/*"151 glyphsflair zopney-glyph": "Zopney glyph",*/
+	/*"152 glyphsflair reddit-glyph": "Reddit glyph",*/
+	
 	
 	/* sigils (0-214)*/	
 	"198 sigilsflair assassin-grustrag-3-sigil": "Grustrag 3 sigil",
