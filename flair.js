@@ -33,7 +33,7 @@ flair.load__by_id = function() {
 				flair_id: data[2],
 				orig_id: orig_id,
 				flair_name: flair.names[key],
-				flair_class: ' flair-' + data[0] + ' flair-' + data[1] + ' flair-' + data[2] + ' ' + data[3]
+				flair_class: ' flair-' + data[0] + ' flair-' + data[1] + ' flair-' + data[2] + ' ' + data[3] + ' ' + data[4]
 			}
 		}
 	}
@@ -45,13 +45,14 @@ flair.names = {
 	/* Blank Flair */
 	"0 none none": "Blank Flair",
 	
-	/* Prime Warframes (0-21) */
+	/* Prime Warframes (0-40) */
 	"0 primewarframesflair ash-prime": "Ash Prime",
 	"15 primewarframesflair banshee-prime": "Banshee Prime",
 	"1 primewarframesflair ember-prime": "Ember Prime",
 	"2 primewarframesflair excalibur-prime": "Excalibur Prime (PC Founders exclusive)",
 	"3 primewarframesflair frost-prime": "Frost Prime",
 	"20 primewarframesflair hydroid-prime": "Hydroid Prime",
+	"30 primewarframesflair limbo-prime new": "Limbo Prime",
 	"4 primewarframesflair loki-prime": "Loki Prime",
 	"5 primewarframesflair mag-prime": "Mag Prime",
 	"22 primewarframesflair mirage-prime": "Mirage Prime",
@@ -67,10 +68,25 @@ flair.names = {
 	"13 primewarframesflair volt-prime": "Volt Prime",
 	"14 primewarframesflair valkyr-prime": "Valkyr Prime",
 	"24 primewarframesflair zephyr-prime": "Zephyr Prime",
+	"26 primewarframesflair ash-prime-alt new": "Ash Prime (alternate picture)",
+	"27 primewarframesflair ember-prime-alt new": "Ember Prime (alternate picture)",
+	"28 primewarframesflair excalibur-prime-alt new": "Excalibur Prime (alternate picture)",
+	"29 primewarframesflair frost-prime-alt new": "Frost Prime (alternate picture)",
+	"31 primewarframesflair mag-prime-alt new": "Mag Prime (alternate picture)",
+	"32 primewarframesflair nova-prime-alt new": "Nova Prime (alternate picture)",
+	"33 primewarframesflair nyx-prime-alt new": "Nyx Prime (alternate picture)",
+	"34 primewarframesflair rhino-prime-alt new": "Rhino Prime (alternate picture)",
+	"35 primewarframesflair saryn-prime-alt new": "Saryn Prime (alternate picture)",
+	"36 primewarframesflair trinity-prime-alt new": "Trinity Prime (alternate picture)",
+	"37 primewarframesflair vauban-prime-alt new": "Vauban Prime (alternate picture)",
+	"38 primewarframesflair volt-prime-alt new": "Volt Prime (alternate picture)",
+	"39 primewarframesflair zephyr-prime-alt new": "Zephyr Prime (alternate picture)",
+
 	
 	
-	/* Umbra Warframes (100) */
-	/*"100 primewarframesflair excalibur-umbra": "Excalibur Umbra",*/
+	/* Umbra Warframes (100-102) */
+	"100 primewarframesflair excalibur-umbra new": "Excalibur Umbra",
+	"101 primewarframesflair excalibur-umbra-alt new": "Excalibur Umbra (alternate picture)",
 	
 	
 	/* Regular Warframes (0-72) */
@@ -110,18 +126,39 @@ flair.names = {
 	"29 regularwarframesflair wukong": "Wukong",
 	"30 regularwarframesflair zephyr": "Zephyr",
 	"32 regularwarframesflair ash-alt": "Ash (alternate picture)",
+	"73 regularwarframesflair atlas-alt new": "Atlas (alternate picture)",
 	"33 regularwarframesflair banshee-alt tall": "Banshee (alternate picture)",
+	"74 regularwarframesflair chroma-alt new": "Chroma (alternate picture)",
 	"34 regularwarframesflair ember-alt": "Ember (alternate picture)",
+	"75 regularwarframesflair equinox-alt new": "Equinox (alternate picture)",
+	"76 regularwarframesflair equinox-day-form new": "Equinox Day form",
+	"77 regularwarframesflair equinox-night-form new": "Equinox Night form",
 	"35 regularwarframesflair excalibur-alt": "Excalibur (alternate picture)",
+	"78 regularwarframesflair excalibur-alt-2 new": "Excalibur (alternate picture 2)",
 	"36 regularwarframesflair frost-alt": "Frost (alternate picture)",
+	"79 regularwarframesflair hydroid-alt new": "Hydroid (alternate picture)",
+	"80 regularwarframesflair inaros-alt new": "Inaros (alternate picture)",
+	"81 regularwarframesflair ivara-alt new": "Ivara (alternate picture)",
+	"82 regularwarframesflair limbo-alt new": "Limbo (alternate picture)",
 	"37 regularwarframesflair loki-alt": "Loki (alternate picture)",
 	"38 regularwarframesflair mag-alt tall": "Mag (alternate picture)",
 	"39 regularwarframesflair mesa-alt": "Mesa (alternate picture)",
+	"83 regularwarframesflair mesa-alt-2 new": "Mesa (alternate picture 2)",
+	"84 regularwarframesflair mirage-alt new": "Mirage (alternate picture)",
+	"85 regularwarframesflair nezha-alt new": "Nezha (alternate picture)",
+	"86 regularwarframesflair nezha-alt-2 new": "Nezha (alternate picture 2)",
+	"87 regularwarframesflair nova-alt new": "Nova (alternate picture)",
 	"40 regularwarframesflair nyx-alt": "Nyx (alternate picture)",
+	"88 regularwarframesflair oberon-alt new": "Oberon (alternate picture)",
 	"41 regularwarframesflair rhino-alt": "Rhino (alternate picture)",
 	"42 regularwarframesflair saryn-alt tall": "Saryn (alternate picture)",
 	"43 regularwarframesflair trinity-alt tall": "Trinity (alternate picture)",
+	"89 regularwarframesflair valkyr-alt new": "Valkyr (alternate picture)",
+	"90 regularwarframesflair vauban-alt new": "Vauban (alternate picture)",
 	"44 regularwarframesflair volt-alt tall": "Volt (alternate picture)",
+	"91 regularwarframesflair wukong-alt new": "Wukong (alternate picture)",
+	"92 regularwarframesflair wukong-alt-2 new": "Wukong (alternate picture 2)",
+	"93 regularwarframesflair zephyr-alt new": "Zephyr (alternate picture)",
 	"45 regularwarframesflair atlas-bundle tall": "Atlas (Brawler Bundle)",
 	"46 regularwarframesflair chroma-bundle": "Chroma (Dragon Bundle)",
 	"47 regularwarframesflair equinox-bundle": "Equinox (Mega Pack)",
@@ -149,7 +186,7 @@ flair.names = {
 	"63 regularwarframesflair zephyr-bundle": "Zephyr (Update 12 Mega Bundle)",
 
 		
-	/* Deluxe Warframe Skins (0-34)*/
+	/* Deluxe Warframe Skins (0-36)*/
 	"0 deluxewarframeskinsflair ash-koga-skin": "Ash Koga skin",
 	"12 deluxewarframeskinsflair ash-koga-deluxe-skin-bundle": "Ash Koga deluxe skin (bundle)",
 	"1 deluxewarframeskinsflair banshee-soprana-skin": "Banshee Soprana skin",
@@ -162,6 +199,8 @@ flair.names = {
 	"11 deluxewarframeskinsflair frost-harka-skin tall": "Frost Harka skin",
 	"14 deluxewarframeskinsflair frost-harka-deluxe-skin-bundle": "Frost Harka deluxe skin (bundle)",
 	"15 deluxewarframeskinsflair frost-harka-deluxe-skin-bundle-alt": "Frost Harka deluxe skin (bundle alternate picture)",
+	"35 deluxewarframeskinsflair inaros-ramses-deluxe-skin new": "Inaros Ramses deluxe skin",
+	"36 deluxewarframeskinsflair inaros-ramses-deluxe-skin-bundle new": "Inaros Ramses deluxe skin (bundle)",
 	"3 deluxewarframeskinsflair loki-knave-skin": "Loki Knave skin",
 	"27 deluxewarframeskinsflair mag-pneuma-deluxe-skin": "Mag Pneuma deluxe skin",
 	"28 deluxewarframeskinsflair mag-pneuma-deluxe-skin-bundle": "Mag Pneuma deluxe skin (collection)",
@@ -187,13 +226,15 @@ flair.names = {
 	"34 deluxewarframeskinsflair volt-proto-deluxe-skin-bundle": "Volt Proto deluxe skin (collection)",
 
 		
-	/* TennoGen Warframe Skins (0-72, 74-77)*/
+	/* TennoGen Warframe Skins (0-72, 74-85)*/
 	"33 tennogenwarframeskinsflair ash-bai-hu-skin": "Ash Bai Hu skin (by Hitsu San)",
 	"47 tennogenwarframeskinsflair ash-tsukuyomi-skin": "Ash Tsukuyomi Skin (by Yatus)",
 	"56 tennogenwarframeskinsflair atlas-graxx-skin": "Atlas Graxx skin (by Faven)",
 	"48 tennogenwarframeskinsflair atlas-monolith-skin": "Atlas Monolith Skin (by stenchfury)",
 	"62 tennogenwarframeskinsflair banshee-sonority-skin": "Banshee Sonority skin (by prosetisen)",
 	"0 tennogenwarframeskinsflair chroma-drevni-skin": "Chroma Drevni skin (by Volkovyi)",
+	"79 tennogenwarframeskinsflair chroma-graxx-skin new": "Chroma Graxx skin (by Faven)",
+	"78 tennogenwarframeskinsflair chroma-thyrus-skin new": "Chroma Thyrus skin (by StenchFury)",
 	"1 tennogenwarframeskinsflair chroma-vojnik-skin": "Chroma Vojnik Battle-Damaged skin (by Volkovyi)",
 	"2 tennogenwarframeskinsflair ember-graxx-skin": "Ember Graxx skin (by Faven)",
 	"40 tennogenwarframeskinsflair ember-ignition-skin": "Ember Ignition skin (by Kaiceps)",
@@ -217,13 +258,16 @@ flair.names = {
 	"43 tennogenwarframeskinsflair ivara-youkai-skin": "Ivara Youkai skin (by HitsuSan)",
 	"44 tennogenwarframeskinsflair limbo-vasiona-skin": "Limbo Vasiona skin (by Volkovyi)",
 	"57 tennogenwarframeskinsflair limbo-vistyxio-skin": "Limbo Vistyxio skin (by led2012 and Hydroxate)",
+	"80 tennogenwarframeskinsflair loki-erebus-skin new": "Loki Erebus skin (by Vulbjorn)",
 	"34 tennogenwarframeskinsflair loki-incubus-skin": "Loki Incubus skin (by Volkovyi)",
 	"12 tennogenwarframeskinsflair mag-alata-skin": "Mag Alata skin (by Hitsu San)",
+	"81 tennogenwarframeskinsflair mag-ferro-skin new": "Mag Ferro skin (by Master Noob)",
 	"51 tennogenwarframeskinsflair mag-graxx-skin": "Mag Graxx Skin (by Faven)",
 	"13 tennogenwarframeskinsflair mag-knaita-skin": "Mag Knaita skin (by prosetisen)",
 	"14 tennogenwarframeskinsflair mag-orbit-skin": "Mag Orbit skin (by Del)",
 	"58 tennogenwarframeskinsflair mesa-devil-ranger-skin": "Mesa Devil Ranger skin (by Mz-3)",
 	"35 tennogenwarframeskinsflair mesa-graxx-skin": "Mesa Graxx skin (by Faven)",
+	"82 tennogenwarframeskinsflair mesa-marlet-skin new": "Mesa Marlet skin (by Cheshire and prosetisen)",
 	"15 tennogenwarframeskinsflair mirage-graxx-skin": "Mirage Graxx skin (by Faven)",
 	"67 tennogenwarframeskinsflair mirage-mithra-skin": "Mirage Mithra skin (by lukinu_u)",
 	"36 tennogenwarframeskinsflair mirage-morgaine-skin": "Mirage Morgaine skin (by artarrwen)",
@@ -239,6 +283,7 @@ flair.names = {
 	"21 tennogenwarframeskinsflair nova-stinger-skin": "Nova Stinger skin (by Cheshire)",
 	"22 tennogenwarframeskinsflair nova-visage-skin": "Nova Visage skin (by Hitsu San)",
 	"23 tennogenwarframeskinsflair nyx-athena-skin": "Nyx Athena skin (by prosetisen)",
+	"83 tennogenwarframeskinsflair nyx-aurelia-skin new": "Nyx Aurelia skin (by Hitsu San)",
 	"54 tennogenwarframeskinsflair nyx-carnifex-skin": "Nyx Carnifex Skin (by Vulbjorn)",
 	"24 tennogenwarframeskinsflair nyx-graxx-skin": "Nyx Graxx skin (by Faven)",
 	"37 tennogenwarframeskinsflair nyx-saikou-skin": "Nyx Saikou skin skin (by malayu)",
@@ -246,6 +291,7 @@ flair.names = {
 	"70 tennogenwarframeskinsflair octavia-diva-skin": "Octavia Diva skin (by Iukinu_u)",
 	"25 tennogenwarframeskinsflair rhino-graxx-skin": "Rhino Graxx skin (by Faven)",
 	"71 tennogenwarframeskinsflair rhino-mastodon-skin": "Rhino Mastodon skin (by Vulbjorn)",
+	"84 tennogenwarframeskinsflair rhino-scarab-sect-skin new": "Rhino Scarab Sect skin (by Mz-3)",
 	"26 tennogenwarframeskinsflair rhino-vojnik-skin": "Rhino Vojnik Battle-Damaged skin (by Volkovyi)",
 	"55 tennogenwarframeskinsflair saryn-amalgama-skin": "Saryn Amalgama Skin (by prosetisen)",
 	"27 tennogenwarframeskinsflair saryn-graxx-skin": "Saryn Graxx skin (by Faven)",
@@ -261,6 +307,7 @@ flair.names = {
 	"39 tennogenwarframeskinsflair vauban-suppressor-skin": "Vauban Suppressor skin (by Cheshire and prosetisen)",
 	"29 tennogenwarframeskinsflair volt-amp-skin": "Volt Amp skin (by Faven)",
 	"45 tennogenwarframeskinsflair volt-capacitor-skin": "Volt Capacitor skin (by Del)",
+	"85 tennogenwarframeskinsflair volt-fulgursor-skin new": "Volt Fulgursor skin (by Vulbjorn)",
 	"30 tennogenwarframeskinsflair volt-graxx-skin": "Volt Graxx skin (by Faven)",
 	"46 tennogenwarframeskinsflair volt-zener-skin": "Volt Zener skin (by Rekkou)",
 	"77 tennogenwarframeskinsflair wukong-auman-skin": "Wukong Auman skin (by Rekkou)",
@@ -323,9 +370,11 @@ flair.names = {
 	/* Warframe Helmets */
 	"16 primewarframesflair banshee-prime-helmet": "Banshee Prime helmet",
 	"21 primewarframesflair hydroid-prime-helmet": "Hydroid Prime helmet",
+	"40 primewarframesflair limbo-prime-helmet new": "Limbo Prime helmet",
 	"23 primewarframesflair mirage-prime-helmet": "Mirage Prime helmet",
 	"19 primewarframesflair oberon-prime-helmet": "Oberon Prime helmet",
 	"25 primewarframesflair zephyr-prime-helmet": "Zephyr Prime helmet",
+	"102 primewarframesflair excalibur-umbra-sunder-helmet new": "Excalibur Umbra Sunder helmet",
 	"81 otherwarframehelmetsflair gara-helmet": "Gara helmet",
 	"79 otherwarframehelmetsflair harrow-helmet": "Harrow helmet",
 	/*"86 otherwarframehelmetsflair khora-helmet": "Khora helmet",*/
@@ -335,25 +384,26 @@ flair.names = {
 
 	
 	/* Deluxe Warframe Helmets (50-61, 71)*/
-	"50 deluxewarframehelmetsflair ash-koga-helmet": "Ash Koga helmet",
-	"51 deluxewarframehelmetsflair banshee-soprana-helmet": "Banshee Soprana helmet",
-	"71 deluxewarframehelmetsflair chroma-dynasty-helmet": "Chroma Dynasty helmet",
-	"53 deluxewarframehelmetsflair ember-vermillion-helmet": "Ember Vermillion helmet",
-	"52 deluxewarframehelmetsflair excalibur-proto-helmet": "Excalibur Proto helmet",
-	"61 deluxewarframehelmetsflair frost-harka-helmet": "Frost Harka helmet",
-	"57 deluxewarframehelmetsflair mag-pneuma-helmet": "Mag Pneuma helmet",
-	"58 deluxewarframehelmetsflair mesa-presidio-helmet": "Mesa Presidio helmet",
-	"54 deluxewarframehelmetsflair nekros-irkalla-helmet": "Nekros Irkalla helmet",
-	"55 deluxewarframehelmetsflair nyx-nemesis-helmet": "Nyx Nemesis helmet",
-	"56 deluxewarframehelmetsflair oberon-feyarch-helmet": "Oberon Feyarch helmet",
-	"59 deluxewarframehelmetsflair octavia-maestra-helmet": "Octavia Maestra helmet",
-	"60 deluxewarframehelmetsflair volt-proto-helmet": "Volt Proto helmet",
-	/*"XX deluxewarframehelmetsflair saryn-orphid-helmet": "Saryn Orphid helmet",*/
-	/*"XX deluxewarframehelmetsflair trinity-strega-helmet": "Trinity Strega helmet",*/
-	/*"XX deluxewarframehelmetsflair valkyr-gersemi-helmet": "Valkyr Gersemi helmet",*/
+	"50 deluxewarframehelmetsflair ash-koga-helmet": "Ash Koga deluxe helmet",
+	"51 deluxewarframehelmetsflair banshee-soprana-helmet": "Banshee Soprana deluxe helmet",
+	"71 deluxewarframehelmetsflair chroma-dynasty-helmet": "Chroma Dynasty deluxe helmet",
+	"53 deluxewarframehelmetsflair ember-vermillion-helmet": "Ember Vermillion deluxe helmet",
+	"52 deluxewarframehelmetsflair excalibur-proto-helmet": "Excalibur Proto deluxe helmet",
+	"61 deluxewarframehelmetsflair frost-harka-helmet": "Frost Harka deluxe helmet",
+	"62 deluxewarframehelmetsflair inaros-ramses-helmet new": "Inaros Ramses deluxe helmet",
+	"57 deluxewarframehelmetsflair mag-pneuma-helmet": "Mag Pneuma deluxe helmet",
+	"58 deluxewarframehelmetsflair mesa-presidio-helmet": "Mesa Presidio deluxe helmet",
+	"54 deluxewarframehelmetsflair nekros-irkalla-helmet": "Nekros Irkalla deluxe helmet",
+	"55 deluxewarframehelmetsflair nyx-nemesis-helmet": "Nyx Nemesis deluxe helmet",
+	"56 deluxewarframehelmetsflair oberon-feyarch-helmet": "Oberon Feyarch deluxe helmet",
+	"59 deluxewarframehelmetsflair octavia-maestra-helmet": "Octavia Maestra deluxe helmet",
+	"60 deluxewarframehelmetsflair volt-proto-helmet": "Volt Proto deluxe helmet",
+	/*"XX deluxewarframehelmetsflair saryn-orphid-helmet": "Saryn Orphid deluxe helmet",*/
+	/*"XX deluxewarframehelmetsflair trinity-strega-helmet": "Trinity Strega deluxe helmet",*/
+	/*"XX deluxewarframehelmetsflair valkyr-gersemi-helmet": "Valkyr Gersemi deluxe helmet",*/
 	
 	
-	/* TennoGen Warframe Helmets (0-3, 5-6, 8-50, 52-121, 123-126)*/
+	/* TennoGen Warframe Helmets (0-3, 5-6, 8-50, 52-121, 123-135)*/
 	"67 tennogenwarframehelmetsflair ash-bai-hu-helmet": "Ash Bai Hu helmet (by Hitsu San)",
 	"0 tennogenwarframehelmetsflair ash-carabid-helmet": "Ash Carabid helmet (by artarrwen)",
 	"88 tennogenwarframehelmetsflair ash-tsukuyomi-helmet": "Ash Tsukuyomi Helmet (by Yatus)",
@@ -365,8 +415,10 @@ flair.names = {
 	"3 tennogenwarframehelmetsflair banshee-echo-helmet": "Banshee Echo helmet (by Rekkou)",
 	"107 tennogenwarframehelmetsflair banshee-sonority-helmet": "Banshee Sonority helmet (by prosetisen)",
 	/*"4 tennogenwarframehelmetsflair chroma-drevni-helmet": "Chroma Drevni helmet (by Volkovyi)",*/
+	"128 tennogenwarframehelmetsflair chroma-graxx-helmet new": "Chroma Graxx helmet (by Faven)",
 	"5 tennogenwarframehelmetsflair chroma-kaiju-helmet": "Chroma Kaiju helmet (by [k a z])",
 	"6 tennogenwarframehelmetsflair chroma-tarrasque-helmet": "Chroma Tarrasque helmet (by artarrwen)",
+	"127 tennogenwarframehelmetsflair chroma-thyrus-helmet new": "Chroma Thyrus helmet (by StenchFury)",
 	/*"7 tennogenwarframehelmetsflair chroma-vojnik-helmet": "Chroma Vojnik Battle-Damaged helmet (by Volkovyi)",*/
 	"8 tennogenwarframehelmetsflair ember-graxx-helmet": "Ember Graxx helmet (by Faven)",
 	"77 tennogenwarframehelmetsflair ember-ignition-helmet": "Ember Ignition helmet (by Kaiceps)",
@@ -390,6 +442,7 @@ flair.names = {
 	"22 tennogenwarframehelmetsflair frost-summit-helmet": "Frost Summit helmet (by artarrwen)",
 	"23 tennogenwarframehelmetsflair frost-vojnik-helmet": "Frost Vojnik Battle-Damaged helmet (by Volkovyi)",
 	"24 tennogenwarframehelmetsflair frost-zastruga-helmet": "Frost Zastruga helmet (by Rekkou)",
+	"129 tennogenwarframehelmetsflair gara-silica-helmet new": "Gara Silica Helmet (by Arsenal)",
 	"109 tennogenwarframehelmetsflair harrow-graxx-helmet": "Harrow Graxx helmet (by Faven)",
 	"110 tennogenwarframehelmetsflair harrow-hieropha-helmet": "Harrow Hieropha helmet (by led2012)",
 	"91 tennogenwarframehelmetsflair hydroid-graxx-helmet": "Hydroid Graxx helmet (by Faven)",
@@ -403,11 +456,13 @@ flair.names = {
 	"81 tennogenwarframehelmetsflair limbo-vasiona-helmet": "Limbo Vasiona helmet (by Volkovyi)",
 	"100 tennogenwarframehelmetsflair limbo-venari-helmet": "Limbo Venari helmet (by Volkovyi and Sab531)",
 	"101 tennogenwarframehelmetsflair limbo-vistyxio-helmet": "Limbo Vistyxio helmet (by led2012 and Hydroxate)",
+	"130 tennogenwarframehelmetsflair loki-erebus-helmet new": "Loki Erebus helmet (by Vulbjorn)",
 	"25 tennogenwarframehelmetsflair loki-ersatz-helmet": "Loki Ersatz helmet (by Rekkou)",
 	"70 tennogenwarframehelmetsflair loki-incubus-helmet": "Loki Incubus helmet (by Volkovyi)",
 	"26 tennogenwarframehelmetsflair loki-rogue-helmet": "Loki Rogue helmet (by artarrwen)",
 	"27 tennogenwarframehelmetsflair mag-alata-helmet": "Mag Alata helmet (by Hitsu San)",
 	"28 tennogenwarframehelmetsflair mag-anthro-helmet": "Mag Anthro helmet (by Pior)",
+	"131 tennogenwarframehelmetsflair mag-ferro-helmet new": "Mag Ferro helmet (by Master Noob)",
 	"92 tennogenwarframehelmetsflair mag-graxx-helmet": "Mag Graxx Helmet (by Faven)",
 	"29 tennogenwarframehelmetsflair mag-induction-helmet": "Mag Induction helmet (by Pior)",
 	"30 tennogenwarframehelmetsflair mag-knaita-helmet": "Mag Knaita helmet (by prosetisen)",
@@ -417,6 +472,7 @@ flair.names = {
 	"102 tennogenwarframehelmetsflair mesa-devil-ranger-helmet": "Mesa Devil Ranger helmet (by Mz-3)",
 	"34 tennogenwarframehelmetsflair mesa-falcon-helmet": "Mesa Falcon helmet (by prosetisen)",
 	"71 tennogenwarframehelmetsflair mesa-graxx-helmet": "Mesa Graxx helmet (by Faven)",
+	"132 tennogenwarframehelmetsflair mesa-marlet-helmet new": "Mesa Marlet helmet (by Cheshire and prosetisen)",
 	"35 tennogenwarframehelmetsflair mirage-graxx-helmet": "Mirage Graxx helmet (by Faven)",
 	"36 tennogenwarframehelmetsflair mirage-jolli-helmet": "Mirage Jolli helmet (by Cheshire)",
 	"114 tennogenwarframehelmetsflair mirage-mithra-helmet": "Mirage Mithra helmet (by lukinu_u)",
@@ -437,6 +493,7 @@ flair.names = {
 	"46 tennogenwarframehelmetsflair nova-visage-helmet": "Nova Visage helmet (by Hitsu San)",
 	"82 tennogenwarframehelmetsflair nyx-ampulex-helmet": "Nyx Ampulex helmet (by Vulbjorn)",
 	"47 tennogenwarframehelmetsflair nyx-athena-helmet": "Nyx Athena helmet (by prosetisen)",
+	"133 tennogenwarframehelmetsflair nyx-aurelia-helmet new": "Nyx Aurelia helmet (by Hitsu San)",
 	"95 tennogenwarframehelmetsflair nyx-carnifex-helmet": "Nyx Carnifex Helmet (by Vulbjorn)",
 	"48 tennogenwarframehelmetsflair nyx-graxx-helmet": "Nyx Graxx helmet (by Faven)",
 	"73 tennogenwarframehelmetsflair nyx-saikou-helmet": "Nyx Saikou helmet helmet (by malayu)",
@@ -447,6 +504,7 @@ flair.names = {
 	"119 tennogenwarframehelmetsflair octavia-diva-helmet": "Octavia Diva helmet (by Iukinu_u)",
 	"50 tennogenwarframehelmetsflair rhino-graxx-helmet": "Rhino Graxx helmet (by Faven)",
 	"120 tennogenwarframehelmetsflair rhino-mastodon-helmet": "Rhino Mastodon helmet (by Vulbjorn)",
+	"134 tennogenwarframehelmetsflair rhino-scarab-sect-helmet new": "Rhino Scarab Sect helmet (by Mz-3)",
 	"74 tennogenwarframehelmetsflair rhino-teutonic-helmet": "Rhino Teutonic helmet (by Faven)",
 	/*"51 tennogenwarframehelmetsflair rhino-vojnik-helmet": "Rhino Vojnik Battle-Damaged helmet (by Volkovyi)",*/
 	"83 tennogenwarframehelmetsflair rhino-warlust-helmet": "Rhino Warlust helmet (by Stenchfury)",
@@ -471,6 +529,7 @@ flair.names = {
 	"57 tennogenwarframehelmetsflair volt-amp-helmet": "Volt Amp helmet (by Faven)",
 	"58 tennogenwarframehelmetsflair volt-arrester-helmet": "Volt Arrester helmet (by Rekkou)",
 	"86 tennogenwarframehelmetsflair volt-capacitor-helmet": "Volt Capacitor helmet (by Del)",
+	"135 tennogenwarframehelmetsflair volt-fulgursor-helmet new": "Volt Fulgursor helmet (by Vulbjorn)",
 	"59 tennogenwarframehelmetsflair volt-graxx-helmet": "Volt Graxx helmet (by Faven)",
 	"60 tennogenwarframehelmetsflair volt-relay-helmet": "Volt Relay helmet (by DespicableCheese)",
 	"61 tennogenwarframehelmetsflair volt-thales-helmet": "Volt Thales helmet (by Arsenal)",
@@ -580,6 +639,7 @@ flair.names = {
 	"106 archwingsflair itzal-bundle": "Itzal (Raider Pack)",
 	"107 archwingsflair itzal-jade-skin": "Itzal Jade skin (XB1 Prestige Pack exclusive)",
 	"109 archwingsflair itzal-jade-skin-alt": "Itzal Jade skin (XB1 Prestige Pack exclusive, alternate picture)",
+	"110 archwingsflair odonata-elixis-skin new": "Odonata Elixis skin",
 	"108 archwingsflair odonata-obsidian-skin": "Odonata Obsidian skin (PS4 Renown Pack exclusive)",
 	
 	
@@ -602,7 +662,7 @@ flair.names = {
 	"156 operatorsflair varida-operator-suit-bundle tall": "Varida operator suit (Operator Suit Collection)",
 
 	
-	/* Companions (0-90) */
+	/* Companions (0-92) */
 	"0 sentinelsflair carrier-prime": "Carrier Prime",
 	"79 sentinelsflair helios-prime tall": "Helios Prime",
 	"1 sentinelsflair wyrm-prime": "Wyrm Prime",
@@ -633,7 +693,7 @@ flair.names = {
 	"20 sentinelsflair shade-sprite-skin": "Shade Sprite skin",
 	"21 sentinelsflair wyrm-obsidian-skin tall": "Wyrm Obsidian skin (PS4 Renown Pack exclusive)",
 	
-	/*"89 kavatsflair venari": "Venari (Khora's Kavat)",*/
+	"89 kavatsflair venari new": "Venari (Khora's kavat passive)",
 	"38 kavatsflair adarza-kavat": "Adarza Kavat",
 	"39 kavatsflair smeeta-kavat": "Smeeta Kavat",
 	"40 kavatsflair feral-kavat": "Feral Kavat",
@@ -645,6 +705,7 @@ flair.names = {
 	"45 kavatsflair kavat-kuva-armor": "Kavat Kuva armor",
 	"46 kavatsflair kavat-myrdin-armor": "Kavat Myrdin armor",
 	"47 kavatsflair kavat-saraba-armor": "Kavat Saraba armor",
+	"91 kavatsflair kavat-umbra-armor new": "Kavat Umbra armor",
 	"48 kavatsflair kavat-wysar-armor": "Kavat Wysar armor",
 	"49 kavatsflair kavat-argyl-fur-pattern tall": "Kavat Argyl fur pattern",
 	"82 kavatsflair kavat-feral-pattern": "Kavat Feral fur pattern",
@@ -676,6 +737,7 @@ flair.names = {
 	"63 kubrowsflair kubrow-kuva-armor": "Kubrow Kuva armor",
 	"64 kubrowsflair kubrow-pakal-armor tall": "Kubrow Pakal armor",
 	"65 kubrowsflair kubrow-rostam-armor": "Kubrow Rostam armor",
+	"92 kubrowsflair kubrow-umbra-armor new": "Kubrow Umbra armor",
 	"66 kubrowsflair kubrow-valinn-armor": "Kubrow Valinn armor",
 	"67 kubrowsflair kubrow-little-helper-hat": "Kubrow Little Helper Hat (winter exclusive)",
 	"68 kubrowsflair kubrow-arklut-fur-pattern": "Kubrow Arklut fur pattern",
@@ -793,7 +855,41 @@ flair.names = {
 	"89 glyphsflair winter-xi-glyph": "Winter XI glyph (winter exclusive)",
 	"90 glyphsflair winter-xii-glyph": "Winter XII glyph (winter exclusive)",
 	"91 glyphsflair winter-xiii-glyph": "Winter XIII glyph (winter exclusive)",
-
+	
+	
+	/* emblems (93-123) */
+	"113 emblemsflair event-acolyte-emblem new": "Acolyte emblem (Operation: Shadow Debt exclusive)",
+	"93 emblemsflair event-ambulas-reborn-emblem new": "Ambulas Reborn emblem (Operation: Ambulas Reborn exclusive)",
+	"94 emblemsflair event-arid-fear-emblem new": "Arid Fear emblem (PC exclusive, Operation: Arid Fear exclusive)",
+	"96 emblemsflair event-boiler-emblem new": "Boiler emblem (Operation: Mutalist Incursions exclusive)",
+	"97 emblemsflair event-breeding-grounds-emblem new": "Breeding Grounds emblem (PC and PS4 exclusive, Operation: Breeding Grounds exclusive)",
+	"98 emblemsflair event-brood-mother-emblem new": "Brood Mother emblem (Operation: Mutalist Incursions exclusive)",
+	"99 emblemsflair event-cicero-crisis-emblem new": "Cicero Crisis emblem (PC and PS4 exclusive, The Cicero Crisis exclusive)",
+	"100 emblemsflair event-cryotic-front-emblem new": "Cryotic Front emblem (Operation: Cryotic Front exclusive)",
+	"101 emblemsflair event-emblem-of-the-hunt-emblem new": "Emblem of The Hunt (PC and PS4 exclusive, The Hunt for Alad V exclusive)",
+	"102 emblemsflair event-eyes-of-blight-emblem new": "Eyes of Blight emblem (Operation: Eyes of Blight exclusive)",
+	"103 emblemsflair event-false-profit-emblem new": "False Profit emblem (Operation: False Profit exclusive)",
+	"104 emblemsflair event-gate-crash-emblem new": "Gate Crash emblem (Operation: Gate Crash exclusive)",
+	"105 emblemsflair event-gradivus-loyalty-emblem new": "Gradivus: Loyalty emblem (PC exclusive, The Gradivus Dilemma exclusive)",
+	"106 emblemsflair event-gradivus-sacrifice-emblem new": "Gradivus: Sacrifice emblem (PC exclusive, The Gradivus Dilemma exclusive)",
+	"109 emblemsflair event-mutalist-incursions-emblem new": "Mutalist Incursions emblem (Operation: Mutalist Incursions exclusive)",
+	"110 emblemsflair event-plague-star-emblem new": "Plague Star emblem (Operation: Plague Star exclusive)",
+	"111 emblemsflair event-rathuum-emblem new": "Rathuum emblem (Operation: Rathuum exclusive)",
+	"114 emblemsflair event-sling-stone-emblem new": "Sling Stone emblem (PC exclusive, Operation Sling-Stone exclusive)",
+	"115 emblemsflair event-specters-of-liberty-emblem new": "Specters of Liberty emblem (PC and PS4 exclusive, Specters Of Liberty exclusive)",
+	"116 emblemsflair event-survival-emblem new": "Survival emblem (PC exclusive, Survival Weekend exclusive)",
+	"117 emblemsflair event-swarm-mutalist-moa-emblem new": "Swarm-Mutalist MOA emblem (Operation: Mutalist Incursions exclusive)",
+	"118 emblemsflair event-tar-mutalist-moa-emblem new": "Tar-Mutalist MOA emblem (Operation: Mutalist Incursions exclusive)",
+	"119 emblemsflair event-tethras-doom-emblem new": "Tethra's Doom emblem (PC and PS4 exclusive, Tethra's Doom exclusive)",
+	"120 emblemsflair event-tethras-doom-quantum-emblem new": "Tethra's Doom Quantum emblem (PC and PS4 exclusive, Tethra's Doom exclusive)",
+	"121 emblemsflair event-the-index-preview-emblem new": "The Index emblem (The Index Preview exclusive)",
+	"122 emblemsflair event-the-pacifism-defect-emblem new": "The Pacifism Defect emblem (The Pacifism Defect exclusive)",
+	"123 emblemsflair event-tubemen-of-regor-emblem new": "Tubemen of Regor emblem (Operation: Tubemen of Regor exclusive)",
+	"95 emblemsflair trial-aseron-sekhara-emblem new": "Aseron Sekhara (The Law of Retribution nightmare trial exclusive)",
+	"107 emblemsflair trial-invati-sekhara-emblem new": "Invati Sekhara (Trial exclusive)",
+	"108 emblemsflair trial-jordas-sekhara-emblem new": "Jordas Sekhara (The Jordas Verdict trial exclusive)",
+	"112 emblemsflair trial-sevati-sekhara-emblem new": "Sevati Sekhara (The Law of Retribution trial exclusive)",
+	
 	
 	/* content creator glyphs (0-91) */
 	/*"150 glyphsflair tennoclocknews-glyph": "TennoClockNews glyph",*/
@@ -801,8 +897,10 @@ flair.names = {
 	/*"152 glyphsflair reddit-glyph": "Reddit glyph",*/
 	
 	
-	/* sigils (0-215)*/
-	"215 sigilsflair totalbiscuit-memorial-sigil new": "TotalBiscuit Memorial Sigil (In memory of John Bain)",
+	/* sigils (0-216) */
+	"100 sigilsflair prime-cycuta-sigil": "Cycuta Prime sigil",
+	"101 sigilsflair prime-verlorum-sigil": "Verlorum Prime sigil",
+	"216 sigilsflair prime-rift-walker-sigil new": "Rift Walker Prime sigil",
 	"198 sigilsflair assassin-grustrag-3-sigil": "Grustrag 3 sigil",
 	"199 sigilsflair assassin-stalker-sigil-red": "Stalker sigil (red)",
 	"200 sigilsflair assassin-stalker-sigil": "Stalker sigil",
@@ -973,13 +1071,12 @@ flair.names = {
 	"97 sigilsflair syndicate-the-perrin-sequence-level-8-sigil": "The Perrin Sequence Optimum sigil",
 	"98 sigilsflair syndicate-the-perrin-sequence-level-9-sigil": "The Perrin Sequence Capital sigil",
 	"99 sigilsflair syndicate-the-perrin-sequence-level-10-sigil": "The Perrin Sequence Chairman sigil",
-	"100 sigilsflair prime-cycuta-sigil": "Cycuta Prime sigil",
-	"101 sigilsflair prime-verlorum-sigil": "Verlorum Prime sigil",
 	"214 sigilsflair acolyte-sigil tall": "Acolyte sigil",
 	"102 sigilsflair banshee-soprana-sigil": "Banshee Soprana sigil",
 	"103 sigilsflair blade-and-gun-sigil": "Blade and Gun sigil",
-	"202 sigilsflair community-of-tenno-sigil-pink": "Community of Tenno sigil (pink)",
+	"215 sigilsflair totalbiscuit-memorial-sigil": "TotalBiscuit Memorial Sigil (In memory of John Bain)",
 	"203 sigilsflair community-of-tenno-sigil": "Community of Tenno sigil",
+	"202 sigilsflair community-of-tenno-sigil-pink": "Community of Tenno sigil (pink)",
 	"209 sigilsflair community-ostron-sigil": "Ostron Community sigil",
 	"104 sigilsflair cycle-one-sigil": "Cycle One sigil (PS4 1st anniversary exclusive)",
 	"105 sigilsflair cycle-two-sigil": "Cycle Two sigil (PS4 2nd anniversary exclusive)",
@@ -1020,7 +1117,8 @@ flair.names = {
 	"131 sigilsflair year-monquis-world-sigil": "Monquis sigil (International)",
 	
 	
-	/* noggles (0-84) */
+	/* noggles (0-86) */
+	"86 nogglesflair odonata-noggle new": "Odonata noggle",
 	"8 nogglesflair acolyte-angst-noggle tall": "Acolyte Angst noggle",
 	"9 nogglesflair acolyte-malice-noggle tall": "Acolyte Malice noggle",
 	"10 nogglesflair acolyte-mania-noggle": "Acolyte Mania noggle",
@@ -1038,6 +1136,7 @@ flair.names = {
 	"3 nogglesflair clem-noggle tall": "Clem noggle",
 	"18 nogglesflair conculyst-noggle": "Conculyst noggle",
 	"19 nogglesflair elite-arid-lancer-noggle tall": "Elite Arid Lancer noggle",
+	"85 nogglesflair umbra-excalibur-noggle tall new": "Excalibur Umbra noggle",
 	"20 nogglesflair ember-noggle tall": "Ember noggle",
 	"75 nogglesflair equinox-noggle tall": "Equinox noggle",
 	"76 nogglesflair equinox-day-form-noggle tall": "Equinox day form noggle",
