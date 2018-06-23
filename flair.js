@@ -103,7 +103,7 @@ flair.names = {
 	"8 regularwarframesflair hydroid": "Hydroid",
 	"9 regularwarframesflair inaros": "Inaros",
 	"10 regularwarframesflair ivara": "Ivara",
-	/*"69 regularwarframesflair khora": "Khora",*/
+	"69 regularwarframesflair khora new": "Khora",
 	"11 regularwarframesflair limbo": "Limbo",
 	"12 regularwarframesflair loki": "Loki",
 	"13 regularwarframesflair mag": "Mag",
@@ -173,7 +173,7 @@ flair.names = {
 	"52 regularwarframesflair inaros-bundle": "Inaros (Sands of Inaros Bundle)",
 	"53 regularwarframesflair ivara-bundle": "Ivara (Huntress Bundle)",
 	"66 regularwarframesflair harrow-bundle tall": "Harrow (collection)",
-	/*"70 regularwarframesflair khora-bundle": "Khora (Bundle)",*/
+	"70 regularwarframesflair khora-bundle new": "Khora (Bundle)",
 	"54 regularwarframesflair limbo-bundle": "Limbo (bundle)",
 	"55 regularwarframesflair mesa-bundle": "Mesa (Gunslinger Bundle)",
 	"56 regularwarframesflair mirage-bundle": "Mirage (bundle)",
@@ -377,7 +377,7 @@ flair.names = {
 	"102 primewarframesflair excalibur-umbra-sunder-helmet new": "Excalibur Umbra Sunder helmet",
 	"81 otherwarframehelmetsflair gara-helmet": "Gara helmet",
 	"79 otherwarframehelmetsflair harrow-helmet": "Harrow helmet",
-	/*"86 otherwarframehelmetsflair khora-helmet": "Khora helmet",*/
+	"86 otherwarframehelmetsflair khora-helmet new": "Khora helmet",
 	"71 otherwarframehelmetsflair limbo-helmet": "Limbo helmet",
 	"72 otherwarframehelmetsflair nyx-helmet": "Nyx helmet",
 	"73 otherwarframehelmetsflair octavia-helmet": "Octavia helmet",
@@ -579,7 +579,7 @@ flair.names = {
 	"25 otherwarframehelmetsflair ivara-loxley-helmet": "Ivara Loxley helmet",
 	"83 otherwarframehelmetsflair ivara-obsidian-azura-helmet": "Ivara Obsidian Azura helmet (PS4 Renown Pack exclusive)",
 	"67 otherwarframehelmetsflair ivara-zirastra-helmet": "Ivara Zirastra helmet",
-	/*"87 otherwarframehelmetsflair khora-ALTERNATE-helmet": "Khora ALTERNATE helmet",*/
+	"87 otherwarframehelmetsflair khora-delphi-helmet new": "Khora Delphi helmet",
 	"26 otherwarframehelmetsflair limbo-aristeas-helmet": "Limbo Aristeas helmet",
 	"27 otherwarframehelmetsflair limbo-magrite-helmet": "Limbo Magrite helmet",
 	"28 otherwarframehelmetsflair loki-enigma-helmet": "Loki Enigma helmet",
