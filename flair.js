@@ -604,7 +604,7 @@ flair.names = {
 	"155 tennogenwarframehelmetsflair zephyr-strafe-helmet new": "Zephyr Strafe helmet (by prosetisen)",
 
 
-	/* Other Warframe Helmets (0-11, 13-69, 71-89, 92, 94-95) */
+	/* Other Warframe Helmets (0-11, 13-69, 71-90, 92, 94-95) */
 	"0 otherwarframehelmetsflair ash-locust-helmet": "Ash Locust helmet",
 	"1 otherwarframehelmetsflair ash-scorpion-helmet": "Ash Scorpion helmet",
 	"2 otherwarframehelmetsflair atlas-shikoro-helmet": "Atlas Shikoro helmet",
@@ -617,6 +617,7 @@ flair.names = {
 	"9 otherwarframehelmetsflair ember-phoenix-helmet": "Ember Phoenix helmet",
 	"68 otherwarframehelmetsflair equinox-day-form-helmet": "Equinox day form helmet",
 	"69 otherwarframehelmetsflair equinox-night-form-helmet": "Equinox night form helmet",
+	"90 otherwarframehelmetsflair equinox-clisthert-helmet new": "Equinox Clisthert helmet",
 	"10 otherwarframehelmetsflair equinox-solstice-helmet": "Equinox Solstice helmet",
 	"11 otherwarframehelmetsflair excalibur-avalon-helmet": "Excalibur Avalon helmet",
 	"89 otherwarframehelmetsflair excalibur-dex-helmet": "Excalibur Dex helmet (anniversary exclusive)",
@@ -860,6 +861,7 @@ flair.names = {
 	"63 glyphsflair donwyn-glyph-iv": "Donwyn glyph IV (Valentine's Day exclusive)",
 	"64 glyphsflair donwyn-glyph-v-": "Donwyn glyph V (Valentine's Day exclusive)",
 	"5 glyphsflair ember-in-action-glyph": "Ember in Action glyph",
+	"130 glyphsflair excalibur-umbra-in-action-glyph new": "Excalibur Umbra in Action glyph",
 	"6 glyphsflair excalibur-in-action-glyph": "Excalibur in Action glyph",
 	"77 glyphsflair jade-excalibur-in-action-glyph": "Jade Excalibur in Action glyph (XB1 Prestige Pack exclusive)",
 	"79 glyphsflair obsidian-azura-excalibur-in-action-glyph": "Obsidian Azura Excalibur in Action glyph (PS4 Renown Pack exclusive)",
