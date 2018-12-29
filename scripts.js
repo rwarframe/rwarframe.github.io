@@ -20,8 +20,6 @@ flair.subreddits = [
 flair.updateCategoryFilter = function(sheet_name) {
     if (sheet_name == 'all') {
         flair.sheet_filter = null;
-    } else if (sheet_name == 'new') {
-    	flair.sheet_filter = sheet_name;
     } else {
         flair.sheet_filter = sheet_name;
     }
