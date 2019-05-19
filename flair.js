@@ -217,7 +217,7 @@ flair.names = {
 	"35 deluxewarframeskinsflair inaros-ramses-deluxe-skin": "Inaros Ramses deluxe skin",
 	"36 deluxewarframeskinsflair inaros-ramses-deluxe-skin-bundle": "Inaros Ramses deluxe skin (bundle)",
 	"41 deluxewarframeskinsflair limbo-limina-deluxe-skin new": "Limbo Limina deluxe skin",
-	"42 deluxewarframeskinsflair limbo-limina-deluxe-skin-(bundle) new": "Limbo Limina deluxe skin (bundle)",
+	"42 deluxewarframeskinsflair limbo-limina-deluxe-skin-bundle new": "Limbo Limina deluxe skin (bundle)",
 	"3 deluxewarframeskinsflair loki-knave-skin": "Loki Knave deluxe skin",
 	"27 deluxewarframeskinsflair mag-pneuma-deluxe-skin": "Mag Pneuma deluxe skin",
 	"28 deluxewarframeskinsflair mag-pneuma-deluxe-skin-bundle": "Mag Pneuma deluxe skin (collection)",
