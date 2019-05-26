@@ -619,7 +619,7 @@ flair.names = {
 	"155 tennogenwarframehelmetsflair zephyr-strafe-helmet": "Zephyr Strafe helmet (by prosetisen)",
 
 
-	/* Other Warframe Helmets (0-11, 13-69, 71-90, 92, 94-95, 97) */
+	/* Other Warframe Helmets (0-11, 13-69, 71-90, 92, 94-95, 97, 99) */
 	"0 otherwarframehelmetsflair ash-locust-helmet": "Ash Locust helmet",
 	"1 otherwarframehelmetsflair ash-scorpion-helmet": "Ash Scorpion helmet",
 	"2 otherwarframehelmetsflair atlas-shikoro-helmet": "Atlas Shikoro helmet",
@@ -704,6 +704,7 @@ flair.names = {
 	"61 otherwarframehelmetsflair volt-pulse-helmet": "Volt Pulse helmet",
 	"62 otherwarframehelmetsflair volt-storm-helmet": "Volt Storm helmet",
 	"85 otherwarframehelmetsflair volt-twitch-helmet": "Volt Twitch helmet",
+	"99 otherwarframehelmetsflair wisp-gaoth-helmet new": "Wisp Gaoth helmet",
 	"63 otherwarframehelmetsflair wukong-dasheng-helmet": "Wukong Dasheng helmet",
 	"77 otherwarframehelmetsflair wukong-macak-helmet-alt": "Wukong Macak helmet",
 	"64 otherwarframehelmetsflair zephyr-cierzo-helmet": "Zephyr Cierzo helmet",
