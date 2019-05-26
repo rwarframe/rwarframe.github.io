@@ -93,7 +93,7 @@ flair.names = {
 	"101 primewarframesflair excalibur-umbra-alt": "Excalibur Umbra (alternate picture)",
 	
 	
-	/* Regular Warframes (0-99, 111-114) */
+	/* Regular Warframes (0-99, 111-116) */
 	"0 regularwarframesflair ash": "Ash",
 	"1 regularwarframesflair atlas": "Atlas",
 	"2 regularwarframesflair banshee": "Banshee",
@@ -131,6 +131,7 @@ flair.names = {
 	"26 regularwarframesflair valkyr": "Valkyr",
 	"27 regularwarframesflair vauban": "Vauban",
 	"28 regularwarframesflair volt": "Volt",
+	"115 regularwarframesflair wisp new": "Wisp",
 	"29 regularwarframesflair wukong": "Wukong",
 	"30 regularwarframesflair zephyr": "Zephyr",
 	"32 regularwarframesflair ash-alt": "Ash (alternate picture)",
@@ -197,10 +198,11 @@ flair.names = {
 	"112 regularwarframesflair revenant-bundle": "Revenant (collection)",
 	"61 regularwarframesflair titania-bundle": "Titania (The Silver Grove Bundle)",
 	"62 regularwarframesflair valkyr-bundle": "Valkyr (Berserker Bundle)",
+	"116 regularwarframesflair wisp-bundle new": "Wisp (bundle)",
 	"63 regularwarframesflair zephyr-bundle": "Zephyr (Update 12 Mega Bundle)",
 
 		
-	/* Deluxe Warframe Skins (0-42)*/
+	/* Deluxe Warframe Skins (0-44)*/
 	"0 deluxewarframeskinsflair ash-koga-skin": "Ash Koga deluxe skin",
 	"12 deluxewarframeskinsflair ash-koga-deluxe-skin-bundle": "Ash Koga deluxe skin (bundle)",
 	"40 deluxewarframeskinsflair atlas-karst-deluxe-skin new": "Atlas Karst deluxe skin",
@@ -229,6 +231,8 @@ flair.names = {
 	"4 deluxewarframeskinsflair nova-asuri-skin": "Nova Asuri deluxe skin",
 	"16 deluxewarframeskinsflair nova-asuri-deluxe-skin-bundle": "Nova Asuri deluxe skin (collection)",
 	"5 deluxewarframeskinsflair nyx-nemesis-skin": "Nyx Nemesis deluxe skin",
+	"43 deluxewarframeskinsflair nyx-pasithea-deluxe-skin new": "Nyx Pasithea deluxe skin",
+	"44 deluxewarframeskinsflair nyx-pasithea-deluxe-skin-bundle new": "Nyx Pasithea deluxe skin (bundle)",
 	"6 deluxewarframeskinsflair oberon-feyarch-skin": "Oberon Feyarch deluxe skin",
 	"17 deluxewarframeskinsflair oberon-feyarch-deluxe-skin-bundle": "Oberon Feyarch deluxe skin (collection)",
 	"31 deluxewarframeskinsflair octavia-maestra-skin": "Octavia Maestra deluxe skin",
@@ -419,7 +423,7 @@ flair.names = {
 	"102 primewarframesflair excalibur-umbra-sunder-helmet": "Excalibur Umbra Sunder helmet",
 	
 	
-	/* Regular Warframe Helmets (71-73, 79, 81, 86, 91, 93, 96)*/
+	/* Regular Warframe Helmets (71-73, 79, 81, 86, 91, 93, 96, 98)*/
 	"91 otherwarframehelmetsflair baruuk-helmet": "Baruuk helmet",
 	"81 otherwarframehelmetsflair gara-helmet": "Gara helmet",
 	"93 otherwarframehelmetsflair garuda-helmet": "Garuda helmet",
@@ -429,9 +433,10 @@ flair.names = {
 	"71 otherwarframehelmetsflair limbo-helmet": "Limbo helmet",
 	"72 otherwarframehelmetsflair nyx-helmet": "Nyx helmet",
 	"73 otherwarframehelmetsflair octavia-helmet": "Octavia helmet",
+	"98 otherwarframehelmetsflair wisp-helmet new": "Wisp helmet",
 
 	
-	/* Deluxe Warframe Helmets (50-65, 71)*/
+	/* Deluxe Warframe Helmets (50-66, 71)*/
 	"50 deluxewarframehelmetsflair ash-koga-helmet": "Ash Koga deluxe helmet",
 	"51 deluxewarframehelmetsflair banshee-soprana-helmet": "Banshee Soprana deluxe helmet",
 	"71 deluxewarframehelmetsflair chroma-dynasty-helmet": "Chroma Dynasty deluxe helmet",
@@ -445,6 +450,7 @@ flair.names = {
 	"54 deluxewarframehelmetsflair nekros-irkalla-helmet": "Nekros Irkalla deluxe helmet",
 	"63 deluxewarframehelmetsflair nidus-phryke-helmet": "Nidus Phryke deluxe helmet",
 	"55 deluxewarframehelmetsflair nyx-nemesis-helmet": "Nyx Nemesis deluxe helmet",
+	"66 deluxewarframehelmetsflair nyx-pasithea-deluxe-helmet new": "Nyx Pasithea deluxe helmet",
 	"56 deluxewarframehelmetsflair oberon-feyarch-helmet": "Oberon Feyarch deluxe helmet",
 	"59 deluxewarframehelmetsflair octavia-maestra-helmet": "Octavia Maestra deluxe helmet",
 	"64 deluxewarframehelmetsflair vauban-citadel-helmet": "Vauban Citadel deluxe helmet",
@@ -750,7 +756,7 @@ flair.names = {
 	"156 operatorsflair varida-operator-suit-bundle tall": "Varida operator suit (Operator Suit Collection)",
 	
 	
-	/* Companions (0-92, 95) */
+	/* Companions (0-92, 95-96) */
 	"0 sentinelsflair carrier-prime": "Carrier Prime",
 	"79 sentinelsflair helios-prime tall": "Helios Prime",
 	"1 sentinelsflair wyrm-prime": "Wyrm Prime",
@@ -794,6 +800,7 @@ flair.names = {
 	"45 kavatsflair kavat-kuva-armor": "Kavat Kuva armor",
 	"46 kavatsflair kavat-myrdin-armor": "Kavat Myrdin armor",
 	"47 kavatsflair kavat-saraba-armor": "Kavat Saraba armor",
+	"96 kavatsflair kavat-sirocco-armor new": "Kavat Sirocco armor",
 	"91 kavatsflair kavat-umbra-armor": "Kavat Umbra armor",
 	"48 kavatsflair kavat-wysar-armor": "Kavat Wysar armor",
 	"49 kavatsflair kavat-argyl-fur-pattern tall": "Kavat Argyl fur pattern",
